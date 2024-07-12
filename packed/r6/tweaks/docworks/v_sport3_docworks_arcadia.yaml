@@ -1,0 +1,225 @@
+Vehicle.docworks_arcadia_mkv:
+  $base: Vehicle.v_sport2_mizutani_shion_nomad_player_missiles
+  entityTemplatePath: base\vehicles\docworks\v_sport3_docworks_arcadia_mkv__naomie_01.ent
+  appearanceName: docworks_arcadia_naomie_01
+  affiliation: Factions.Unaffiliated
+  icon:
+    atlasPartName: docworks_arcadia
+    atlasResourcePath: base\gameplay\gui\common\icons\docworks_arcadia_mkv.inkatlas
+  manufacturer: Vehicle.docworks_arcadia
+  maxVehiclePassengersCount: 2
+  minVehiclePassengersCount: 1
+  model: Vehicle.docworks_arcadia
+  player_audio_resource: v_car_archer_quartz_nomad
+  traffic_audio_resource: v_car_archer_quartz_nomad_traffic
+  trafficSuspension: 
+    latDampingRatio: 0.699999988
+    latPeriod: 1.60000002
+    longDampingRatio: 0.899999976
+    longPeriod: 1.39999998
+  vehDataPackage:
+    $base: Vehicle.ShionNomadDataPackage
+    hasSpoiler: True
+    hasTurboCharger: True
+  vehDriveModelData:
+    $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy
+    airResistanceFactor: 1.3
+    brakingFrictionFactor: 1.8
+    chassis_mass: 1107
+    handbrakeBrakingTorque: 1800
+    total_mass: 1700
+    turningRollFactor: 0.6 
+    wheelSetup:
+      $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy_inline0
+      backPreset:
+        $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy_inline2
+        frictionMulLateral: 1.48
+        frictionMulLongitudinal: 1.49
+        mass: 40
+        maxBrakingTorque: 6000
+        springDamping: 4700
+        springReboundDamping: 5000
+        springStiffness: 16
+        swaybarStiffness: 12
+        tenderSpringLength: 0
+        tireFrictionCoef: 1
+        tireLateralSlipEffectsMul: 1.07
+        tireLongitudinalSlipEffectsMul: 0.899999976
+        visualSuspensionCompressionLength: 0.019999996
+        visualSuspensionDroop: 0.01
+        wheelsVerticalOffset: 0.275
+      frontPreset:
+        $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy_inline1
+        extremeCompressionEventScalor: 0.8
+        frictionMulLateral: 1.45
+        frictionMulLongitudinal: 1.49
+        mass: 40
+        maxBrakingTorque: 4500
+        springBoundDampingLowRate: 2400
+        springDamping: 5500
+        springDampingHighRateCompression: 0.5
+        springDampingLowRateCompression: 0.16
+        springReboundDamping: 5000
+        springStiffness: 19
+        swaybarStiffness: 20
+        tireFrictionCoef: 1.1
+        visualSuspensionCompressionLength: 0.01
+        visualSuspensionDroop: 0.01
+        wheelsVerticalOffset: 0.05
+      LB:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline3
+        isHandBrake: True
+      LF:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline1
+        isHandBrake: False
+      RB:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline2
+        isHandBrake: True
+      RF:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline0
+        isHandBrake: False
+    wheelTurnMaxAddPerSecond: 90
+    wheelTurnMaxSubPerSecond: 130
+    center_of_mass_offset: {x: 0, y: 0, z: -0.19999995}
+  weapons:
+    Vehicle.Vehicle_Power_Weapon_Left_A:
+      $type: gamedataVehicleWeapon_Record
+      attackRange: 15
+      canFriendlyFire: False
+      cycleTime: 0.100000001
+      genericShoot: False
+      genericTick: False
+      Items.Vehicle_Power_Weapon_Left_A:
+        $type: gamedataWeaponItem_Record
+        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
+      maxPitch: 0
+      maxYaw: 0
+      minPitch: 0
+      minYaw: 0
+      singleProjectileCycleTime: 1
+      singleShotProjectiles: 1
+      slot: AttachmentSlots.VehiclePowerWeaponLeftA
+      spread: 1
+      wholeBurstProjectiles: 1
+    Vehicle.Vehicle_Power_Weapon_Right_A:
+      $type: gamedataVehicleWeapon_Record
+      attackRange: 15
+      canFriendlyFire: False
+      cycleTime: 0.100000001
+      genericShoot: False
+      genericTick: False
+      Items.Vehicle_Power_Weapon_Right_A:
+        $type: gamedataWeaponItem_Record
+        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
+      maxPitch: 0
+      maxYaw: 0
+      minPitch: 0
+      minYaw: 0
+      singleProjectileCycleTime: 1
+      singleShotProjectiles: 1
+      slot: AttachmentSlots.VehiclePowerWeaponRightsA
+      spread: 1
+      wholeBurstProjectiles: 1
+  vehEngineData:
+    engineMaxTorque: 950
+    fastR1GearChange: True
+    finalGearTorqueDecimationScalor: 0.99000001
+    flyWheelMomentOfInertia: 0.300000012
+    forceReverseRPMToMin: False
+    gearChangeCooldown: 0.300000012
+    gearChangeTime: 0.059999999
+    gearCurvesPath: base\gameplay\vehicles\curves\engine_torque\med_torquey_turbo.curveset
+    maxRPM: 9000
+    minRPM: 800
+    resistanceTorque: 150
+    reverseDirDelay: 0.300000012
+    wheelsResistanceRatio: 15
+    gears:
+      -  $type: gamedataVehicleGear_Record #first gear
+         maxEngineRPM: 5800
+         maxSpeed: 10
+         minEngineRPM: 800
+         minSpeed: 0
+         torqueMultiplier: 1.1
+      -  $type: gamedataVehicleGear_Record #second gear
+         maxEngineRPM: 7400
+         maxSpeed: 14
+         minEngineRPM: 800
+         minSpeed: 0
+         torqueMultiplier: 1
+      -  $type: gamedataVehicleGear_Record #third gear
+         maxEngineRPM: 8600
+         maxSpeed: 21
+         minEngineRPM: 4000
+         minSpeed: 13
+         torqueMultiplier: 0.8
+      -  $type: gamedataVehicleGear_Record #fourth gear
+         maxEngineRPM: 8650
+         maxSpeed: 27
+         minEngineRPM: 4000
+         minSpeed: 20
+         torqueMultiplier: 0.62
+      -  $type: gamedataVehicleGear_Record #fifth gear
+         maxEngineRPM: 8700
+         maxSpeed: 37
+         minEngineRPM: 4100
+         minSpeed: 25
+         torqueMultiplier: 0.48
+      -  $type: gamedataVehicleGear_Record #sixth gear
+         maxEngineRPM: 8750
+         maxSpeed: 43.5
+         minEngineRPM: 4100
+         minSpeed: 35
+         torqueMultiplier: 0.4
+      -  $type: gamedataVehicleGear_Record #seventh gear
+         maxEngineRPM: 8800
+         maxSpeed: 50
+         minEngineRPM: 4200
+         minSpeed: 41.5
+         torqueMultiplier: 0.35
+      -  $type: gamedataVehicleGear_Record #eighth gear
+         maxEngineRPM: 9200
+         maxSpeed: 55.5
+         minEngineRPM: 4600
+         minSpeed: 48
+         torqueMultiplier: 0.3
+  vehicleUIData:
+    driveLayout: LocKey#45372
+    horsepower: 1280
+    info: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
+    mass: 1700
+    productionYear: 2068
+  vehWheelDimensionsSetup: 
+    backPreset: 
+      rimRadius: 0.29
+      tireRadius: 0.430000006
+      tireWidth: 0.419999987
+      wheelOffset: 0.159999996
+    frontPreset: 
+      rimRadius: 0.275
+      tireRadius: 0.39
+      tireWidth: 0.330000013
+      wheelOffset: 0.189999998
+  widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
+  displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
+  tags:
+    - InteractiveTrunk
+    - Sport
+#Car vendor system compat?
+  offer:
+    availabilityFact: docworks_arcadia_mkv_available
+    brandName: Mizutani
+    description: LocKey#Gameplay-Vehicles-Information-MizutaniShionSport
+    discountApplicable: False
+    hasMachineGun: True
+    hasRocketLauncher: False
+    unlockType: Vehicle.StreetCred
+    name: LocKey#Gameplay-Vehicles-DisplayNames-MizutaniShionNomadTechnical
+  previewImage: v_standard2_makigai_maimai_player_full
+  price: EconomicAssignment.v_sport2_mizutani_shion_nomad_player
+Vehicle.docworks_arcadia_mkv.dealerPrice: 156000
+Vehicle.docworks_arcadia_mkv.dealerCred: 40
+Vehicle.docworks_arcadia_mkv.dealerAtlasPath: "base\\gameplay\\gui\\common\\icons\\cardealer\\dealer_arcadia.inkatlas"
+Vehicle.docworks_arcadia_mkv.dealerPartName: "dealer_docworks_arcadia_mkv"
+Vehicle.vehicle_list.list:
+  - !append Vehicle.docworks_arcadia_mkv
