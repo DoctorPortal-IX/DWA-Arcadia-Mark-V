@@ -66,60 +66,9 @@ Vehicle.docworks_arcadia_mkv:
         visualSuspensionCompressionLength: 0.01
         visualSuspensionDroop: 0.01
         wheelsVerticalOffset: 0.05
-      LB:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline3
-        isHandBrake: True
-      LF:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline1
-        isHandBrake: False
-      RB:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline2
-        isHandBrake: True
-      RF:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline0
-        isHandBrake: False
     wheelTurnMaxAddPerSecond: 90
     wheelTurnMaxSubPerSecond: 130
     center_of_mass_offset: {x: 0, y: 0, z: -0.19999995}
-  weapons:
-    Vehicle.Vehicle_Power_Weapon_Left_A:
-      $type: gamedataVehicleWeapon_Record
-      attackRange: 15
-      canFriendlyFire: False
-      cycleTime: 0.00100000001
-      genericShoot: False
-      genericTick: False
-      Items.Vehicle_Power_Weapon_Left_A:
-        $type: gamedataWeaponItem_Record
-        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
-      maxPitch: 0
-      maxYaw: 0
-      minPitch: 0
-      minYaw: 0
-      singleProjectileCycleTime: 1
-      singleShotProjectiles: 1
-      slot: AttachmentSlots.VehiclePowerWeaponLeftA
-      spread: 1
-      wholeBurstProjectiles: 1
-    Vehicle.Vehicle_Power_Weapon_Right_A:
-      $type: gamedataVehicleWeapon_Record
-      attackRange: 15
-      canFriendlyFire: False
-      cycleTime: 0.00100000001
-      genericShoot: False
-      genericTick: False
-      Items.Vehicle_Power_Weapon_Right_A:
-        $type: gamedataWeaponItem_Record
-        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
-      maxPitch: 0
-      maxYaw: 0
-      minPitch: 0
-      minYaw: 0
-      singleProjectileCycleTime: 1
-      singleShotProjectiles: 1
-      slot: AttachmentSlots.VehiclePowerWeaponRightsA
-      spread: 1
-      wholeBurstProjectiles: 1
   vehEngineData:
     engineMaxTorque: 950
     fastR1GearChange: True
@@ -128,7 +77,7 @@ Vehicle.docworks_arcadia_mkv:
     forceReverseRPMToMin: False
     gearChangeCooldown: 0.300000012
     gearChangeTime: 0.059999999
-    gearCurvesPath: base\gameplay\vehicles\curves\engine_torque\med_torquey_turbo.curveset
+    gearCurvesPath: dwa\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
     maxRPM: 9000
     minRPM: 800
     resistanceTorque: 150
@@ -200,6 +149,21 @@ Vehicle.docworks_arcadia_mkv:
       tireRadius: 0.39
       tireWidth: 0.330000013
       wheelOffset: 0.189999998
+  weapons:
+    Vehicle.Arcadia_Front_MG_Left:
+      $base: Vehicle.Vehicle_Power_Weapon_Left_A
+      item: Items.Vehicle_Arcadia_Front_MG_Left
+        $base: Items.Vehicle_Power_Weapon_Left_A
+        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
+      maxPitch: 30
+      minPitch: 10
+    Vehicle.Arcadia_Front_MG_Right:
+      $base: Vehicle.Vehicle_Power_Weapon_Right_A
+      item: Items.Vehicle_Arcadia_Front_MG_Right
+        $base: Items.Vehicle_Power_Weapon_Right_A
+        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
+      maxPitch: 30
+      minPitch: 10
   widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
   displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
   tags:
@@ -208,13 +172,13 @@ Vehicle.docworks_arcadia_mkv:
 #Car vendor system compat?
   offer:
     availabilityFact: docworks_arcadia_mkv_available
-    brandName: Mizutani
-    description: LocKey#Gameplay-Vehicles-Information-MizutaniShionSport
+    brandName: DocWorks
+    description: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
     discountApplicable: False
     hasMachineGun: True
     hasRocketLauncher: False
     unlockType: Vehicle.StreetCred
-    name: LocKey#Gameplay-Vehicles-DisplayNames-MizutaniShionNomadTechnical
+    name: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
   previewImage: v_standard2_makigai_maimai_player_full
   price: EconomicAssignment.v_sport2_mizutani_shion_nomad_player
 Vehicle.docworks_arcadia_mkv.dealerPrice: 156000

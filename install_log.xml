@@ -1,23 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<InstalLog Project="DWA Arcadia Mark V" Build_date="7/8/2024 11:12:05 PM">
+<InstalLog Project="DWA Arcadia Mark V" Build_date="2024-07-12 13:07:03">
   <Files>
-    <Directory Path="D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\archive">
-      <Directory Path="D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\archive\pc">
-        <Directory Path="D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\archive\pc\mod">
-          <file>D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\archive\pc\mod\DWA_Arcadia_MkV.archive</file>
+    <Directory Path="D:\Steam\steamapps\common\Cyberpunk 2077\archive">
+      <Directory Path="D:\Steam\steamapps\common\Cyberpunk 2077\archive\pc">
+        <Directory Path="D:\Steam\steamapps\common\Cyberpunk 2077\archive\pc\mod">
+          <file>D:\Steam\steamapps\common\Cyberpunk 2077\archive\pc\mod\DWA_Arcadia_MkV.archive</file>
         </Directory>
       </Directory>
     </Directory>
-    <Directory Path="D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\r6">
-      <Directory Path="D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\r6\scripts">
-        <file>D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\r6\scripts\VehicleManufacturerFix.reds</file>
+    <Directory Path="D:\Steam\steamapps\common\Cyberpunk 2077\r6">
+      <Directory Path="D:\Steam\steamapps\common\Cyberpunk 2077\r6\scripts">
+        <file>D:\Steam\steamapps\common\Cyberpunk 2077\r6\scripts\VehicleManufacturerFix.reds</file>
       </Directory>
-      <Directory Path="D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\r6\tweaks">
-        <Directory Path="D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\r6\tweaks\docworks">
-          <file>D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\r6\tweaks\docworks\v_sport3_docworks_arcadia.yaml</file>
-        </Directory>
-        <Directory Path="D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\r6\tweaks\DWA Arcadia Mark V">
-          <file>D:\Auxiliary Steam Library 3.0\steamapps\common\Cyberpunk 2077\r6\tweaks\DWA Arcadia Mark V\Vehicle.v_sport2_mizutani_shion_nomad_player_missiles.yaml</file>
+      <Directory Path="D:\Steam\steamapps\common\Cyberpunk 2077\r6\tweaks">
+        <Directory Path="D:\Steam\steamapps\common\Cyberpunk 2077\r6\tweaks\docworks">
+          <file>D:\Steam\steamapps\common\Cyberpunk 2077\r6\tweaks\docworks\v_sport3_docworks_arcadia.yaml</file>
         </Directory>
       </Directory>
     </Directory>
