@@ -1,0 +1,5 @@
+### WolvenKit ###
+# GitIgnore config for WolvenKit projects
+install_log.xml
+layout.xml
+fileTreeState.json
