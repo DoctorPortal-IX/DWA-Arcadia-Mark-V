@@ -149,38 +149,38 @@ Vehicle.docworks_arcadia_mkv:
       tireRadius: 0.39
       tireWidth: 0.330000013
       wheelOffset: 0.189999998
-  weapons:
-    Vehicle.Arcadia_Front_MG_Left:
-      $base: Vehicle.Vehicle_Power_Weapon_Left_A
-      item: Items.Vehicle_Arcadia_Front_MG_Left
-        $base: Items.Vehicle_Power_Weapon_Left_A
-        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
-      maxPitch: 30
-      minPitch: 10
-    Vehicle.Arcadia_Front_MG_Right:
-      $base: Vehicle.Vehicle_Power_Weapon_Right_A
-      item: Items.Vehicle_Arcadia_Front_MG_Right
-        $base: Items.Vehicle_Power_Weapon_Right_A
-        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
-      maxPitch: 30
-      minPitch: 10
+#  weapons:
+#    - Vehicle.Arcadia_Front_MG_Left:
+#      $base: Vehicle.Vehicle_Power_Weapon_Left_A
+#      item: Items.Vehicle_Arcadia_Front_MG_Left
+#        $base: Items.Vehicle_Power_Weapon_Left_A
+#        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
+#      maxPitch: 30
+#      minPitch: 10
+#    - Vehicle.Arcadia_Front_MG_Right:
+#      $base: Vehicle.Vehicle_Power_Weapon_Right_A
+#      item: Items.Vehicle_Arcadia_Front_MG_Right
+#        $base: Items.Vehicle_Power_Weapon_Right_A
+#        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
+#      maxPitch: 30
+#      minPitch: 10
   widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
   displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
   tags:
     - InteractiveTrunk
     - Sport
 #Car vendor system compat?
-  offer:
-    availabilityFact: docworks_arcadia_mkv_available
-    brandName: DocWorks
-    description: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
-    discountApplicable: False
-    hasMachineGun: True
-    hasRocketLauncher: False
-    unlockType: Vehicle.StreetCred
-    name: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
-  previewImage: v_standard2_makigai_maimai_player_full
-  price: EconomicAssignment.v_sport2_mizutani_shion_nomad_player
+#  offer:
+#    availabilityFact: docworks_arcadia_mkv_available
+#    brandName: DocWorks
+#    description: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
+#    discountApplicable: False
+#    hasMachineGun: True
+#    hasRocketLauncher: False
+#    unlockType: Vehicle.StreetCred
+#    name: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
+#  previewImage: v_standard2_makigai_maimai_player_full
+#  price: EconomicAssignment.v_sport2_mizutani_shion_nomad_player
 Vehicle.docworks_arcadia_mkv.dealerPrice: 156000
 Vehicle.docworks_arcadia_mkv.dealerCred: 40
 Vehicle.docworks_arcadia_mkv.dealerAtlasPath: "base\\gameplay\\gui\\common\\icons\\cardealer\\dealer_arcadia.inkatlas"
