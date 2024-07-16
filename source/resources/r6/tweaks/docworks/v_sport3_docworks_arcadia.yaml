@@ -12,18 +12,15 @@ Vehicle.docworks_arcadia_mkv:
   model: Vehicle.docworks_arcadia
   player_audio_resource: v_car_archer_quartz_nomad
   traffic_audio_resource: v_car_archer_quartz_nomad_traffic
-#Set custom suspension data
   trafficSuspension: 
     latDampingRatio: 0.699999988
     latPeriod: 1.60000002
     longDampingRatio: 0.899999976
     longPeriod: 1.39999998
-#inherit data from base car, enable turbocharger and spoiler
   vehDataPackage:
     $base: Vehicle.ShionNomadDataPackage
     hasSpoiler: True
     hasTurboCharger: True
-#inherit data from base car, modify handling settings
   vehDriveModelData:
     $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy
     airResistanceFactor: 1.3
@@ -69,10 +66,60 @@ Vehicle.docworks_arcadia_mkv:
         visualSuspensionCompressionLength: 0.01
         visualSuspensionDroop: 0.01
         wheelsVerticalOffset: 0.05
+      LB:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline3
+        isHandBrake: True
+      LF:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline1
+        isHandBrake: False
+      RB:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline2
+        isHandBrake: True
+      RF:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline0
+        isHandBrake: False
     wheelTurnMaxAddPerSecond: 90
     wheelTurnMaxSubPerSecond: 130
     center_of_mass_offset: {x: 0, y: 0, z: -0.19999995}
-#completely custom engine and gearbox
+  weapons:
+    Vehicle.Vehicle_Power_Weapon_Left_A:
+      $type: gamedataVehicleWeapon_Record
+      attackRange: 15
+      canFriendlyFire: False
+      cycleTime: 0.00100000001
+      genericShoot: False
+      genericTick: False
+      Items.Vehicle_Power_Weapon_Left_A:
+        $type: gamedataWeaponItem_Record
+        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
+      maxPitch: 0
+      maxYaw: 0
+      minPitch: 0
+      minYaw: 0
+      singleProjectileCycleTime: 1
+      singleShotProjectiles: 1
+      slot: AttachmentSlots.VehiclePowerWeaponLeftA
+      spread: 1
+      wholeBurstProjectiles: 1
+    Vehicle.Vehicle_Power_Weapon_Right_A:
+      $type: gamedataVehicleWeapon_Record
+      attackRange: 15
+      canFriendlyFire: False
+      cycleTime: 0.00100000001
+      genericShoot: False
+      genericTick: False
+      Items.Vehicle_Power_Weapon_Right_A:
+        $type: gamedataWeaponItem_Record
+        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
+      maxPitch: 0
+      maxYaw: 0
+      minPitch: 0
+      minYaw: 0
+      singleProjectileCycleTime: 1
+      singleShotProjectiles: 1
+      slot: AttachmentSlots.VehiclePowerWeaponRightsA
+      spread: 1
+      wholeBurstProjectiles: 1
   vehEngineData:
     engineMaxTorque: 950
     fastR1GearChange: True
@@ -81,7 +128,7 @@ Vehicle.docworks_arcadia_mkv:
     forceReverseRPMToMin: False
     gearChangeCooldown: 0.300000012
     gearChangeTime: 0.059999999
-    gearCurvesPath: dwa\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
+    gearCurvesPath: base\gameplay\vehicles\curves\engine_torque\med_torquey_turbo.curveset
     maxRPM: 9000
     minRPM: 800
     resistanceTorque: 150
@@ -136,14 +183,12 @@ Vehicle.docworks_arcadia_mkv:
          minEngineRPM: 4600
          minSpeed: 48
          torqueMultiplier: 0.3
-#custom scanner data
   vehicleUIData:
     driveLayout: LocKey#45372
     horsepower: 1280
     info: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
     mass: 1700
     productionYear: 2068
-#custom wheels, so custom wheel dimensions
   vehWheelDimensionsSetup: 
     backPreset: 
       rimRadius: 0.29
@@ -157,10 +202,10 @@ Vehicle.docworks_arcadia_mkv:
       wheelOffset: 0.189999998
   widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
   displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
-#this is where we *try* to make the car have custom weaponry
   tags:
     - InteractiveTrunk
     - Sport
+#Car vendor system compat?
   offer:
     availabilityFact: docworks_arcadia_mkv_available
     brandName: Mizutani

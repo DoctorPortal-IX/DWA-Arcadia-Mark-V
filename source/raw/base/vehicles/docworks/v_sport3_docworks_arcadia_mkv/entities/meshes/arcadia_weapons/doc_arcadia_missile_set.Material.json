@@ -1,0 +1,287 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\Wkit Depot - NEW Materials",
+  "Materials": [
+    {
+      "Name": "w_smart__high_missile__proj_01_default_masksset",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "base\\vehicles\\docworks\\v_sport3_docworks_arcadia_mkv\\entities\\meshes\\arcadia_weapons\\doc_arcadia_missile_set.mesh_embedded\\16244301697840214358.mlmask",
+        "MultilayerSetup": "base\\vehicles\\docworks\\v_sport3_docworks_arcadia_mkv\\entities\\meshes\\arcadia_weapons\\doc_arcadia_missile_set.mesh_embedded\\10326403699771419043.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "decal_normal",
+      "BaseMaterial": "base\\materials\\mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\weapons\\common\\textures\\w_arasaka_decal_01_n01_alpha.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0,
+        "UVOffsetX": 0,
+        "UVOffsetY": 0,
+        "UVRotation": 0,
+        "UVScaleX": 1,
+        "UVScaleY": 1,
+        "SecondaryMask": "engine\\textures\\editor\\white.xbm",
+        "SecondaryMaskUVScale": 1,
+        "SecondaryMaskInfluence": 0,
+        "NormalTexture": "base\\weapons\\common\\textures\\w_arasaka_decal_01_n01.xbm",
+        "NormalAlpha": 0.800000012,
+        "NormalAlphaTex": "engine\\textures\\editor\\white.xbm",
+        "UseNormalAlphaTex": 0,
+        "NormalsBlendingMode": 1,
+        "NormalsBlendingModeAlpha": "engine\\textures\\editor\\white.xbm",
+        "RoughnessTexture": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "AlphaMaskContrast": 0,
+        "RoughnessMetalnessAlpha": 0,
+        "AnimationSpeed": 1,
+        "AnimationFramesWidth": 1,
+        "AnimationFramesHeight": 1,
+        "DepthThreshold": 0.5
+      }
+    },
+    {
+      "Name": "decal_kangtao",
+      "BaseMaterial": "base\\materials\\mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\weapons\\common\\textures\\w_kangtao_decal_d01.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "UVOffsetX": 0,
+        "UVOffsetY": 0,
+        "UVRotation": 0,
+        "UVScaleX": 1,
+        "UVScaleY": 1,
+        "SecondaryMask": "engine\\textures\\editor\\white.xbm",
+        "SecondaryMaskUVScale": 1,
+        "SecondaryMaskInfluence": 0,
+        "NormalTexture": "engine\\textures\\editor\\normal.xbm",
+        "NormalAlpha": 0,
+        "NormalAlphaTex": "engine\\textures\\editor\\white.xbm",
+        "UseNormalAlphaTex": 0,
+        "NormalsBlendingMode": 0,
+        "NormalsBlendingModeAlpha": "engine\\textures\\editor\\white.xbm",
+        "RoughnessTexture": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "AlphaMaskContrast": 0,
+        "RoughnessMetalnessAlpha": 0,
+        "AnimationSpeed": 1,
+        "AnimationFramesWidth": 1,
+        "AnimationFramesHeight": 1,
+        "DepthThreshold": 0.5
+      }
+    }
+  ],
+  "TexturesList": [
+    "base\\vehicles\\docworks\\v_sport3_docworks_arcadia_mkv\\entities\\meshes\\arcadia_weapons\\doc_arcadia_missile_set.mesh_embedded\\16244301697840214358.mlmask",
+    "base\\surfaces\\materials\\metal\\enameled_hq\\enameled_hq_01_30_n.xbm",
+    "base\\surfaces\\materials\\metal\\steel_hq\\steel_hq_noise_01_10_r.xbm"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "base\\materials\\mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\editor\\grey.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0,
+        "UVOffsetX": 0,
+        "UVOffsetY": 0,
+        "UVRotation": 0,
+        "UVScaleX": 1,
+        "UVScaleY": 1,
+        "SecondaryMask": "engine\\textures\\editor\\white.xbm",
+        "SecondaryMaskUVScale": 1,
+        "SecondaryMaskInfluence": 0,
+        "NormalTexture": "engine\\textures\\editor\\normal.xbm",
+        "NormalAlpha": 0,
+        "NormalAlphaTex": "engine\\textures\\editor\\white.xbm",
+        "UseNormalAlphaTex": 0,
+        "NormalsBlendingMode": 0,
+        "NormalsBlendingModeAlpha": "engine\\textures\\editor\\white.xbm",
+        "RoughnessTexture": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "AlphaMaskContrast": 0,
+        "RoughnessMetalnessAlpha": 0,
+        "AnimationSpeed": 1,
+        "AnimationFramesWidth": 1,
+        "AnimationFramesHeight": 1,
+        "DepthThreshold": 0.5
+      }
+    },
+    {
+      "Name": "base\\materials\\mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\editor\\grey.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0,
+        "UVOffsetX": 0,
+        "UVOffsetY": 0,
+        "UVRotation": 0,
+        "UVScaleX": 1,
+        "UVScaleY": 1,
+        "SecondaryMask": "engine\\textures\\editor\\white.xbm",
+        "SecondaryMaskUVScale": 1,
+        "SecondaryMaskInfluence": 0,
+        "NormalTexture": "engine\\textures\\editor\\normal.xbm",
+        "NormalAlpha": 0,
+        "NormalAlphaTex": "engine\\textures\\editor\\white.xbm",
+        "UseNormalAlphaTex": 0,
+        "NormalsBlendingMode": 0,
+        "NormalsBlendingModeAlpha": "engine\\textures\\editor\\white.xbm",
+        "RoughnessTexture": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "AlphaMaskContrast": 0,
+        "RoughnessMetalnessAlpha": 0,
+        "AnimationSpeed": 1,
+        "AnimationFramesWidth": 1,
+        "AnimationFramesHeight": 1,
+        "DepthThreshold": 0.5
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "w_smart__high_missile__proj_01_default_masksset",
+      "decal_normal",
+      "decal_kangtao",
+      "w_smart__high_missile__proj_01_default_masksset"
+    ]
+  }
+}
