@@ -1,0 +1,73 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\Wkit Depot - NEW Materials",
+  "Materials": [
+    {
+      "Name": "overheat",
+      "BaseMaterial": "base\\fx\\_shaders\\mesh_decal__blackbody.mt",
+      "MaterialTemplate": "base\\fx\\_shaders\\mesh_decal__blackbody.mt",
+      "EnableMask": false,
+      "Data": {
+        "MaskTexture": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\textures\\galena_engine_overheat_d01.xbm",
+        "HeatDistribution": "base\\fx\\_textures\\masks\\noise\\fx_perlin_noise_01_d.xbm",
+        "HeatTiling": {
+          "X": 2,
+          "Y": 2,
+          "Z": 1,
+          "W": 0
+        },
+        "Temperature": 25,
+        "EmissiveEV": 5.50861311,
+        "MaskMinimum": 0,
+        "HSV_Mod": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "UseFloatParam": 1,
+        "EmissiveAlphaContrast": 1.04499996
+      }
+    }
+  ],
+  "TexturesList": [
+    "base\\fx\\_textures\\masks\\noise\\fx_organic_noise_01_d.xbm",
+    "base\\materials\\placeholder\\white.xbm",
+    "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\textures\\galena_engine_overheat_d01.xbm",
+    "base\\fx\\_textures\\masks\\noise\\fx_perlin_noise_01_d.xbm"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "base\\fx\\_shaders\\mesh_decal__blackbody.mt",
+      "EnableMask": true,
+      "Data": {
+        "MaskTexture": "base\\fx\\_textures\\masks\\noise\\fx_organic_noise_01_d.xbm",
+        "HeatDistribution": "base\\materials\\placeholder\\white.xbm",
+        "HeatTiling": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "Temperature": 30,
+        "EmissiveEV": 1,
+        "MaskMinimum": 0,
+        "HSV_Mod": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "UseFloatParam": 0,
+        "EmissiveAlphaContrast": 1
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "overheat"
+    ]
+  }
+}
