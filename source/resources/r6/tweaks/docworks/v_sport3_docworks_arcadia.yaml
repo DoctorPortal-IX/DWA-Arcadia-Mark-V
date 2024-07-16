@@ -12,15 +12,18 @@ Vehicle.docworks_arcadia_mkv:
   model: Vehicle.docworks_arcadia
   player_audio_resource: v_car_archer_quartz_nomad
   traffic_audio_resource: v_car_archer_quartz_nomad_traffic
+#Set custom suspension data
   trafficSuspension: 
     latDampingRatio: 0.699999988
     latPeriod: 1.60000002
     longDampingRatio: 0.899999976
     longPeriod: 1.39999998
+#inherit data from base car, enable turbocharger and spoiler
   vehDataPackage:
     $base: Vehicle.ShionNomadDataPackage
     hasSpoiler: True
     hasTurboCharger: True
+#inherit data from base car, modify handling settings
   vehDriveModelData:
     $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy
     airResistanceFactor: 1.3
@@ -69,6 +72,7 @@ Vehicle.docworks_arcadia_mkv:
     wheelTurnMaxAddPerSecond: 90
     wheelTurnMaxSubPerSecond: 130
     center_of_mass_offset: {x: 0, y: 0, z: -0.19999995}
+#completely custom engine and gearbox
   vehEngineData:
     engineMaxTorque: 950
     fastR1GearChange: True
@@ -132,12 +136,14 @@ Vehicle.docworks_arcadia_mkv:
          minEngineRPM: 4600
          minSpeed: 48
          torqueMultiplier: 0.3
+#custom scanner data
   vehicleUIData:
     driveLayout: LocKey#45372
     horsepower: 1280
     info: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
     mass: 1700
     productionYear: 2068
+#custom wheels, so custom wheel dimensions
   vehWheelDimensionsSetup: 
     backPreset: 
       rimRadius: 0.29
@@ -149,38 +155,23 @@ Vehicle.docworks_arcadia_mkv:
       tireRadius: 0.39
       tireWidth: 0.330000013
       wheelOffset: 0.189999998
-#  weapons:
-#    - Vehicle.Arcadia_Front_MG_Left:
-#      $base: Vehicle.Vehicle_Power_Weapon_Left_A
-#      item: Items.Vehicle_Arcadia_Front_MG_Left
-#        $base: Items.Vehicle_Power_Weapon_Left_A
-#        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
-#      maxPitch: 30
-#      minPitch: 10
-#    - Vehicle.Arcadia_Front_MG_Right:
-#      $base: Vehicle.Vehicle_Power_Weapon_Right_A
-#      item: Items.Vehicle_Arcadia_Front_MG_Right
-#        $base: Items.Vehicle_Power_Weapon_Right_A
-#        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
-#      maxPitch: 30
-#      minPitch: 10
   widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
   displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
+#this is where we *try* to make the car have custom weaponry
   tags:
     - InteractiveTrunk
     - Sport
-#Car vendor system compat?
-#  offer:
-#    availabilityFact: docworks_arcadia_mkv_available
-#    brandName: DocWorks
-#    description: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
-#    discountApplicable: False
-#    hasMachineGun: True
-#    hasRocketLauncher: False
-#    unlockType: Vehicle.StreetCred
-#    name: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
-#  previewImage: v_standard2_makigai_maimai_player_full
-#  price: EconomicAssignment.v_sport2_mizutani_shion_nomad_player
+  offer:
+    availabilityFact: docworks_arcadia_mkv_available
+    brandName: Mizutani
+    description: LocKey#Gameplay-Vehicles-Information-MizutaniShionSport
+    discountApplicable: False
+    hasMachineGun: True
+    hasRocketLauncher: False
+    unlockType: Vehicle.StreetCred
+    name: LocKey#Gameplay-Vehicles-DisplayNames-MizutaniShionNomadTechnical
+  previewImage: v_standard2_makigai_maimai_player_full
+  price: EconomicAssignment.v_sport2_mizutani_shion_nomad_player
 Vehicle.docworks_arcadia_mkv.dealerPrice: 156000
 Vehicle.docworks_arcadia_mkv.dealerCred: 40
 Vehicle.docworks_arcadia_mkv.dealerAtlasPath: "base\\gameplay\\gui\\common\\icons\\cardealer\\dealer_arcadia.inkatlas"
