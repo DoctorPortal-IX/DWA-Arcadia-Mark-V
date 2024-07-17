@@ -1,0 +1,13 @@
+Vehicle.v_sport2_mizutani_shion_nomad_player_missiles.tppCameraPresets:
+  - Camera.VehicleTPP_4w_Shion_Nomad_High_Close
+  - Camera.VehicleTPP_4w_Shion_Nomad_High_Medium
+  - Camera.VehicleTPP_4w_Shion_Nomad_High_Far
+  - Camera.VehicleTPP_4w_Shion_Nomad_High_DriverCombatClose
+  - Camera.VehicleTPP_4w_Shion_Nomad_High_DriverCombatMedium
+  - Camera.VehicleTPP_4w_Shion_Nomad_High_DriverCombatFar
+  - Camera.VehicleTPP_4w_Shion_Nomad_Low_Close
+  - Camera.VehicleTPP_4w_Shion_Nomad_Low_Medium
+  - Camera.VehicleTPP_4w_Shion_Nomad_Low_Far
+  - Camera.VehicleTPP_4w_Shion_Nomad_Low_DriverCombatClose
+  - Camera.VehicleTPP_4w_Shion_Nomad_Low_DriverCombatMedium
+  - Camera.VehicleTPP_4w_Shion_Nomad_Low_DriverCombatFar
