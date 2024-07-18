@@ -37,8 +37,6 @@ Vehicle.docworks_arcadia_mkv:
         springReboundDamping: 5000
         springStiffness: 16
         swaybarStiffness: 12
-        tenderSpringLength: 0
-        tireFrictionCoef: 1
         tireLateralSlipEffectsMul: 1.07
         tireLongitudinalSlipEffectsMul: 0.899999976
         visualSuspensionCompressionLength: 0.019999996
@@ -62,60 +60,9 @@ Vehicle.docworks_arcadia_mkv:
         visualSuspensionCompressionLength: 0.01
         visualSuspensionDroop: 0.01
         wheelsVerticalOffset: 0.05
-      LB:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline3
-        isHandBrake: True
-      LF:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline1
-        isHandBrake: False
-      RB:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline2
-        isHandBrake: True
-      RF:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline0
-        isHandBrake: False
     wheelTurnMaxAddPerSecond: 90
     wheelTurnMaxSubPerSecond: 130
     center_of_mass_offset: {x: 0, y: 0, z: -0.19999995}
-  weapons:
-    Vehicle.Vehicle_Power_Weapon_Left_A:
-      $type: gamedataVehicleWeapon_Record
-      attackRange: 15
-      canFriendlyFire: False
-      cycleTime: 0.00100000001
-      genericShoot: False
-      genericTick: False
-      Items.Vehicle_Power_Weapon_Left_A:
-        $type: gamedataWeaponItem_Record
-        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
-      maxPitch: 0
-      maxYaw: 0
-      minPitch: 0
-      minYaw: 0
-      singleProjectileCycleTime: 1
-      singleShotProjectiles: 1
-      slot: AttachmentSlots.VehiclePowerWeaponLeftA
-      spread: 1
-      wholeBurstProjectiles: 1
-    Vehicle.Vehicle_Power_Weapon_Right_A:
-      $type: gamedataVehicleWeapon_Record
-      attackRange: 15
-      canFriendlyFire: False
-      cycleTime: 0.00100000001
-      genericShoot: False
-      genericTick: False
-      Items.Vehicle_Power_Weapon_Right_A:
-        $type: gamedataWeaponItem_Record
-        position: {x: -0.0632999986, y: 1, z: 1.1549999997}
-      maxPitch: 0
-      maxYaw: 0
-      minPitch: 0
-      minYaw: 0
-      singleProjectileCycleTime: 1
-      singleShotProjectiles: 1
-      slot: AttachmentSlots.VehiclePowerWeaponRightsA
-      spread: 1
-      wholeBurstProjectiles: 1
   vehEngineData:
     engineMaxTorque: 950
     fastR1GearChange: True
@@ -124,7 +71,7 @@ Vehicle.docworks_arcadia_mkv:
     forceReverseRPMToMin: False
     gearChangeCooldown: 0.300000012
     gearChangeTime: 0.059999999
-    gearCurvesPath: base\gameplay\vehicles\curves\engine_torque\med_torquey_turbo.curveset
+    gearCurvesPath: dwa\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
     maxRPM: 9000
     minRPM: 800
     resistanceTorque: 150
@@ -201,195 +148,6 @@ Vehicle.docworks_arcadia_mkv:
   tags:
     - InteractiveTrunk
     - Sport
-  tppCameraParams:
-    Camera.VehicleTPP_DefaultParams:
-    $type: gamedataVehicleTPPCameraParams_Record
-    airFlowDistortion: True
-    autoCenterMaxSpeedThreshold: 20
-    autoCenterSpeed: 5
-    cameraBoomExtensionSpeed: 3
-    cameraMaxPitch: 80
-    cameraMinPitch: -28
-    cameraSphereRadius: 1
-    collisionDetection: True
-    drivingDirectionCompensation: True
-    drivingDirectionCompensationAngle: 100
-    drivingDirectionCompensationAngleSmooth: 70
-    drivingDirectionCompensationAngularVelocityMin: 150
-    drivingDirectionCompensationSpeedCoef: 1
-    drivingDirectionCompensationSpeedMax: 120
-    drivingDirectionCompensationSpeedMin: 4
-    elasticBoomAcceleration: True
-    elasticBoomAccelerationExpansionLength: 0.5
-    elasticBoomForwardAccelerationCoef: 10
-    elasticBoomSpeedExpansionLength: 0.5
-    elasticBoomSpeedExpansionSpeedMax: 20
-    elasticBoomSpeedExpansionSpeedMin: 10
-    elasticBoomVelocity: True
-    fov: 69
-    headLookAtCenterYawThreshold: 100
-    headLookAtMaxPitchDown: 40
-    headLookAtMaxPitchUp: 0
-    headLookAtMaxYaw: 70
-    headLookAtRotationSpeed: 0.800000012
-    inverseCameraInputBreakThreshold: 30
-    lockedCamera: False
-    slopeAdjustement: True
-    slopeCorrectionInAirDampFactor: 0.100000001
-    slopeCorrectionInAirFallCoef: 2
-    slopeCorrectionInAirPitchMax: 30
-    slopeCorrectionInAirPitchMin: -30
-    slopeCorrectionInAirRaiseCoef: 0.5
-    slopeCorrectionInAirSpeedMax: 10
-    slopeCorrectionInAirStrength: 20
-    slopeCorrectionOnGroundPitchMax: 30
-    slopeCorrectionOnGroundPitchMin: -30
-    slopeCorrectionOnGroundStrength: 4
-  tppCameraPresets:
-    Camera.VehicleTPP_4w_Shion_Nomad_High_Close:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.3499999
-      boomLengthOffset: 0
-      defaultRotationPitch: 11
-      distance: Close
-      height: High
-      lookAtOffset: {x: 0, y: 0, z: 1.35000002}
-    Camera.VehicleTPP_4w_Shion_Nomad_High_Medium:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.3499999
-      boomLengthOffset: 1.25
-      defaultRotationPitch: 11
-      distance: Medium
-      height: High
-      lookAtOffset: {x: 0, y: 0, z: 1.75}
-    Camera.VehicleTPP_4w_Shion_Nomad_High_Far:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.3499999
-      boomLengthOffset: 4.5
-      defaultRotationPitch: 11
-      distance: Far
-      height: High
-      lookAtOffset: {x: 0, y: 0, z: 2.5}
-    Camera.VehicleTPP_4w_Shion_Nomad_High_DriverCombatClose:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.8499999
-      boomLengthOffset: 0
-      defaultRotationPitch: 11
-      distance: DriverCombatClose
-      height: High
-      lookAtOffset: {x: 0, y: 0, z: 1.5}
-    Camera.VehicleTPP_4w_Shion_Nomad_High_DriverCombatMedium:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.8499999
-      boomLengthOffset: 1.25
-      defaultRotationPitch: 11
-      distance: DriverCombatMedium
-      height: High
-      lookAtOffset: {x: 0, y: 0, z: 2}
-    Camera.VehicleTPP_4w_Shion_Nomad_High_DriverCombatFar:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.8499999
-      boomLengthOffset: 4.5
-      defaultRotationPitch: 11
-      distance: DriverCombatFar
-      height: High
-      lookAtOffset: {x: 0, y: 0, z: 2.75}
-    Camera.VehicleTPP_4w_Shion_Nomad_Low_Close:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.3499999
-      boomLengthOffset: 0
-      defaultRotationPitch: 4
-      distance: Close
-      height: Low
-      lookAtOffset: {x: 0, y: 0, z: 1.35000002}
-    Camera.VehicleTPP_4w_Shion_Nomad_Low_Medium:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.3499999
-      boomLengthOffset: 1.25
-      defaultRotationPitch: 4
-      distance: Medium
-      height: Low
-      lookAtOffset: {x: 0, y: 0, z: 1.75}
-    Camera.VehicleTPP_4w_Shion_Nomad_Low_Medium:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.3499999
-      boomLengthOffset: 1.25
-      defaultRotationPitch: 4
-      distance: Medium
-      height: Low
-      lookAtOffset: {x: 0, y: 0, z: 1.75}
-    Camera.VehicleTPP_4w_Shion_Nomad_Low_DriverCombatClose:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.8499999
-      boomLengthOffset: 0
-      defaultRotationPitch: 4
-      distance: DriverCombatClose
-      height: Low
-      lookAtOffset: {x: 0, y: 0, z: 1.5}
-    Camera.VehicleTPP_4w_Shion_Nomad_Low_DriverCombatMedium:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.8499999
-      boomLengthOffset: 1.25
-      defaultRotationPitch: 4
-      distance: DriverCombatMedium
-      height: Low
-      lookAtOffset: {x: 0, y: 0, z: 2}
-    Camera.VehicleTPP_4w_Shion_Nomad_Low_DriverCombatFar:
-      $type: gamedataVehicleTPPCameraPresetParams_Record
-      airFlowDistortionSizeHorizontal: 0.00999999978
-      airFlowDistortionSizeVertical: 0.00999999978
-      airFlowDistortionSpeedMax: 35
-      airFlowDistortionSpeedMin: 10
-      baseBoomLength: 4.8499999
-      boomLengthOffset: 4.5
-      defaultRotationPitch: 4
-      distance: DriverCombatFar
-      height: Low
-      lookAtOffset: {x: 0, y: 0, z: 2.75}
 #Car vendor system compat?
   offer:
     availabilityFact: docworks_arcadia_mkv_available
