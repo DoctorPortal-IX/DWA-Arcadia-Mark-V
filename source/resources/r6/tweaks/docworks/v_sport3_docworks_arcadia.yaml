@@ -10,8 +10,8 @@ Vehicle.docworks_arcadia_mkv:
   maxVehiclePassengersCount: 2
   minVehiclePassengersCount: 1
   model: Vehicle.docworks_arcadia
-  player_audio_resource: v_car_archer_quartz_nomad
-  traffic_audio_resource: v_car_archer_quartz_nomad_traffic
+  player_audio_resource: v_car_quadra_sport_r7_rocket
+  traffic_audio_resource: v_car_quadra_sport_r7_traffic
   trafficSuspension: 
     latDampingRatio: 0.699999988
     latPeriod: 1.60000002
