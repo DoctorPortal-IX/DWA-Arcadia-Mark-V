@@ -1,0 +1,5 @@
+localization:
+  onscreens:
+    en-us:
+      - base\localization\localization_docworks_arcadia.json
+      - base\localization\localization_docworks_arcadia_naomie.json
