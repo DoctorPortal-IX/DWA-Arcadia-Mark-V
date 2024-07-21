@@ -1,6 +1,6 @@
 # Bay 01 — QUADRA Turbo-R "Arcadia" Mark V
 
-> The fifth iteration of Naomie Xaris's legendary custom desert cruiser, this technological marvel combines multiple turbo- and super-chargers with a unique drive-vectoring system to achieve unbelievable speeds and best-in-class maneuverability.
+> The fifth iteration of Naomie Xaris' legendary custom desert cruiser, this technological marvel combines multiple turbo- and super-chargers with a unique drive-vectoring system to achieve unbelievable speeds and best-in-class maneuverability.
 
 ## General
 `[TYPE]` — Car

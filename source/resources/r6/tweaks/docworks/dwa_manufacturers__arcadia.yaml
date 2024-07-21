@@ -1,12 +1,12 @@
-###############################################################
-
 UIIcon.docworks_arcadia_logo:
-  $type: UIIcon_Record
+  $type: gamedataUIIcon_Record
   atlasResourcePath: base\gameplay\gui\common\icons\docworks_logos\docworks_arcadia_manufacturer.inkatlas
   atlasPartName: docworks_arcadia_logo
 
-Vehicle.docworks_arcadia:
-  $type: VehicleManufacturer_Record
-  enumName: docworks_arcadia_logo
-
-#####################################################################
+Vehicle.DocWorks:
+  $type: gamedataVehicleManufacturer_Record
+  enumName: DocWorks
+  
+Vehicle.Arcadia:
+  $type: gamedataVehicleModel_Record
+  enumName: Arcadia

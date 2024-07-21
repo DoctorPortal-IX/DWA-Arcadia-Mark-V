@@ -6,7 +6,12 @@ Vehicle.docworks_arcadia_mkv:
   icon:
     atlasPartName: docworks_arcadia
     atlasResourcePath: base\gameplay\gui\common\icons\docworks_arcadia_mkv.inkatlas
-  manufacturer: Vehicle.docworks_arcadia
+  manufacturer: Vehicle.DocWorks
+  model: Vehicle.Turbo
+# Shy, this isn't right. It's the Arcadia, not a Turbo-R.
+# Changing that string breaks the external camera rendering system you like to use for glamour shots.
+# But changing the manufacturer *doesn't*?
+# Nope. Quadra does rebrand in some countries overseas, after all.
   player_audio_resource: v_car_quadra_sport_r7_rocket
   traffic_audio_resource: v_car_quadra_sport_r7_traffic
   trafficSuspension: 
@@ -68,6 +73,7 @@ Vehicle.docworks_arcadia_mkv:
     forceReverseRPMToMin: False
     gearChangeCooldown: 0.300000012
     gearChangeTime: 0.059999999
+# Oh so *this* is why she only got 1500 horsepower out of it. ECU was changing gears out of line with the 'charger peaks.
     gearCurvesPath: dwa\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
     maxRPM: 9000
     minRPM: 800
@@ -123,12 +129,14 @@ Vehicle.docworks_arcadia_mkv:
          minEngineRPM: 4600
          minSpeed: 48
          torqueMultiplier: 0.3
+# Erik's gear change breakpoints are spot on, though.
   vehicleUIData:
     driveLayout: LocKey#45372
     horsepower: 1280
     info: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
     mass: 1700
     productionYear: 2068
+# Technically correct, the best kind of correct. Even though it's been rebuilt 5 times since then.
   vehWheelDimensionsSetup: 
     backPreset: 
       rimRadius: 0.29
@@ -143,16 +151,16 @@ Vehicle.docworks_arcadia_mkv:
   widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
   displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
 
-#Car vendor system compat?
+# Virtual Car Dealer compatibility
   offer:
     availabilityFact: docworks_arcadia_mkv_available
-    brandName: Mizutani
-    description: LocKey#Gameplay-Vehicles-Information-MizutaniShionSport
+    brandName: DocWorks
+    description: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
     discountApplicable: False
     hasMachineGun: True
-    hasRocketLauncher: False
+    hasRocketLauncher: True
     unlockType: Vehicle.StreetCred
-    name: LocKey#Gameplay-Vehicles-DisplayNames-MizutaniShionNomadTechnical
+    name: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
   previewImage: v_standard2_makigai_maimai_player_full
   price: EconomicAssignment.v_sport2_mizutani_shion_nomad_player
 
