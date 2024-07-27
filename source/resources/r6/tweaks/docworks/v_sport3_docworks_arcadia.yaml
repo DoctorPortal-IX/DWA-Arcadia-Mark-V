@@ -150,7 +150,13 @@ Vehicle.docworks_arcadia_mkv:
       wheelOffset: 0.189999998
   widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
   displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
-
+# Anyone wanna guess where I got the fire control data from? No?
+  weapons:
+    - !remove Vehicle.Vehicle_Missile_Launcher_A
+    - !remove Vehicle.Vehicle_Missile_Launcher_B
+    - !remove Vehicle.Vehicle_Missile_Launcher_C
+    - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Left
+    - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Right
 # Virtual Car Dealer compatibility
   offer:
     availabilityFact: docworks_arcadia_mkv_available
@@ -170,3 +176,23 @@ Vehicle.docworks_arcadia_mkv.dealerAtlasPath: "base\\gameplay\\gui\\common\\icon
 Vehicle.docworks_arcadia_mkv.dealerPartName: "dealer_docworks_arcadia_mkv"
 Vehicle.vehicle_list.list:
   - !append Vehicle.docworks_arcadia_mkv
+  
+# I copied it from a Baslisk, of course.
+Vehicle.Arcadia_Dual_Cluster_Launcher_Left:
+  $base: Vehicle.Vehicle_Missile_Launcher_A
+  item: Items.Arcadia_Dual_Cluster_Launcher
+  slot: AttachmentSlots.VehicleMissileLauncherB
+  wholeBurstProjectiles: 12
+  
+Vehicle.Arcadia_Dual_Cluster_Launcher_Right:
+  $base: Vehicle.Vehicle_Missile_Launcher_A
+  item: Items.Arcadia_Dual_Cluster_Launcher
+  slot: AttachmentSlots.VehicleMissileLauncherC
+  wholeBurstProjectiles: 12
+  
+Items.Arcadia_Dual_Cluster_Launcher:
+  $base: Items.Vehicle_Missile_Launcher_A
+  placementSlots:
+    - !remove AttachmentSlots.VehicleMissileLauncherA
+    - !append AttachmentSlots.VehicleMissileLauncherB
+    - !append AttachmentSlots.VehicleMissileLauncherC
