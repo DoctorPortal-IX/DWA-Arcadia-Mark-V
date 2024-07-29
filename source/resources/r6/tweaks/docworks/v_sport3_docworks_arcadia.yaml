@@ -65,6 +65,7 @@ Vehicle.docworks_arcadia_mkv:
     wheelTurnMaxAddPerSecond: 90
     wheelTurnMaxSubPerSecond: 130
     center_of_mass_offset: {x: 0, y: 0, z: -0.19999995}
+  # in case something goes wrong, and/or we need to reference it to fix the rear suspension height, this is the OLD CoM offset value:  {x: 0, y: 0, z: -0.19999995}
   vehEngineData:
     engineMaxTorque: 950
     fastR1GearChange: True

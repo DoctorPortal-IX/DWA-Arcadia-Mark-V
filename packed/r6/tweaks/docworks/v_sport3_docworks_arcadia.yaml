@@ -64,7 +64,7 @@ Vehicle.docworks_arcadia_mkv:
         wheelsVerticalOffset: 0.05
     wheelTurnMaxAddPerSecond: 90
     wheelTurnMaxSubPerSecond: 130
-    center_of_mass_offset: {x: 0, y: 0, z: -0.19999995}
+    center_of_mass_offset: {x: -0.0145, y: -0.6516, z: -0.0014}
   vehEngineData:
     engineMaxTorque: 950
     fastR1GearChange: True
