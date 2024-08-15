@@ -15,7 +15,7 @@
 
 `[STYLE]` — Post-Entropism (Function Defines Form)
 
-`[ROLE]` — Armed Overland Interceptor; Record-Breaking Overland Racer
+`[ROLE]` — Transcontinental Overland Racer
 
 ## Specifications
 `[HORSEPOWER]` — _~1,280 HP @ 8600RPM_
