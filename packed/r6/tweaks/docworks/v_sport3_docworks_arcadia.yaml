@@ -43,9 +43,11 @@ Vehicle.docworks_arcadia_mkv:
         tireLongitudinalSlipEffectsMul: 0.899999976
         visualSuspensionCompressionLength: 0.019999996
         visualSuspensionDroop: 0.01
-        wheelsVerticalOffset: 0.28
+        wheelsVerticalOffset: 0.34
       frontPreset:
         $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy_inline1
+        # Fun Fact: When me and the Na'vowae first built the OG Mark I, we had to gut a wrecked Coyote for its suspension, so the original shocks and springs were from a Coyote, and Reya Makure
+        # (the mechanic who designed the "Makure" 990R) was the one who put the data in the computer. To this day, I haven't been able to change the name without the entire system crashing ...
         extremeCompressionEventScalor: 0.8
         frictionMulLateral: 1.45
         frictionMulLongitudinal: 1.49
@@ -64,7 +66,7 @@ Vehicle.docworks_arcadia_mkv:
         wheelsVerticalOffset: 0.05
     wheelTurnMaxAddPerSecond: 90
     wheelTurnMaxSubPerSecond: 130
-    center_of_mass_offset: {x: 0, y: 0, z: -0.19999995}
+    center_of_mass_offset: {x: -0.0145, y: -0.6516, z: -0.0014}
   # in case something goes wrong, and/or we need to reference it to fix the rear suspension height, this is the OLD CoM offset value:  {x: 0, y: 0, z: -0.19999995}
   vehEngineData:
     engineMaxTorque: 950
@@ -136,7 +138,7 @@ Vehicle.docworks_arcadia_mkv:
     horsepower: 1280
     info: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
     mass: 1700
-    productionYear: 2068
+    productionYear: 2064
 # Technically correct, the best kind of correct. Even though it's been rebuilt 5 times since then.
 # Hehehe, I like to think the Arcadia proves that "new" and "improved" aren't always the same thing ....
   vehWheelDimensionsSetup: 

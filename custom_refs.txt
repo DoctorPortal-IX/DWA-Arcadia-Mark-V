@@ -209,6 +209,7 @@ base\vehicles\docworks\common_mats\decals\decals_DWA_d01.xbm
 base\vehicles\docworks\common_mats\decals\decals_DWA_n01.xbm
 base\vehicles\docworks\common_mats\decals\dwa_branding_d01.xbm
 base\vehicles\docworks\common_mats\decals\dwa_branding_n01.xbm
+base\vehicles\docworks\common_mats\decals\dwa_vehicle_branding.mi
 base\vehicles\docworks\common_mats\materials\blk_glass.mi
 base\vehicles\docworks\common_mats\materials\d3c4ls.mi
 base\vehicles\docworks\common_mats\materials\decals_s3condary.mi
@@ -229,6 +230,7 @@ base\vehicles\docworks\docworks_arcadia_collision.phys
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv__basic_01.ent
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv__naomie_01.ent
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv_interaction_collider_01.phys
+base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\docworksplate_arcadia.xbm
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\BKP_Meshes\[BKP]__doc_arcadia__ext01_body_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\BKP_Meshes\[BKP]__doc_arcadia__ext01_body_stickers_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\BKP_Meshes\[BKP]__doc_arcadia__ext01_bumper_f_01.mesh
@@ -319,6 +321,7 @@ base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_trunk_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_trunk_stickers_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_wheel_bl_a_01.mesh
+base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_wheel_center_bl.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_wheel_fl_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_wheel_fl_01.mesh.0.buffer
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_wheel_fl_01.mesh.1.buffer
@@ -363,6 +366,7 @@ base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\mlsetups\arcadia_zinkrd_ext
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\mlsetups\sampson_ext01.mlsetup
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\mlsetups\sampson_ext02.mlsetup
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\v_sport3_docworks_arcadia_mkv__basic_01.rig
+base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\v_standard2_villefort_cortes_delamain_decal_d01.xbm
 dwa\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
 dwa\vehicles\appearances\docworks\dwa_arcadia_mk_vii.app
 dwa\vehicles\docworks\dwa_arcadia_mk_vii__basic_01.ent
