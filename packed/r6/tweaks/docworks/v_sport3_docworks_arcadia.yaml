@@ -85,51 +85,51 @@ Vehicle.docworks_arcadia_mkv:
     wheelsResistanceRatio: 15
     gears:
       -  $type: gamedataVehicleGear_Record #first gear
-         maxEngineRPM: 5800
+         maxEngineRPM: 3000
          maxSpeed: 10
          minEngineRPM: 800
          minSpeed: 0
          torqueMultiplier: 1.1
       -  $type: gamedataVehicleGear_Record #second gear
-         maxEngineRPM: 7400
+         maxEngineRPM: 5250
          maxSpeed: 14
-         minEngineRPM: 800
+         minEngineRPM: 1500
          minSpeed: 0
          torqueMultiplier: 1
       -  $type: gamedataVehicleGear_Record #third gear
-         maxEngineRPM: 8600
+         maxEngineRPM: 7000
          maxSpeed: 21
-         minEngineRPM: 4000
+         minEngineRPM: 1750
          minSpeed: 13
          torqueMultiplier: 0.8
       -  $type: gamedataVehicleGear_Record #fourth gear
-         maxEngineRPM: 8650
+         maxEngineRPM: 7500
          maxSpeed: 27
-         minEngineRPM: 4000
+         minEngineRPM: 2100
          minSpeed: 20
          torqueMultiplier: 0.62
       -  $type: gamedataVehicleGear_Record #fifth gear
-         maxEngineRPM: 8700
+         maxEngineRPM: 8600
          maxSpeed: 37
-         minEngineRPM: 4100
+         minEngineRPM: 2700
          minSpeed: 25
          torqueMultiplier: 0.48
       -  $type: gamedataVehicleGear_Record #sixth gear
-         maxEngineRPM: 8750
+         maxEngineRPM: 9200
          maxSpeed: 43.5
-         minEngineRPM: 4100
+         minEngineRPM: 3000
          minSpeed: 35
          torqueMultiplier: 0.4
       -  $type: gamedataVehicleGear_Record #seventh gear
-         maxEngineRPM: 8800
+         maxEngineRPM: 4750
          maxSpeed: 50
-         minEngineRPM: 4200
+         minEngineRPM: 3200
          minSpeed: 41.5
          torqueMultiplier: 0.35
       -  $type: gamedataVehicleGear_Record #eighth gear
-         maxEngineRPM: 9200
+         maxEngineRPM: 6000
          maxSpeed: 55.5
-         minEngineRPM: 4600
+         minEngineRPM: 4500
          minSpeed: 48
          torqueMultiplier: 0.3
 # Erok's gear change breakpoints are spot on, though.
