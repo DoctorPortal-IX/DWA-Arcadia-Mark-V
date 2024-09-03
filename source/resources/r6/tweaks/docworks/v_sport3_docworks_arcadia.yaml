@@ -77,7 +77,7 @@ Vehicle.docworks_arcadia_mkv:
     gearChangeCooldown: 0.300000012
     gearChangeTime: 0.059999999
 # Oh so *this* is why she only got 1200 horsepower out of it. ECU was changing gears out of line with the 'charger peaks.
-    gearCurvesPath: base\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
+    gearCurvesPath: dwa\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
     maxRPM: 9000
     minRPM: 800
     resistanceTorque: 150
@@ -187,20 +187,19 @@ Vehicle.vehicle_list.list:
 # Kudos ... I BEGGED Palmer to let me get a look at the code running on theirs before she and that merc left NC ... should've bought her more drinks, maybe she'd have said yes .. (ugh why did that woman have to be straight, so unfair to my lesbian ass)
 Vehicle.Arcadia_Dual_Cluster_Launcher_Left:
   $base: Vehicle.Vehicle_Missile_Launcher_A
-  item: Items.Arcadia_Dual_Cluster_Launcher_Left
+  item: Items.Arcadia_Dual_Cluster_Launcher
   slot: AttachmentSlots.VehicleMissileLauncherB
   wholeBurstProjectiles: 12
   
 Vehicle.Arcadia_Dual_Cluster_Launcher_Right:
   $base: Vehicle.Vehicle_Missile_Launcher_A
-  item: Items.Arcadia_Dual_Cluster_Launcher_Right
+  item: Items.Arcadia_Dual_Cluster_Launcher
   slot: AttachmentSlots.VehicleMissileLauncherC
   wholeBurstProjectiles: 12
   
-Items.Arcadia_Dual_Cluster_Launcher_Left:
+Items.Arcadia_Dual_Cluster_Launcher:
   $base: Items.Vehicle_Missile_Launcher_A
-  placementSlots: AttachmentSlots.VehicleMissileLauncherB
-    
-Items.Arcadia_Dual_Cluster_Launcher_Right:
-  $base: Items.Vehicle_Missile_Launcher_A
-  placementSlots: AttachmentSlots.VehicleMissileLauncherC
+  placementSlots:
+    - !remove AttachmentSlots.VehicleMissileLauncherA
+    - !append AttachmentSlots.VehicleMissileLauncherB
+    - !append AttachmentSlots.VehicleMissileLauncherC
