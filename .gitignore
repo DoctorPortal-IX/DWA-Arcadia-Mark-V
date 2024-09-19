@@ -4,3 +4,4 @@ install_log.xml
 layout.xml
 fileTreeState.json
 *.zip
+packed/archive/pc/mod/*.archive
