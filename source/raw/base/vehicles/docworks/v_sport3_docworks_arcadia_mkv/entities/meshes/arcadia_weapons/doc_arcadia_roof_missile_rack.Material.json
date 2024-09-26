@@ -239,17 +239,26 @@
     }
   ],
   "TexturesList": [
+    "engine\\textures\\small_flat_normal.xbm",
+    "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+    "base\\vehicles\\common\\textures\\dust_fine.xbm",
+    "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
     "base\\characters\\boss\\adam_smasher\\textures\\ml_t0_006_mm_launcher__adam_smasher_masksset.mlmask",
     "base\\surfaces\\materials\\default\\debug_d.xbm",
+    "base\\surfaces\\microblends\\fine_filth.xbm",
     "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_d.xbm",
     "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_n.xbm",
     "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_r.xbm",
+    "base\\surfaces\\microblends\\scratches_and_flakes_a.xbm",
     "base\\characters\\boss\\adam_smasher\\textures\\t0_006_mm_launcher__adam_smasher_n01.xbm",
     "base\\characters\\common\\textures\\decals\\decals_arasaka_d01.xbm",
     "base\\characters\\common\\textures\\decals\\decals_arasaka_n01.xbm",
+    "base\\vehicles\\common\\textures\\vehicles_decals_exterior_d01.xbm",
+    "base\\vehicles\\common\\textures\\vehicles_decals_exterior_n01.xbm",
     "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_03_alpha_d.xbm",
     "base\\materials\\placeholder\\normal.xbm",
-    "base\\fx\\characters\\hologram\\hologram_pointcloud_dot.xbm"
+    "base\\fx\\characters\\hologram\\hologram_pointcloud_dot.xbm",
+    "base\\materials\\placeholder\\black.xbm"
   ],
   "MaterialTemplates": [
     {

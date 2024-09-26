@@ -142,9 +142,8 @@
   ],
   "TexturesList": [
     "base\\vehicles\\docworks\\v_sport3_docworks_arcadia_mkv\\entities\\meshes\\arcadia_weapons\\doc_arcadia_missile_set.mesh_embedded\\16244301697840214358.mlmask",
-    "base\\weapons\\common\\textures\\w_arasaka_decal_01_n01.xbm",
-    "base\\weapons\\common\\textures\\w_arasaka_decal_01_n01_alpha.xbm",
-    "base\\weapons\\common\\textures\\w_kangtao_decal_d01.xbm"
+    "base\\surfaces\\materials\\metal\\enameled_hq\\enameled_hq_01_30_n.xbm",
+    "base\\surfaces\\materials\\metal\\steel_hq\\steel_hq_noise_01_10_r.xbm"
   ],
   "MaterialTemplates": [
     {

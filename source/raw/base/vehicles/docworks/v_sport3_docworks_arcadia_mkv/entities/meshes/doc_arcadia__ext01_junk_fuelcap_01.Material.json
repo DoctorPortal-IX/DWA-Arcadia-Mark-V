@@ -231,17 +231,28 @@
     }
   ],
   "TexturesList": [
+    "engine\\textures\\small_white.xbm",
+    "base\\vehicles\\common\\textures\\vehicles_decals_exterior_d01.xbm",
+    "base\\vehicles\\common\\textures\\vehicles_decals_exterior_n01.xbm",
     "base\\vehicles\\common\\parts\\v_common__junk_kit\\entities\\meshes\\textures\\ml_junkset.mlmask",
     "base\\surfaces\\materials\\manmade\\photovoltaic_cells\\photovoltaic_cells_01_200_d.xbm",
     "base\\surfaces\\materials\\manmade\\photovoltaic_cells\\photovoltaic_cells_01_200_n.xbm",
     "base\\surfaces\\materials\\manmade\\photovoltaic_cells\\photovoltaic_cells_01_200_r.xbm",
-    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rolled_01_300_n.xbm",
-    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rolled_01_300_r.xbm",
+    "base\\surfaces\\materials\\plastic\\rubber_simple\\rubber_simple_clean_01_30_d.xbm",
+    "base\\surfaces\\materials\\plastic\\rubber_simple\\rubber_simple_clean_01_30_n.xbm",
+    "base\\surfaces\\materials\\plastic\\rubber_simple\\rubber_simple_clean_01_30_r.xbm",
+    "base\\surfaces\\materials\\paint\\paint_fine\\paint_fine_clean_01_300_n.xbm",
+    "base\\surfaces\\materials\\paint\\paint_fine\\paint_fine_clean_01_300_r.xbm",
+    "base\\surfaces\\materials\\fabric\\nylon\\nylon_metallic_01_d.xbm",
+    "base\\surfaces\\materials\\fabric\\nylon\\nylon_metallic_01_n.xbm",
+    "base\\surfaces\\materials\\fabric\\nylon\\nylon_metallic_01_r.xbm",
+    "base\\surfaces\\materials\\fabric\\nylon\\nylon_metallic_01_m.xbm",
     "base\\surfaces\\materials\\grunge\\grime_film\\grime_film_01_300_d.xbm",
     "base\\surfaces\\materials\\grunge\\grime_film\\grime_film_01_300_n.xbm",
     "base\\surfaces\\materials\\grunge\\grime_film\\grime_film_01_300_r.xbm",
     "base\\surfaces\\microblends\\scratches_and_flakes_a.xbm",
-    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rolled_01_300_d.xbm"
+    "base\\vehicles\\common\\textures\\vehicles_stickers_d01.xbm",
+    "base\\vehicles\\common\\textures\\vehicles_stickers_n01.xbm"
   ],
   "MaterialTemplates": [
     {

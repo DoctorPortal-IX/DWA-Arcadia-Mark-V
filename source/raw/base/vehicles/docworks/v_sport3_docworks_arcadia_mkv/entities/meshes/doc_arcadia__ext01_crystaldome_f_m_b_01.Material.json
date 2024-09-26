@@ -357,12 +357,11 @@
     }
   ],
   "TexturesList": [
+    "base\\surfaces\\materials\\metal\\steel_galvanized\\steel_galvanized_01_300_d.xbm",
+    "base\\surfaces\\materials\\metal\\steel_galvanized\\steel_galvanized_01_300_r.xbm",
     "base\\surfaces\\microblends\\spots_and_scrapes.xbm",
     "base\\surfaces\\microblends\\scratches.xbm",
     "base\\surfaces\\microblends\\spots_dried.xbm",
-    "base\\surfaces\\materials\\grunge\\stains_oil\\stains_oil_01_100_d.xbm",
-    "base\\surfaces\\materials\\glass\\windows_opaque\\windows_opaque_01_200_n.xbm",
-    "base\\surfaces\\materials\\grunge\\stains_oil\\stains_oil_01_100_r.xbm",
     "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\textures\\ml_v_sportbike1_yaiba_kusanagi_wheel_masksset.mlmask"
   ],
   "MaterialTemplates": [

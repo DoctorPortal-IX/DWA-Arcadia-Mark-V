@@ -300,10 +300,17 @@
   ],
   "TexturesList": [
     "base\\weapons\\turrets\\crystal_dome\\entities\\meshes\\textures\\tpp\\w_turret__crystal_dome__barrel_01_tpp_nrm.xbm",
+    "base\\surfaces\\materials\\metal\\enameled_hq\\enameled_hq_01_30_n.xbm",
+    "base\\surfaces\\materials\\metal\\steel_hq\\steel_hq_noise_01_10_r.xbm",
     "base\\surfaces\\microblends\\terrain_pebbles_smooth_01_200_mb.xbm",
     "base\\surfaces\\materials\\metal\\steel_tempered\\steel_tempered_large_01_30_d.xbm",
+    "base\\surfaces\\materials\\default\\gray.xbm",
+    "base\\surfaces\\materials\\metal\\iron_cast\\iron_cast_01_300_n.xbm",
+    "base\\surfaces\\materials\\metal\\iron_cast\\iron_cast_01_300_r.xbm",
     "base\\surfaces\\microblends\\spots_small.xbm",
+    "base\\surfaces\\microblends\\edgewear_01.xbm",
     "base\\surfaces\\microblends\\scratches_random_01.xbm",
+    "base\\surfaces\\microblends\\bent_metal.xbm",
     "base\\weapons\\turrets\\crystal_dome\\entities\\meshes\\textures\\ml_w_turret__crystal_dome__barrel_01_masksset.mlmask"
   ],
   "MaterialTemplates": [
