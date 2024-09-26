@@ -1388,30 +1388,8 @@
   ],
   "TexturesList": [
     "base\\surfaces\\microblends\\wrinkles_04.xbm",
-    "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\textures\\ml_v_sport2_porsche_911turbo_interior_masksset.mlmask",
-    "base\\surfaces\\materials\\metal\\enameled_hq\\enameled_hq_01_30_n.xbm",
-    "base\\surfaces\\materials\\metal\\steel_hq\\steel_hq_noise_01_10_r.xbm",
-    "base\\surfaces\\materials\\metal\\enameled_metal\\enameled_metal_clean_01_30_r.xbm",
-    "base\\surfaces\\materials\\fabric\\mylar_insulation\\mylar_insulation_quilted_01_200_n.xbm",
-    "base\\surfaces\\materials\\fabric\\mylar_insulation\\mylar_insulation_quilted_01_200_r.xbm",
-    "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_rough_01_300_d.xbm",
-    "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_01_300_n.xbm",
-    "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_01_300_r.xbm",
-    "base\\surfaces\\microblends\\scratches_horizontal_01.xbm",
-    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rolled_01_300_d.xbm",
-    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rolled_01_300_n.xbm",
-    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rolled_01_300_r.xbm",
-    "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\textures\\ml_v_sport2_porsche_911turbo_exterior_masksset.mlmask",
-    "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\textures\\v_sport2_porsche_911turbo_decals_n01.xbm",
     "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\textures\\stickers_911_d01.xbm",
-    "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\textures\\stickers_911_n01.xbm",
-    "base\\vehicles\\common\\textures\\common_light_n01.xbm",
-    "base\\vehicles\\common\\textures\\common_light_01.xbm",
-    "base\\characters\\main_npc\\silverhand\\textures\\samurai_logo_d01.xbm",
-    "base\\characters\\main_npc\\silverhand\\textures\\samurai_logo_n01.xbm",
-    "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\textures\\ml_v_sport2_porsche_911turbo_interior_masksset_lod.mlmask",
-    "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\textures\\v_sport2_porsche_911turbo__ext01_n01.xbm",
-    "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\textures\\ml_v_sport2_porsche_911turbo_exterior_masksset_lod.mlmask"
+    "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\textures\\stickers_911_n01.xbm"
   ],
   "MaterialTemplates": [
     {

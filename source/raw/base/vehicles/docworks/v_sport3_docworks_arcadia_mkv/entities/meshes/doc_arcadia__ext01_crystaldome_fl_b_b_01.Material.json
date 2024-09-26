@@ -1,0 +1,121 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\Wkit Depot - NEW Materials",
+  "Materials": [
+    {
+      "Name": "crystal_dome",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\crystal_dome.mi",
+      "MaterialTemplate": "base\\fx\\_shaders\\crystal_dome_opaque.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\surfaces\\materials\\metal\\steel_galvanized\\steel_galvanized_01_300_d.xbm",
+        "PrimaryGlowColor": {
+          "Red": 0,
+          "Green": 159,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "SecondaryGlowColor": {
+          "Red": 193,
+          "Green": 140,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\small_white.xbm",
+        "Roughness": "base\\surfaces\\materials\\metal\\steel_galvanized\\steel_galvanized_01_300_r.xbm",
+        "Normal": "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_hard_01_300_n.xbm",
+        "EmissiveEV": 10,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 0,
+        "Tiling": {
+          "X": 5,
+          "Y": 5,
+          "Z": 80,
+          "W": 80
+        },
+        "InitialTime": 0.49565199,
+        "MaxTimeOffset": 0.326086998,
+        "SwipeAngle": 0,
+        "FluffMask": "base\\materials\\placeholder\\black.xbm",
+        "PatternMask": "base\\fx\\_textures\\vehicles\\fx_crystal_dome_mask.xbm",
+        "UVDivision": 500,
+        "NoiseMax": 0,
+        "DebugValue": 0,
+        "Debug": 0,
+        "DefaultValue": 0,
+        "UVDivision_FluffMask": 1,
+        "MinUV": 0,
+        "MaxUV": 1,
+        "DistortionMap": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+        "DistortionScale": 2
+      }
+    }
+  ],
+  "TexturesList": [
+    "base\\surfaces\\materials\\metal\\steel_galvanized\\steel_galvanized_01_300_d.xbm",
+    "engine\\textures\\small_white.xbm",
+    "base\\surfaces\\materials\\metal\\steel_galvanized\\steel_galvanized_01_300_r.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_hard_01_300_n.xbm",
+    "base\\fx\\_textures\\vehicles\\fx_crystal_dome_mask.xbm",
+    "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+    "base\\vehicles\\common\\materials\\crystal_dome.mi_embedded\\2464307962543291126.xbm",
+    "base\\materials\\placeholder\\black.xbm"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "base\\fx\\_shaders\\crystal_dome_opaque.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\surfaces\\materials\\metal\\steel_galvanized\\steel_galvanized_01_300_d.xbm",
+        "PrimaryGlowColor": {
+          "Red": 0,
+          "Green": 159,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "SecondaryGlowColor": {
+          "Red": 193,
+          "Green": 140,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\small_white.xbm",
+        "Roughness": "base\\surfaces\\materials\\metal\\steel_galvanized\\steel_galvanized_01_300_r.xbm",
+        "Normal": "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_hard_01_300_n.xbm",
+        "EmissiveEV": 10,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 0,
+        "Tiling": {
+          "X": 5,
+          "Y": 5,
+          "Z": 10,
+          "W": 10
+        },
+        "InitialTime": 0.49565199,
+        "MaxTimeOffset": 0.326086998,
+        "SwipeAngle": 0,
+        "FluffMask": "engine\\textures\\small_white.xbm",
+        "PatternMask": "base\\fx\\_textures\\vehicles\\fx_crystal_dome_mask.xbm",
+        "UVDivision": 500,
+        "NoiseMax": 0,
+        "DebugValue": 0,
+        "Debug": 0,
+        "DefaultValue": 0,
+        "UVDivision_FluffMask": 1,
+        "MinUV": 0,
+        "MaxUV": 1,
+        "DistortionMap": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+        "DistortionScale": 2
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "crystal_dome"
+    ]
+  }
+}
