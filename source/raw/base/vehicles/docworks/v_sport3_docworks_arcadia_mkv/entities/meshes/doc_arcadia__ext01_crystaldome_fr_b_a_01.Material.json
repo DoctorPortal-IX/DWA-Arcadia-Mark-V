@@ -1,0 +1,44 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\Wkit Depot - NEW Materials",
+  "Materials": [
+    {
+      "Name": "crystal_dome",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\crystal_dome_transparent.mi",
+      "MaterialTemplate": "base\\fx\\_shaders\\crystal_dome.mt",
+      "EnableMask": false,
+      "Data": {
+        "AdditiveAlphaBlend": 0,
+        "ScanlineDensity": 950,
+        "GainMin": 0.0149999997,
+        "GainMax": 0.150000006,
+        "NoiseMax": 1,
+        "NoiseBrightness": 150,
+        "IntialGradientTime": 0.100000001
+      }
+    }
+  ],
+  "TexturesList": [],
+  "MaterialTemplates": [
+    {
+      "Name": "base\\fx\\_shaders\\crystal_dome.mt",
+      "EnableMask": true,
+      "Data": {
+        "AdditiveAlphaBlend": 0,
+        "ScanlineDensity": 140.103973,
+        "GainMin": 0.0149999997,
+        "GainMax": 0.150000006,
+        "NoiseMax": 0,
+        "NoiseBrightness": 150,
+        "IntialGradientTime": 0.100000001
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "crystal_dome"
+    ]
+  }
+}

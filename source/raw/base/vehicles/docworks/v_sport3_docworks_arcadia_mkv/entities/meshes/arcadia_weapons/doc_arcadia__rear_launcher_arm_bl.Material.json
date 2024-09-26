@@ -1,0 +1,240 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\Wkit Depot - NEW Materials",
+  "Materials": [
+    {
+      "Name": "ml_monitor",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "base\\environment\\decoration\\electronics\\attachments\\monitor_arm\\textures\\ml_monitor_arm.mlmask",
+        "MultilayerSetup": "base\\environment\\decoration\\electronics\\attachments\\monitor_arm\\textures\\ml_monitor_arm.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "decals",
+      "BaseMaterial": "base\\surfaces\\masks\\decal_normals\\generic\\generic_tech_01.mi",
+      "MaterialTemplate": "base\\materials\\mesh_decal_parallax.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "base\\surfaces\\masks\\decal_normals\\generic\\generic_tech_01_ao_d.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 2,
+        "UVOffsetX": 0,
+        "UVOffsetY": 0,
+        "UVRotation": 0,
+        "UVScaleX": 1,
+        "UVScaleY": 1,
+        "SecondaryMask": "engine\\textures\\editor\\white.xbm",
+        "SecondaryMaskUVScale": 0,
+        "SecondaryMaskInfluence": 0,
+        "NormalTexture": "base\\surfaces\\masks\\decal_normals\\generic\\generic_tech_01_n.xbm",
+        "NormalAlpha": 1,
+        "NormalAlphaTex": "engine\\textures\\editor\\white.xbm",
+        "UseNormalAlphaTex": 1,
+        "NormalsBlendingMode": 1,
+        "RoughnessTexture": "engine\\textures\\editor\\white.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\white.xbm",
+        "AlphaMaskContrast": 0,
+        "RoughnessMetalnessAlpha": 0,
+        "AnimationSpeed": 1,
+        "AnimationFramesWidth": 1,
+        "AnimationFramesHeight": 1,
+        "DepthThreshold": 0.5,
+        "HeightTexture": "base\\surfaces\\masks\\decal_normals\\generic\\generic_tech_01_h.xbm",
+        "HeightStrength": 0.5
+      }
+    }
+  ],
+  "TexturesList": [
+    "engine\\textures\\editor\\normal.xbm",
+    "engine\\materials\\defaults\\multilayer_default.mlmask",
+    "engine\\materials\\defaults\\ml_default_microblend.xbm",
+    "engine\\materials\\defaults\\ml_default_d.xbm",
+    "engine\\materials\\defaults\\ml_default_n.xbm",
+    "engine\\materials\\defaults\\ml_default_rm.xbm",
+    "base\\environment\\decoration\\electronics\\attachments\\monitor_arm\\textures\\ml_monitor_arm.mlmask",
+    "base\\surfaces\\microblends\\default.xbm",
+    "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_tech\\plastic_tech_01_300_n.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_tech\\plastic_tech_01_300_r.xbm",
+    "base\\surfaces\\materials\\default\\black.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_d.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_n.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_r.xbm",
+    "base\\surfaces\\materials\\default\\white.xbm",
+    "base\\surfaces\\microblends\\spots_and_scrapes.xbm",
+    "base\\surfaces\\materials\\fabric\\velvet\\velvet_clean_01_30_d.xbm",
+    "base\\surfaces\\materials\\fabric\\velvet\\velvet_clean_01_30_n.xbm",
+    "base\\surfaces\\materials\\fabric\\velvet\\velvet_clean_01_30_r.xbm",
+    "base\\surfaces\\microblends\\stripes_horizontal_a.xbm",
+    "base\\surfaces\\materials\\fabric\\polyester\\polyester_knit_metallic_01_30_d.xbm",
+    "base\\surfaces\\materials\\fabric\\polyester\\polyester_knit_metallic_01_30_n.xbm",
+    "base\\surfaces\\materials\\fabric\\polyester\\polyester_knit_metallic_01_30_r.xbm",
+    "base\\surfaces\\microblends\\dirt_stains.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rolled_01_300_d.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rolled_01_300_n.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rolled_01_300_r.xbm",
+    "base\\surfaces\\microblends\\paint_chips.xbm",
+    "base\\surfaces\\microblends\\leaks_vertical.xbm",
+    "base\\surfaces\\materials\\grunge\\stains_oil\\stains_oil_01_100_d.xbm",
+    "base\\surfaces\\materials\\glass\\windows_opaque\\windows_opaque_01_200_n.xbm",
+    "base\\surfaces\\materials\\grunge\\stains_oil\\stains_oil_01_100_r.xbm",
+    "base\\surfaces\\materials\\grunge\\grime_film\\grime_film_01_300_d.xbm",
+    "base\\surfaces\\materials\\grunge\\grime_film\\grime_film_01_300_n.xbm",
+    "base\\surfaces\\materials\\grunge\\grime_film\\grime_film_01_300_r.xbm",
+    "engine\\textures\\editor\\grey.xbm",
+    "engine\\textures\\editor\\white.xbm",
+    "engine\\textures\\editor\\black.xbm",
+    "base\\surfaces\\masks\\decal_normals\\generic\\generic_tech_01_n.xbm",
+    "base\\surfaces\\masks\\decal_normals\\generic\\generic_tech_01_ao_d.xbm",
+    "base\\surfaces\\masks\\decal_normals\\generic\\generic_tech_01_h.xbm"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "base\\materials\\mesh_decal_parallax.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\editor\\grey.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0,
+        "UVOffsetX": 0,
+        "UVOffsetY": 0,
+        "UVRotation": 0,
+        "UVScaleX": 1,
+        "UVScaleY": 1,
+        "SecondaryMask": "engine\\textures\\editor\\white.xbm",
+        "SecondaryMaskUVScale": 0,
+        "SecondaryMaskInfluence": 0,
+        "NormalTexture": "engine\\textures\\editor\\normal.xbm",
+        "NormalAlpha": 0,
+        "NormalAlphaTex": "engine\\textures\\editor\\white.xbm",
+        "UseNormalAlphaTex": 0,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\editor\\white.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "AlphaMaskContrast": 0,
+        "RoughnessMetalnessAlpha": 0,
+        "AnimationSpeed": 1,
+        "AnimationFramesWidth": 1,
+        "AnimationFramesHeight": 1,
+        "DepthThreshold": 0.5,
+        "HeightTexture": "engine\\textures\\editor\\grey.xbm",
+        "HeightStrength": 0
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "ml_monitor",
+      "decals",
+      "decals",
+      "decals",
+      "decals",
+      "decals"
+    ]
+  }
+}
