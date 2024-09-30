@@ -1,0 +1,87 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\Wkit Depot - NEW Materials",
+  "Materials": [
+    {
+      "Name": "fx_bullet_hole_metal_01_",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\decals.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\fx\\_textures\\decals\\impact_holes\\fx_bullet_hole_metal_01_2x2_d.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\fx\\_textures\\decals\\impact_holes\\fx_bullet_hole_metal_01_2x2_n.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.800000012,
+        "RoughnessTexture": "engine\\textures\\editor\\black.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 0,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\surfaces\\microblends\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 2,
+          "Z": 0,
+          "W": 0
+        },
+        "DamageInfluence": 1,
+        "DamageInfluenceDebug": 0
+      }
+    }
+  ],
+  "TexturesList": [
+    "base\\fx\\_textures\\decals\\impact_holes\\fx_bullet_hole_metal_01_2x2_d.xbm",
+    "base\\fx\\_textures\\decals\\impact_holes\\fx_bullet_hole_metal_01_2x2_n.xbm"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "fx_bullet_hole_metal_01_"
+    ]
+  }
+}

@@ -123,7 +123,9 @@ base\amm_vehicles\docworks_arcadia\yule_black-red_nomad_int06.mlsetup
 base\amm_vehicles\docworks_arcadia\yule_black-red_player_ext01.mlsetup
 base\amm_vehicles\misc\docworks_ui.inkatlas
 base\amm_vehicles\misc\docworks_ui.xbm
+base\animations\vehicle\docworks\[working]__v_sport3_docworks_arcadia.anims
 base\animations\vehicle\docworks\[WORKING]__v_sport3_docworks_arcadia.anims
+base\animations\vehicle\docworks\prv_v_sport3_docworks_arcadia.anims
 base\animations\vehicle\docworks\v_sport2_mizutani_shion_nomad.anims
 base\animations\vehicle\docworks\v_sport3_docworks_arcadia - BKP.anims
 base\animations\vehicle\docworks\v_sport3_docworks_arcadia.anims
@@ -349,6 +351,7 @@ base\vehicles\docworks\Common_Parts\meshes\interior_badge.mesh
 base\vehicles\docworks\common_parts\meshes\pedal_sport_w-clutch__deeper.mesh
 base\vehicles\docworks\Common_Parts\meshes\pedal_sport_w-clutch__deeper.mesh
 base\vehicles\docworks\Common_Parts\meshes\pedal_sport_w-clutch.mesh
+base\vehicles\docworks\docworks_arcadia_collision_fix.phys
 base\vehicles\docworks\docworks_arcadia_collision.phys
 base\vehicles\docworks\dwa_arcadia_collision.phys
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv__basic_01.ent
@@ -369,6 +372,7 @@ base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\BKP_Meshes\[BKP]__
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\BKP_Meshes\[BKP]__doc_arcadia_missile_set.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\BKP_Meshes\v_standard2_thorton_galena_q000__engine_parts_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\doc_arcadia__ext01_crystaldome_f_m_a_01.mesh
+base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\doc_arcadia__ext01_trunk_stickers_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\doc_arcadia__int01_interior_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\arcadia_weapons\doc_arcadia__machine_guns_fl_base2.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\arcadia_weapons\doc_arcadia__machine_guns_fl_rear.mesh
@@ -457,6 +461,7 @@ base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_trunk_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_trunk_stickers_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_wheel_bl_a_01.mesh
+base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_wheel_bl_accent_02.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_wheel_center_bl.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_wheel_fl_01.mesh
 base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_wheel_fl_01.mesh.0.buffer

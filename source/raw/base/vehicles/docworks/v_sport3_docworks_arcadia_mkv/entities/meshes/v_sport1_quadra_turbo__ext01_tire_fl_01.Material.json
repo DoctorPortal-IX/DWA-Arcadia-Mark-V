@@ -1,0 +1,1347 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\Wkit Depot - NEW Materials",
+  "Materials": [
+    {
+      "Name": "ml_v_common_nomad_tire_01_masksset",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\vehicles\\common\\wheels\\tires\\tire_all_terrain_01_n.xbm",
+        "MultilayerMask": "base\\vehicles\\common\\wheels\\tires\\tire_all_terrain_01.mlmask",
+        "MultilayerSetup": "base\\vehicles\\common\\wheels\\tires\\tire_dusty_strong.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "deathrace_01",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\small_flat_normal.xbm",
+        "MultilayerMask": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\textures\\ml_v_common_nomad_tire_01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\textures\\ml_v_common_nomad_tire_deathrace_01.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "tire_sidewall_a",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 94,
+          "Green": 94,
+          "Blue": 94,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0.899999976,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_b",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 211,
+          "Green": 211,
+          "Blue": 211,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0.899999976,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_a_red",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 94,
+          "Green": 94,
+          "Blue": 94,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0.899999976,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_b_red",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 180,
+          "Green": 0,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0.899999976,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0.75,
+        "DirtMaskOffsets": {
+          "X": 0,
+          "Y": 1,
+          "Z": 4,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_b_cyan",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 49,
+          "Green": 223,
+          "Blue": 253,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 1,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0.300000012,
+        "DirtMaskOffsets": {
+          "X": 0,
+          "Y": 0.5,
+          "Z": 1,
+          "W": 2
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_b_yellow",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 200,
+          "Blue": 36,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0.75,
+        "DirtMaskOffsets": {
+          "X": 0,
+          "Y": 1,
+          "Z": 4,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "ml_v_common_nomad_tire_01_burnt",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\burnt_int.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "base\\vehicles\\common\\wheels\\tires\\tire_all_terrain_01_n.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\common\\textures\\burnt_ext01.mlmask",
+        "MultilayerSetup": "base\\vehicles\\common\\textures\\burnt_int01.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 1,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "DamageInfluenceDebug": 1
+      }
+    },
+    {
+      "Name": "tire_sidewall_b_burnt",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 211,
+          "Green": 211,
+          "Blue": 211,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_a_burnt",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 94,
+          "Green": 94,
+          "Blue": 94,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_b_red_02",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 130,
+          "Green": 6,
+          "Blue": 14,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0.899999976,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0.75,
+        "DirtMaskOffsets": {
+          "X": 0,
+          "Y": 1,
+          "Z": 4,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_b_gray",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 133,
+          "Green": 133,
+          "Blue": 133,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0.75,
+        "DirtMaskOffsets": {
+          "X": 0,
+          "Y": 1,
+          "Z": 4,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_b_red_03",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 98,
+          "Green": 52,
+          "Blue": 55,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0.899999976,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0.75,
+        "DirtMaskOffsets": {
+          "X": 0,
+          "Y": 1,
+          "Z": 4,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_b_green",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 56,
+          "Green": 175,
+          "Blue": 10,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0.899999976,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0.75,
+        "DirtMaskOffsets": {
+          "X": 0,
+          "Y": 1,
+          "Z": 4,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    },
+    {
+      "Name": "tire_sidewall_b_white",
+      "BaseMaterial": "base\\materials\\vehicle_mesh_decal.mt",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_d01.xbm",
+        "DiffuseColor": {
+          "Red": 211,
+          "Green": 211,
+          "Blue": 211,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\wheels\\tires\\tire_wall_asteria_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0.5,
+        "RoughnessTexture": "base\\surfaces\\materials\\plaster\\plaster_exterior\\plaster_exterior_damp_01_300_r.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0.75,
+        "DirtMaskOffsets": {
+          "X": 0,
+          "Y": 1,
+          "Z": 4,
+          "W": 3
+        },
+        "DamageInfluence": 0
+      }
+    }
+  ],
+  "TexturesList": [],
+  "MaterialTemplates": [
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b"
+    ],
+    "muddy_red1": [
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_red",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_red",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_red"
+    ],
+    "muddy_cyan2": [
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_cyan",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_cyan",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_cyan"
+    ],
+    "muddy_yellow3": [
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_yellow",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_yellow",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_yellow"
+    ],
+    "burnt_014": [
+      "ml_v_common_nomad_tire_01_burnt",
+      "tire_sidewall_a_burnt",
+      "tire_sidewall_b_burnt",
+      "ml_v_common_nomad_tire_01_burnt",
+      "tire_sidewall_a_burnt",
+      "tire_sidewall_b_burnt",
+      "ml_v_common_nomad_tire_01_burnt",
+      "tire_sidewall_a_burnt",
+      "tire_sidewall_b_burnt"
+    ],
+    "muddy_red_025": [
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_red_02",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_red_02",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_red_02"
+    ],
+    "muddy_gray6": [
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_gray",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_gray",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_gray"
+    ],
+    "muddy_red_037": [
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_red_03",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_red_03",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_red_03"
+    ],
+    "muddy_green8": [
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_green",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_cyan",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_cyan"
+    ],
+    "muddy_white_019": [
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b_white",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b",
+      "ml_v_common_nomad_tire_01_masksset",
+      "tire_sidewall_a",
+      "tire_sidewall_b"
+    ]
+  }
+}
