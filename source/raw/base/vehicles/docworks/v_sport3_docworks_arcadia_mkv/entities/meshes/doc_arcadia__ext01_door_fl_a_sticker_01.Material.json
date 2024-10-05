@@ -1,0 +1,5885 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\Wkit Depot - NEW Materials",
+  "Materials": [
+    {
+      "Name": "ml_v_sport1_rayfield_caliburn__ext01_masksset",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "vehicle_lights",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\vehicle_lights.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_lights.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\small_white.xbm",
+        "BaseColorScale": {
+          "X": 0.692071,
+          "Y": 0.692071,
+          "Z": 0.692071,
+          "W": 1
+        },
+        "AlphaThreshold": 0.333299994,
+        "Metalness": "engine\\textures\\small_white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\small_white.xbm",
+        "RoughnessScale": 0.300000012,
+        "RoughnessBias": 0,
+        "Normal": "base\\vehicles\\common\\textures\\common_light_n01.xbm",
+        "NormalStrength": 1,
+        "Emissive": "base\\vehicles\\common\\textures\\common_light_01.xbm",
+        "EmissionTiling": 1,
+        "EmissionParallax": 0.00100000005,
+        "Zone0EmissiveEV": 10,
+        "Zone1EmissiveEV": 10,
+        "Zone2EmissiveEV": 10,
+        "Zone3EmissiveEV": 10,
+        "DebugLightsIntensity": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "DebugLightsColor0": {
+          "Red": 255,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DebugLightsColor1": {
+          "Red": 0,
+          "Green": 255,
+          "Blue": 15,
+          "Alpha": 255
+        },
+        "DebugLightsColor2": {
+          "Red": 0,
+          "Green": 6,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DebugLightsColor3": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "UvTilingX": 1,
+        "UvTilingY": 1,
+        "UvOffsetX": 0,
+        "UvOffsetY": 0,
+        "DamageInfluence": 1,
+        "DamageInfluenceDebug": 0
+      }
+    },
+    {
+      "Name": "light_covers_glass",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\glass_lightcovers.mi",
+      "MaterialTemplate": "base\\materials\\glass.mt",
+      "EnableMask": false,
+      "Data": {
+        "TintColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "Opacity": 1,
+        "GlassTint": "base\\materials\\placeholder\\white.xbm",
+        "OpacityBackFace": 1,
+        "TintFromVertexPaint": 0,
+        "FrontFacesReflectionPower": 1,
+        "BackFacesReflectionPower": 1,
+        "IOR": 1,
+        "RefractionDepth": 0.5,
+        "FresnelBias": 0.800000012,
+        "GlassSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "NormalStrength": 8,
+        "NormalMapAffectsSpecular": 0.200000003,
+        "SurfaceMetalness": 0,
+        "MaskOpacity": 0,
+        "MaskTexture": "base\\surfaces\\materials\\concrete\\concrete_new\\concrete_new_dirty_01_300_d.xbm",
+        "Roughness": "base\\materials\\placeholder\\black.xbm",
+        "Normal": "base\\vehicles\\common\\textures\\common_light_details_n01.xbm",
+        "GlassRoughnessBias": 0.00999999978,
+        "MaskRoughnessBias": 0,
+        "BlurRadius": 0,
+        "BlurByRoughness": 0
+      }
+    },
+    {
+      "Name": "stickers",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\stickers.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "",
+        "DiffuseColor": {
+          "Red": 235,
+          "Green": 235,
+          "Blue": 235,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\textures\\vehicles_stickers_n01.xbm",
+        "NormalAlpha": 0.5,
+        "NormalsBlendingMode": 1,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "RoughnessMetalnessAlpha": 0.300000012,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "DamageInfluence": 1,
+        "DamageInfluenceDebug": 0
+      }
+    },
+    {
+      "Name": "vehicle_branding",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\vehicle_branding.mi",
+      "MaterialTemplate": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\gameplay\\gui\\widgets\\vehicle\\makigai\\uvchecker.xbm",
+        "BaseColorScale": {
+          "X": 0.597491,
+          "Y": 0.597491,
+          "Z": 0.597491,
+          "W": 1
+        },
+        "Metalness": "engine\\textures\\editor\\white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.330000013,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.200000003,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "ml_v_sport1_rayfield_caliburn__int01_masksset",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__int01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__int01.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "decals",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\decals.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\textures\\vehicles_decals_exterior_d01.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\textures\\vehicles_decals_exterior_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 1,
+        "RoughnessTexture": "engine\\textures\\editor\\black.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 0,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\surfaces\\microblends\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 2,
+          "Z": 0,
+          "W": 0
+        },
+        "DamageInfluence": 1,
+        "DamageInfluenceDebug": 0
+      }
+    },
+    {
+      "Name": "exterior_fake_lights",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\blinking_diodes.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "base\\vehicles\\common\\textures\\common_lights_d02.xbm",
+        "BaseColorScale": {
+          "Red": 173,
+          "Green": 173,
+          "Blue": 173,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0.354353994,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "Emissive": "engine\\textures\\editor\\white.xbm",
+        "EmissiveEV": 5,
+        "AlphaThreshold": 1,
+        "Blinking": 1,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "BlinkingSpeed": 4,
+        "UseMaterialParameter": 1,
+        "EmissiveColor1": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "EmissiveColor2": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 1,
+        "UseTwoEmissiveColors": 0,
+        "SwitchingTwoEmissiveColorsSpeed": 0,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "light_cover_glass_b",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\glass_lightcovers_red.mi",
+      "MaterialTemplate": "base\\materials\\glass.mt",
+      "EnableMask": false,
+      "Data": {
+        "TintColor": {
+          "Red": 255,
+          "Green": 53,
+          "Blue": 19,
+          "Alpha": 255
+        },
+        "Opacity": 1,
+        "GlassTint": "base\\materials\\placeholder\\white.xbm",
+        "OpacityBackFace": 1,
+        "TintFromVertexPaint": 0,
+        "FrontFacesReflectionPower": 1,
+        "BackFacesReflectionPower": 1,
+        "IOR": 1,
+        "RefractionDepth": 0.5,
+        "FresnelBias": 0.800000012,
+        "GlassSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "NormalStrength": 8,
+        "NormalMapAffectsSpecular": 0.200000003,
+        "SurfaceMetalness": 0,
+        "MaskOpacity": 0,
+        "MaskTexture": "base\\surfaces\\materials\\concrete\\concrete_new\\concrete_new_dirty_01_300_d.xbm",
+        "Roughness": "base\\materials\\placeholder\\black.xbm",
+        "Normal": "base\\vehicles\\common\\textures\\common_light_details_n01.xbm",
+        "GlassRoughnessBias": 0.00999999978,
+        "MaskRoughnessBias": 0,
+        "BlurRadius": 0,
+        "BlurByRoughness": 0
+      }
+    },
+    {
+      "Name": "stickers_sensors",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\stickers.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\textures\\delamain_decal_01.xbm",
+        "DiffuseColor": {
+          "Red": 215,
+          "Green": 215,
+          "Blue": 215,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\textures\\vehicles_stickers_n01.xbm",
+        "NormalAlpha": 0.5,
+        "NormalsBlendingMode": 1,
+        "RoughnessTexture": "base\\vehicles\\common\\textures\\delamain_decal_01.xbm",
+        "MetalnessTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "RoughnessMetalnessAlpha": 0.0814480036,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "DamageInfluence": 1,
+        "DamageInfluenceDebug": 0
+      }
+    },
+    {
+      "Name": "light_covers_c",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\glass_lightcovers_orange.mi",
+      "MaterialTemplate": "base\\materials\\glass.mt",
+      "EnableMask": false,
+      "Data": {
+        "TintColor": {
+          "Red": 255,
+          "Green": 144,
+          "Blue": 18,
+          "Alpha": 255
+        },
+        "Opacity": 1,
+        "GlassTint": "base\\materials\\placeholder\\white.xbm",
+        "OpacityBackFace": 1,
+        "TintFromVertexPaint": 0,
+        "FrontFacesReflectionPower": 1,
+        "BackFacesReflectionPower": 1,
+        "IOR": 1,
+        "RefractionDepth": 0.5,
+        "FresnelBias": 0.800000012,
+        "GlassSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "NormalStrength": 8,
+        "NormalMapAffectsSpecular": 0.200000003,
+        "SurfaceMetalness": 0,
+        "MaskOpacity": 0,
+        "MaskTexture": "base\\surfaces\\materials\\concrete\\concrete_new\\concrete_new_dirty_01_300_d.xbm",
+        "Roughness": "base\\materials\\placeholder\\black.xbm",
+        "Normal": "base\\vehicles\\common\\textures\\common_light_details_n01.xbm",
+        "GlassRoughnessBias": 0.00999999978,
+        "MaskRoughnessBias": 0,
+        "BlurRadius": 0,
+        "BlurByRoughness": 0
+      }
+    },
+    {
+      "Name": "vehicle_lights_c",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\vehicle_lights.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_lights.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\small_white.xbm",
+        "BaseColorScale": {
+          "X": 0.692071,
+          "Y": 0.692071,
+          "Z": 0.692071,
+          "W": 1
+        },
+        "AlphaThreshold": 0,
+        "Metalness": "engine\\textures\\small_white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\small_white.xbm",
+        "RoughnessScale": 0.100000001,
+        "RoughnessBias": 0,
+        "Normal": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\light_normal.xbm",
+        "NormalStrength": 1,
+        "Emissive": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\light_diff.xbm",
+        "EmissionTiling": 1,
+        "EmissionParallax": 0.00100000005,
+        "Zone0EmissiveEV": 10,
+        "Zone1EmissiveEV": 10,
+        "Zone2EmissiveEV": 10,
+        "Zone3EmissiveEV": 10,
+        "DebugLightsIntensity": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "DebugLightsColor0": {
+          "Red": 255,
+          "Green": 235,
+          "Blue": 156,
+          "Alpha": 255
+        },
+        "DebugLightsColor1": {
+          "Red": 255,
+          "Green": 235,
+          "Blue": 156,
+          "Alpha": 255
+        },
+        "DebugLightsColor2": {
+          "Red": 255,
+          "Green": 235,
+          "Blue": 156,
+          "Alpha": 255
+        },
+        "DebugLightsColor3": {
+          "Red": 255,
+          "Green": 235,
+          "Blue": 156,
+          "Alpha": 255
+        },
+        "UvTilingX": 1,
+        "UvTilingY": 1,
+        "UvOffsetX": 0,
+        "UvOffsetY": 0,
+        "DamageInfluence": 1,
+        "DamageInfluenceDebug": 0
+      }
+    },
+    {
+      "Name": "grill",
+      "BaseMaterial": "engine\\materials\\metal_base.remt",
+      "MaterialTemplate": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\surfaces\\masks\\alpha_normals\\grates\\grate_05_d.xbm",
+        "BaseColorScale": {
+          "X": 0.09375,
+          "Y": 0.09375,
+          "Z": 0.09375,
+          "W": 1
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "base\\surfaces\\masks\\alpha_normals\\grates\\grate_05_n.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.850000024,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 16
+      }
+    },
+    {
+      "Name": "lod_ext_default",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset_lod.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "exterior_fake_lights1",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\blinking_diodes.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "base\\vehicles\\common\\textures\\common_lights_d02.xbm",
+        "BaseColorScale": {
+          "Red": 173,
+          "Green": 173,
+          "Blue": 173,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0.354353994,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "Emissive": "engine\\textures\\editor\\white.xbm",
+        "EmissiveEV": 5,
+        "AlphaThreshold": 1,
+        "Blinking": 1,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "BlinkingSpeed": 4,
+        "UseMaterialParameter": 1,
+        "EmissiveColor1": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "EmissiveColor2": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 1,
+        "UseTwoEmissiveColors": 0,
+        "SwitchingTwoEmissiveColorsSpeed": 0,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "light_covers_glass1",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\glass_lightcovers.mi",
+      "MaterialTemplate": "base\\materials\\glass.mt",
+      "EnableMask": false,
+      "Data": {
+        "TintColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "Opacity": 1,
+        "GlassTint": "base\\materials\\placeholder\\white.xbm",
+        "OpacityBackFace": 1,
+        "TintFromVertexPaint": 0,
+        "FrontFacesReflectionPower": 1,
+        "BackFacesReflectionPower": 1,
+        "IOR": 1,
+        "RefractionDepth": 0.5,
+        "FresnelBias": 0.800000012,
+        "GlassSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "NormalStrength": 8,
+        "NormalMapAffectsSpecular": 0.200000003,
+        "SurfaceMetalness": 0,
+        "MaskOpacity": 0,
+        "MaskTexture": "base\\surfaces\\materials\\concrete\\concrete_new\\concrete_new_dirty_01_300_d.xbm",
+        "Roughness": "base\\materials\\placeholder\\black.xbm",
+        "Normal": "base\\vehicles\\common\\textures\\common_light_details_n01.xbm",
+        "GlassRoughnessBias": 0.00999999978,
+        "MaskRoughnessBias": 0,
+        "BlurRadius": 0,
+        "BlurByRoughness": 0
+      }
+    },
+    {
+      "Name": "vehicle_lights1",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\vehicle_lights.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_lights.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\small_white.xbm",
+        "BaseColorScale": {
+          "X": 0.692071,
+          "Y": 0.692071,
+          "Z": 0.692071,
+          "W": 1
+        },
+        "AlphaThreshold": 0.333299994,
+        "Metalness": "engine\\textures\\small_white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\small_white.xbm",
+        "RoughnessScale": 0.300000012,
+        "RoughnessBias": 0,
+        "Normal": "base\\vehicles\\common\\textures\\common_light_n01.xbm",
+        "NormalStrength": 1,
+        "Emissive": "base\\vehicles\\common\\textures\\common_light_01.xbm",
+        "EmissionTiling": 1,
+        "EmissionParallax": 0.00100000005,
+        "Zone0EmissiveEV": 9,
+        "Zone1EmissiveEV": 9,
+        "Zone2EmissiveEV": 9,
+        "Zone3EmissiveEV": 9,
+        "DebugLightsIntensity": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "DebugLightsColor0": {
+          "Red": 255,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DebugLightsColor1": {
+          "Red": 0,
+          "Green": 255,
+          "Blue": 15,
+          "Alpha": 255
+        },
+        "DebugLightsColor2": {
+          "Red": 0,
+          "Green": 6,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DebugLightsColor3": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "UvTilingX": 1,
+        "UvTilingY": 1,
+        "UvOffsetX": 0,
+        "UvOffsetY": 0,
+        "DamageInfluence": 1,
+        "DamageInfluenceDebug": 0
+      }
+    },
+    {
+      "Name": "premium_ext_01",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_01.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_int_01",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__int01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_int_premium_01.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "lod_ext_premium_01",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset_lod.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_01.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_ext_02",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\amm_vehicles\\docworks_arcadia\\texture\\caliburn_ext_silverm_02_masksset.mlmask",
+        "MultilayerSetup": "base\\amm_vehicles\\docworks_arcadia\\texture\\caliburn_ext_silverm_02.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_int_02",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__int01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_int_premium_02.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "lod_ext_premium_02",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\amm_vehicles\\docworks_arcadia\\texture\\caliburn_ext_silverm_02_masksset_lod.mlmask",
+        "MultilayerSetup": "base\\amm_vehicles\\docworks_arcadia\\texture\\caliburn_ext_silverm_02.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_ext_03",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_03.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_int_03",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__int01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_int_premium_03.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "lod_ext_premium_03",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset_lod.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_03.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_ext_04",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_04.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_int_04",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__int01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_int_premium_04.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "lod_ext_premium_04",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset_lod.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_04.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_ext_05",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_05.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_int_05",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__int01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_int_premium_05.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "lod_ext_premium_05",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset_lod.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_05.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_ext_06",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_06.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_int_06",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__int01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_int_premium_06.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "lod_ext_premium_06",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset_lod.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_06.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_ext_07",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_07.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "premium_int_07",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__int01_masksset.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_int_premium_07.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 21,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "lod_ext_premium_07",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\multilayer_vehicle_destruction.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\ml_v_sport1_rayfield_caliburn__ext01_masksset_lod.mlmask",
+        "MultilayerSetup": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\textures\\caliburn_ext_premium_07.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 109,
+          "Blue": 90,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 1,
+        "CoatTintFwd": {
+          "Red": 191,
+          "Green": 191,
+          "Blue": 191,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 127,
+          "Green": 127,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 2,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 0.660000026,
+        "CoatLayerMin": -1,
+        "CoatLayerMax": 0.100000001,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "burnt_ext_01",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\burnt_ext.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\common\\textures\\burnt_ext01.mlmask",
+        "MultilayerSetup": "base\\vehicles\\common\\textures\\burnt_ext01.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 1,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "DamageInfluenceDebug": 1
+      }
+    },
+    {
+      "Name": "burnt_int_01",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\burnt_int.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\common\\textures\\burnt_ext01.mlmask",
+        "MultilayerSetup": "base\\vehicles\\common\\textures\\burnt_int01.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 1,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "DamageInfluenceDebug": 1
+      }
+    },
+    {
+      "Name": "decals_secondary",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\stickers.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\editor\\white.xbm",
+        "DiffuseColor": {
+          "Red": 254,
+          "Green": 255,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\textures\\vehicles_decals_secondary_n01.xbm",
+        "NormalAlpha": 0.5,
+        "NormalsBlendingMode": 1,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "RoughnessMetalnessAlpha": 0.300000012,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "DamageInfluence": 1,
+        "DamageInfluenceDebug": 0
+      }
+    },
+    {
+      "Name": "lod_ext_burnt_01",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\burnt_ext.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": false,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "base\\vehicles\\common\\textures\\burnt_ext01.mlmask",
+        "MultilayerSetup": "base\\vehicles\\common\\textures\\burnt_ext01.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 1,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "DamageInfluenceDebug": 1
+      }
+    },
+    {
+      "Name": "decals_burnt",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\decals.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": false,
+      "Data": {
+        "DiffuseTexture": "base\\vehicles\\common\\textures\\vehicles_decals_exterior_d01.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 0,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "base\\vehicles\\common\\textures\\vehicles_decals_exterior_n01.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 1,
+        "RoughnessTexture": "engine\\textures\\editor\\black.xbm",
+        "MetalnessTexture": "engine\\textures\\editor\\black.xbm",
+        "RoughnessMetalnessAlpha": 0,
+        "DepthThreshold": 0.200000003,
+        "DirtMap": "base\\surfaces\\microblends\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 2,
+          "Z": 0,
+          "W": 0
+        },
+        "DamageInfluence": 1,
+        "DamageInfluenceDebug": 1
+      }
+    }
+  ],
+  "TexturesList": [],
+  "MaterialTemplates": [
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_lights.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\small_white.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 1
+        },
+        "AlphaThreshold": 0.333299994,
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\small_white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "NormalStrength": 1,
+        "Emissive": "engine\\textures\\small_white.xbm",
+        "EmissionTiling": 1,
+        "EmissionParallax": 0,
+        "Zone0EmissiveEV": 5,
+        "Zone1EmissiveEV": 5,
+        "Zone2EmissiveEV": 5,
+        "Zone3EmissiveEV": 5,
+        "DebugLightsIntensity": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "DebugLightsColor0": {
+          "Red": 255,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DebugLightsColor1": {
+          "Red": 0,
+          "Green": 255,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DebugLightsColor2": {
+          "Red": 0,
+          "Green": 30,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DebugLightsColor3": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\glass.mt",
+      "EnableMask": true,
+      "Data": {
+        "TintColor": {
+          "Red": 238,
+          "Green": 236,
+          "Blue": 225,
+          "Alpha": 255
+        },
+        "Opacity": 1,
+        "GlassTint": "base\\materials\\placeholder\\white.xbm",
+        "OpacityBackFace": 0,
+        "TintFromVertexPaint": 0,
+        "FrontFacesReflectionPower": 1,
+        "BackFacesReflectionPower": 1,
+        "IOR": 1,
+        "RefractionDepth": 2.5,
+        "FresnelBias": 1,
+        "GlassSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "NormalStrength": 1,
+        "NormalMapAffectsSpecular": 1,
+        "SurfaceMetalness": 0,
+        "MaskOpacity": 0,
+        "MaskTexture": "engine\\textures\\editor\\white.xbm",
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "GlassRoughnessBias": -1,
+        "MaskRoughnessBias": 0,
+        "BlurRadius": 0,
+        "BlurByRoughness": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
+        "BaseColorScale": {
+          "Red": 150,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_n.xbm",
+        "Emissive": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_01_d.xbm",
+        "EmissiveEV": 5,
+        "AlphaThreshold": 0.330000013,
+        "Blinking": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "BlinkingSpeed": 8,
+        "UseMaterialParameter": 1,
+        "EmissiveColor1": {
+          "Red": 127,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "EmissiveColor2": {
+          "Red": 0,
+          "Green": 12,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 0,
+        "UseTwoEmissiveColors": 0,
+        "SwitchingTwoEmissiveColorsSpeed": 0,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\glass.mt",
+      "EnableMask": true,
+      "Data": {
+        "TintColor": {
+          "Red": 238,
+          "Green": 236,
+          "Blue": 225,
+          "Alpha": 255
+        },
+        "Opacity": 1,
+        "GlassTint": "base\\materials\\placeholder\\white.xbm",
+        "OpacityBackFace": 0,
+        "TintFromVertexPaint": 0,
+        "FrontFacesReflectionPower": 1,
+        "BackFacesReflectionPower": 1,
+        "IOR": 1,
+        "RefractionDepth": 2.5,
+        "FresnelBias": 1,
+        "GlassSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "NormalStrength": 1,
+        "NormalMapAffectsSpecular": 1,
+        "SurfaceMetalness": 0,
+        "MaskOpacity": 0,
+        "MaskTexture": "engine\\textures\\editor\\white.xbm",
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "GlassRoughnessBias": -1,
+        "MaskRoughnessBias": 0,
+        "BlurRadius": 0,
+        "BlurByRoughness": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\glass.mt",
+      "EnableMask": true,
+      "Data": {
+        "TintColor": {
+          "Red": 238,
+          "Green": 236,
+          "Blue": 225,
+          "Alpha": 255
+        },
+        "Opacity": 1,
+        "GlassTint": "base\\materials\\placeholder\\white.xbm",
+        "OpacityBackFace": 0,
+        "TintFromVertexPaint": 0,
+        "FrontFacesReflectionPower": 1,
+        "BackFacesReflectionPower": 1,
+        "IOR": 1,
+        "RefractionDepth": 2.5,
+        "FresnelBias": 1,
+        "GlassSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "NormalStrength": 1,
+        "NormalMapAffectsSpecular": 1,
+        "SurfaceMetalness": 0,
+        "MaskOpacity": 0,
+        "MaskTexture": "engine\\textures\\editor\\white.xbm",
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "GlassRoughnessBias": -1,
+        "MaskRoughnessBias": 0,
+        "BlurRadius": 0,
+        "BlurByRoughness": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_lights.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\small_white.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 1
+        },
+        "AlphaThreshold": 0.333299994,
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\small_white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "NormalStrength": 1,
+        "Emissive": "engine\\textures\\small_white.xbm",
+        "EmissionTiling": 1,
+        "EmissionParallax": 0,
+        "Zone0EmissiveEV": 5,
+        "Zone1EmissiveEV": 5,
+        "Zone2EmissiveEV": 5,
+        "Zone3EmissiveEV": 5,
+        "DebugLightsIntensity": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "DebugLightsColor0": {
+          "Red": 255,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DebugLightsColor1": {
+          "Red": 0,
+          "Green": 255,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DebugLightsColor2": {
+          "Red": 0,
+          "Green": 30,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DebugLightsColor3": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        }
+      }
+    },
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
+        "BaseColorScale": {
+          "Red": 150,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_n.xbm",
+        "Emissive": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_01_d.xbm",
+        "EmissiveEV": 5,
+        "AlphaThreshold": 0.330000013,
+        "Blinking": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "BlinkingSpeed": 8,
+        "UseMaterialParameter": 1,
+        "EmissiveColor1": {
+          "Red": 127,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "EmissiveColor2": {
+          "Red": 0,
+          "Green": 12,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 0,
+        "UseTwoEmissiveColors": 0,
+        "SwitchingTwoEmissiveColorsSpeed": 0,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\glass.mt",
+      "EnableMask": true,
+      "Data": {
+        "TintColor": {
+          "Red": 238,
+          "Green": 236,
+          "Blue": 225,
+          "Alpha": 255
+        },
+        "Opacity": 1,
+        "GlassTint": "base\\materials\\placeholder\\white.xbm",
+        "OpacityBackFace": 0,
+        "TintFromVertexPaint": 0,
+        "FrontFacesReflectionPower": 1,
+        "BackFacesReflectionPower": 1,
+        "IOR": 1,
+        "RefractionDepth": 2.5,
+        "FresnelBias": 1,
+        "GlassSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "NormalStrength": 1,
+        "NormalMapAffectsSpecular": 1,
+        "SurfaceMetalness": 0,
+        "MaskOpacity": 0,
+        "MaskTexture": "engine\\textures\\editor\\white.xbm",
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "GlassRoughnessBias": -1,
+        "MaskRoughnessBias": 0,
+        "BlurRadius": 0,
+        "BlurByRoughness": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_lights.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\small_white.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 1
+        },
+        "AlphaThreshold": 0.333299994,
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\small_white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "NormalStrength": 1,
+        "Emissive": "engine\\textures\\small_white.xbm",
+        "EmissionTiling": 1,
+        "EmissionParallax": 0,
+        "Zone0EmissiveEV": 5,
+        "Zone1EmissiveEV": 5,
+        "Zone2EmissiveEV": 5,
+        "Zone3EmissiveEV": 5,
+        "DebugLightsIntensity": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "DebugLightsColor0": {
+          "Red": 255,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DebugLightsColor1": {
+          "Red": 0,
+          "Green": 255,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DebugLightsColor2": {
+          "Red": 0,
+          "Green": 30,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DebugLightsColor3": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_destr_blendshape.mt",
+      "EnableMask": true,
+      "Data": {
+        "TextureTiling": 0.5,
+        "BakedNormal": "engine\\textures\\small_flat_normal.xbm",
+        "ScratchMask": "base\\vehicles\\common\\textures\\vehicles_destruction_01_mask.xbm",
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "base\\vehicles\\common\\textures\\vehicles_destruction_01_n.xbm",
+        "ScratchResistance": 0,
+        "DirtOpacity": 0,
+        "DirtColor": {
+          "Red": 131,
+          "Green": 102,
+          "Blue": 77,
+          "Alpha": 255
+        },
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        },
+        "Opacity": 0,
+        "CoatTintFwd": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatTintSide": {
+          "Red": 249,
+          "Green": 249,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "CoatTintFresnelBias": 1,
+        "CoatSpecularColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "CoatFresnelBias": 1,
+        "CoatLayerMin": 0,
+        "CoatLayerMax": 0,
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0
+      }
+    },
+    {
+      "Name": "base\\materials\\vehicle_mesh_decal.mt",
+      "EnableMask": true,
+      "Data": {
+        "DiffuseTexture": "engine\\textures\\small_white.xbm",
+        "DiffuseColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DiffuseAlpha": 1,
+        "MaskTexture": "engine\\textures\\small_white.xbm",
+        "GradientMap": "engine\\textures\\small_white.xbm",
+        "UseGradientMap": 0,
+        "NormalTexture": "engine\\textures\\small_flat_normal.xbm",
+        "NormalAlpha": 1,
+        "NormalsBlendingMode": 0,
+        "RoughnessTexture": "engine\\textures\\small_white.xbm",
+        "MetalnessTexture": "engine\\textures\\small_white.xbm",
+        "RoughnessMetalnessAlpha": 1,
+        "DepthThreshold": 0.5,
+        "DirtMap": "base\\vehicles\\common\\textures\\dust_fine.xbm",
+        "DirtOpacity": 0,
+        "DirtMaskOffsets": {
+          "X": 1.5,
+          "Y": 1,
+          "Z": 0.5,
+          "W": 3
+        }
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "premium_ext_02",
+      "vehicle_lights",
+      "light_covers_glass",
+      "decals",
+      "stickers",
+      "vehicle_branding",
+      "premium_int_02",
+      "grill",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_c",
+      "vehicle_lights_c",
+      "lod_ext_premium_02",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights1",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass1",
+      "light_covers_c",
+      "vehicle_lights1",
+      "vehicle_lights_c",
+      "lod_ext_premium_02",
+      "lod_ext_premium_02",
+      "lod_ext_premium_02",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_02",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_02"
+    ],
+    "premium_011": [
+      "premium_ext_01",
+      "vehicle_lights",
+      "light_covers_glass",
+      "decals",
+      "stickers",
+      "vehicle_branding",
+      "premium_int_01",
+      "grill",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_c",
+      "vehicle_lights_c",
+      "lod_ext_premium_01",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights1",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass1",
+      "light_covers_c",
+      "vehicle_lights1",
+      "vehicle_lights_c",
+      "lod_ext_premium_01",
+      "lod_ext_premium_01",
+      "lod_ext_premium_01",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_01",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_01"
+    ],
+    "premium_022": [
+      "premium_ext_02",
+      "vehicle_lights",
+      "light_covers_glass",
+      "decals",
+      "stickers",
+      "vehicle_branding",
+      "premium_int_02",
+      "grill",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_c",
+      "vehicle_lights_c",
+      "lod_ext_premium_02",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights1",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass1",
+      "light_covers_c",
+      "vehicle_lights1",
+      "vehicle_lights_c",
+      "lod_ext_premium_02",
+      "lod_ext_premium_02",
+      "lod_ext_premium_02",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_02",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_02"
+    ],
+    "premium_033": [
+      "premium_ext_03",
+      "vehicle_lights",
+      "light_covers_glass",
+      "decals",
+      "stickers",
+      "vehicle_branding",
+      "premium_int_03",
+      "grill",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_c",
+      "vehicle_lights_c",
+      "lod_ext_premium_03",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights1",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass1",
+      "light_covers_c",
+      "vehicle_lights1",
+      "vehicle_lights_c",
+      "lod_ext_premium_03",
+      "lod_ext_premium_03",
+      "lod_ext_premium_03",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_03",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_03"
+    ],
+    "premium_044": [
+      "premium_ext_04",
+      "vehicle_lights",
+      "light_covers_glass",
+      "decals",
+      "stickers",
+      "vehicle_branding",
+      "premium_int_04",
+      "grill",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_c",
+      "vehicle_lights_c",
+      "lod_ext_premium_04",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights1",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass1",
+      "light_covers_c",
+      "vehicle_lights1",
+      "vehicle_lights_c",
+      "lod_ext_premium_04",
+      "lod_ext_premium_04",
+      "lod_ext_premium_04",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_04",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_04"
+    ],
+    "premium_055": [
+      "premium_ext_05",
+      "vehicle_lights",
+      "light_covers_glass",
+      "decals",
+      "stickers",
+      "vehicle_branding",
+      "premium_int_05",
+      "grill",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_c",
+      "vehicle_lights_c",
+      "lod_ext_premium_05",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights1",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass1",
+      "light_covers_c",
+      "vehicle_lights1",
+      "vehicle_lights_c",
+      "lod_ext_premium_05",
+      "lod_ext_premium_05",
+      "lod_ext_premium_05",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_05",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_05"
+    ],
+    "premium_066": [
+      "premium_ext_06",
+      "vehicle_lights",
+      "light_covers_glass",
+      "decals",
+      "stickers",
+      "vehicle_branding",
+      "premium_int_06",
+      "grill",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_c",
+      "vehicle_lights_c",
+      "lod_ext_premium_06",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights1",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass1",
+      "light_covers_c",
+      "vehicle_lights1",
+      "vehicle_lights_c",
+      "lod_ext_premium_06",
+      "lod_ext_premium_06",
+      "lod_ext_premium_06",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_06",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_06"
+    ],
+    "premium_077": [
+      "premium_ext_07",
+      "vehicle_lights",
+      "light_covers_glass",
+      "decals",
+      "stickers",
+      "vehicle_branding",
+      "premium_int_07",
+      "grill",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_c",
+      "vehicle_lights_c",
+      "lod_ext_premium_07",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights1",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass1",
+      "light_covers_c",
+      "vehicle_lights1",
+      "vehicle_lights_c",
+      "lod_ext_premium_07",
+      "lod_ext_premium_07",
+      "lod_ext_premium_07",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_07",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "stickers_sensors",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_premium_07"
+    ],
+    "burnt_018": [
+      "burnt_ext_01",
+      "vehicle_lights",
+      "light_covers_glass",
+      "decals_burnt",
+      "stickers",
+      "vehicle_branding",
+      "burnt_int_01",
+      "grill",
+      "exterior_fake_lights",
+      "decals_secondary",
+      "light_cover_glass_b",
+      "light_covers_c",
+      "vehicle_lights_c",
+      "lod_ext_burnt_01",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights1",
+      "decals_secondary",
+      "light_cover_glass_b",
+      "light_covers_glass1",
+      "light_covers_c",
+      "vehicle_lights1",
+      "vehicle_lights_c",
+      "lod_ext_burnt_01",
+      "lod_ext_burnt_01",
+      "lod_ext_burnt_01",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "decals_secondary",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_burnt_01",
+      "grill",
+      "stickers",
+      "vehicle_branding",
+      "exterior_fake_lights",
+      "decals_secondary",
+      "light_cover_glass_b",
+      "light_covers_glass",
+      "light_covers_c",
+      "vehicle_lights",
+      "vehicle_lights_c",
+      "lod_ext_burnt_01"
+    ]
+  }
+}

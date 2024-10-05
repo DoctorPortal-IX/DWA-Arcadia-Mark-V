@@ -6,21 +6,27 @@ Vehicle.docworks_arcadia_mkv:
   icon:
     atlasPartName: docworks_arcadia
     atlasResourcePath: base\gameplay\gui\common\icons\docworks_arcadia_mkv.inkatlas
-  manufacturer: Vehicle.DocWorks
+  manufacturer: Vehicle.docworks_arcadia
+  maxVehiclePassengersCount: 2
+  minVehiclePassengersCount: 1
   model: Vehicle.Turbo
-# Shy, this is the *Arcadia* ... setting this value makes it read as a bog-standard Turbo-R 610, like, one of the fucken 4-bangers.
-# Changing that string breaks the external camera rendering system you like to use for glamour shots.
-# Wait, is THAT WHY??? I've been trying to fix that issue for like six months!! Wtffffffff ... but ... changing the manufacturer name *doesn't* break them?
-# Nope. Quadra does rebrand in some countries overseas, after all.
-  player_audio_resource: v_car_quadra_sport_r7_rocket
-  traffic_audio_resource: v_car_quadra_sport_r7_traffic
+# NX: Shy, this is the *Arcadia* ... setting this value makes it read as a bog-standard Turbo-R 610, like, one of the fucken 4-bangers.
+# SV: Changing that string breaks the external camera rendering system you like to use for glamour shots.
+# NX: Wait, is THAT WHY??? I've been trying to fix that issue for like six months!! Wtffffffff ... but ... changing the manufacturer name *doesn't* break them?
+# SV: Nope. Quadra does rebrand in some countries overseas, after all.
+  player_audio_resource: v_car_archer_quartz_nomad
+  traffic_audio_resource: v_car_archer_quartz_nomad_traffic
   trafficSuspension: 
     latDampingRatio: 0.699999988
     latPeriod: 1.60000002
     longDampingRatio: 0.899999976
     longPeriod: 1.39999998
+  vehDataPackage:
+    $base: Vehicle.ShionNomadDataPackage
+    hasSpoiler: True
+    hasTurboCharger: True
   vehDriveModelData:
-    $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy
+    $base: Vehicle.VehicleDriveModelData_Type66_Nomad
     airResistanceFactor: 1.3
     brakingFrictionFactor: 1.8
     chassis_mass: 1107
@@ -28,55 +34,66 @@ Vehicle.docworks_arcadia_mkv:
     total_mass: 1700
     turningRollFactor: 0.6 
     wheelSetup:
-      $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy_inline0
+      $base: Vehicle.VehicleDriveModelData_Type66_Nomad_inline0
       backPreset:
-        $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy_inline2
+        $base: Vehicle.VehicleDriveModelData_Type66_Nomad_inline2
         frictionMulLateral: 1.48
         frictionMulLongitudinal: 1.49
         mass: 40
         maxBrakingTorque: 6000
-        springDamping: 4700
-        springReboundDamping: 5000
-        springStiffness: 16
+        springDamping: 2700
+        springReboundDamping: 10000
+        springStiffness: 14
         swaybarStiffness: 12
+        tenderSpringLength: 0
+        tireFrictionCoef: 3.1
         tireLateralSlipEffectsMul: 1.07
         tireLongitudinalSlipEffectsMul: 0.899999976
         visualSuspensionCompressionLength: 0.019999996
         visualSuspensionDroop: 0.01
-        wheelsVerticalOffset: 0.34
+        wheelsVerticalOffset: 0.3
       frontPreset:
-        $base: Vehicle.VehicleDriveModelData_Shion_Nomad_Buggy_inline1
-        # Fun Fact: When me and the Na'vowae first built the OG Mark I, we had to gut a wrecked Coyote for its suspension, so the original shocks and springs were from a Coyote, and Reya Makure
-        # (the mechanic who designed the "Makure" 990R) was the one who put the data in the computer. To this day, I haven't been able to change the name without the entire system crashing ...
+        $base: Vehicle.VehicleDriveModelData_Type66_Nomad_inline1
         extremeCompressionEventScalor: 0.8
         frictionMulLateral: 1.45
         frictionMulLongitudinal: 1.49
         mass: 40
         maxBrakingTorque: 4500
         springBoundDampingLowRate: 2400
-        springDamping: 5500
+        springDamping: 3500
         springDampingHighRateCompression: 0.5
         springDampingLowRateCompression: 0.16
         springReboundDamping: 5000
         springStiffness: 19
         swaybarStiffness: 20
-        tireFrictionCoef: 1.1
+        tireFrictionCoef: 3.1
         visualSuspensionCompressionLength: 0.01
         visualSuspensionDroop: 0.01
         wheelsVerticalOffset: 0.05
+      LB:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline3
+        isHandBrake: False
+      LF:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline1
+        isHandBrake: True
+      RB:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline2
+        isHandBrake: False
+      RF:
+        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline0
+        isHandBrake: True
     wheelTurnMaxAddPerSecond: 90
     wheelTurnMaxSubPerSecond: 130
-    center_of_mass_offset: {x: -0.0145, y: -0.6516, z: -0.0014}
-  # in case something goes wrong, and/or we need to reference it to fix the rear suspension height, this is the OLD CoM offset value:  {x: 0, y: 0, z: -0.19999995}
+    center_of_mass_offset: {x: 0, y: -0.2, z: -0.19999995}
   vehEngineData:
-    engineMaxTorque: 950
+    engineMaxTorque: 1050
     fastR1GearChange: True
     finalGearTorqueDecimationScalor: 0.99000001
     flyWheelMomentOfInertia: 0.300000012
     forceReverseRPMToMin: False
     gearChangeCooldown: 0.300000012
     gearChangeTime: 0.059999999
-# Oh so *this* is why she only got 1200 horsepower out of it. ECU was changing gears out of line with the 'charger peaks.
+# SV: Oh so *this* is why she only got 1200 horsepower out of it. ECU was changing gears out of line with the 'charger peaks.
     gearCurvesPath: dwa\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
     maxRPM: 9000
     minRPM: 800
@@ -132,15 +149,15 @@ Vehicle.docworks_arcadia_mkv:
          minEngineRPM: 4600
          minSpeed: 48
          torqueMultiplier: 0.3
-# Erok's gear change breakpoints are spot on, though.
+# SV: Erok's gear change breakpoints are spot on, though.
   vehicleUIData:
     driveLayout: LocKey#45372
     horsepower: 1280
     info: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
     mass: 1700
     productionYear: 2064
-# Technically correct, the best kind of correct. Even though it's been rebuilt 5 times since then.
-# Hehehe, I like to think the Arcadia proves that "new" and "improved" aren't always the same thing ....
+# SV: Technically correct, the best kind of correct. Even though it's been rebuilt 5 times since then.
+# NX: Hehehe, I like to think the Arcadia proves that "new" and "improved" aren't always the same thing ....
   vehWheelDimensionsSetup: 
     backPreset: 
       rimRadius: 0.29
@@ -154,15 +171,15 @@ Vehicle.docworks_arcadia_mkv:
       wheelOffset: 0.189999998
   widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
   displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
-# Anyone wanna guess where I got the fire control data from? No?
+# SV: Anyone wanna guess where I got the fire control data from? No?
   weapons:
     - !remove Vehicle.Vehicle_Missile_Launcher_A
     - !remove Vehicle.Vehicle_Missile_Launcher_B
     - !remove Vehicle.Vehicle_Missile_Launcher_C
     - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Left
     - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Right
-# Virtual Car Dealer compatibility 
-# El Capitan won't return my calls ... asshole. Until we get that deal set up with him, VCD's our best option. Spreads the word about the recent attempts to make DWA a small-volume manufacturer, not merely a tuning house.
+# NX:  Virtual Car Dealer compatibility 
+# NX: El Capitan won't return my calls ... asshole. Until we get that deal set up with him, VCD's our best option. Spreads the word about the recent attempts to make DWA a small-volume manufacturer, not merely a tuning house.
   offer:
     availabilityFact: docworks_arcadia_mkv_available
     brandName: DocWorks
@@ -183,8 +200,8 @@ Vehicle.docworks_arcadia_mkv.dealerPartName: "dealer_docworks_arcadia_mkv"
 Vehicle.vehicle_list.list:
   - !append Vehicle.docworks_arcadia_mkv
   
-# I copied it from a Baslisk, of course.
-# Kudos ... I BEGGED Palmer to let me get a look at the code running on theirs before she and that merc left NC ... should've bought her more drinks, maybe she'd have said yes .. (ugh why did that woman have to be straight, so unfair to my lesbian ass)
+# SV: I copied it from a Baslisk, of course.
+# NX: Kudos ... I BEGGED Palmer to let me get a look at the code running on theirs before she and that merc left NC ... should've bought her more drinks, maybe she'd have said yes .. (ugh why did that woman have to be straight, so unfair to my lesbian ass)
 Vehicle.Arcadia_Dual_Cluster_Launcher_Left:
   $base: Vehicle.Vehicle_Missile_Launcher_A
   item: Items.Arcadia_Dual_Cluster_Launcher

@@ -1,0 +1,205 @@
+Vehicle.docworks_arcadia_mkv:
+  $base: Vehicle.v_sport2_mizutani_shion_nomad_player_missiles
+  entityTemplatePath: base\vehicles\docworks\v_sport3_docworks_arcadia_mkv__naomie_01.ent
+  appearanceName: docworks_arcadia_naomie_01
+  affiliation: Factions.Unaffiliated
+  icon:
+    atlasPartName: docworks_arcadia
+    atlasResourcePath: base\gameplay\gui\common\icons\docworks_arcadia_mkv.inkatlas
+  manufacturer: Vehicle.DocWorks
+  model: Vehicle.Turbo
+# Shy, this is the *Arcadia* ... setting this value makes it read as a bog-standard Turbo-R 610, like, one of the fucken 4-bangers.
+# Changing that string breaks the external camera rendering system you like to use for glamour shots.
+# Wait, is THAT WHY??? I've been trying to fix that issue for like six months!! Wtffffffff ... but ... changing the manufacturer name *doesn't* break them?
+# Nope. Quadra does rebrand in some countries overseas, after all.
+  player_audio_resource: v_car_quadra_sport_r7_rocket
+  traffic_audio_resource: v_car_quadra_sport_r7_traffic
+  trafficSuspension: 
+    latDampingRatio: 0.699999988
+    latPeriod: 1.60000002
+    longDampingRatio: 0.899999976
+    longPeriod: 1.39999998
+  vehDriveModelData:
+    $base: Vehicle.VehicleDriveModelData_Type66_Nomad
+    airResistanceFactor: 1.3
+    brakingFrictionFactor: 1.8
+    chassis_mass: 1107
+    handbrakeBrakingTorque: 1800
+    total_mass: 1700
+    turningRollFactor: 0.6 
+    wheelSetup:
+      $base: Vehicle.VehicleDriveModelData_Type66_Nomad_inline0
+      backPreset:
+        $base: Vehicle.VehicleDriveModelData_Type66_Nomad_inline2
+        frictionMulLateral: 1.48
+        frictionMulLongitudinal: 1.49
+        mass: 40
+        maxBrakingTorque: 6000
+        springDamping: 2700
+        springReboundDamping: 10000
+        springStiffness: 14
+        swaybarStiffness: 12
+        tenderSpringLength: 0
+        tireFrictionCoef: 3.1
+        tireLateralSlipEffectsMul: 1.07
+        tireLongitudinalSlipEffectsMul: 0.899999976
+        visualSuspensionCompressionLength: 0.019999996
+        visualSuspensionDroop: 0.01
+        wheelsVerticalOffset: 0.3
+      frontPreset:
+        $base: Vehicle.VehicleDriveModelData_Type66_Nomad_inline1
+        extremeCompressionEventScalor: 0.8
+        frictionMulLateral: 1.45
+        frictionMulLongitudinal: 1.49
+        mass: 40
+        maxBrakingTorque: 4500
+        springBoundDampingLowRate: 2400
+        springDamping: 3500
+        springDampingHighRateCompression: 0.5
+        springDampingLowRateCompression: 0.16
+        springReboundDamping: 5000
+        springStiffness: 19
+        swaybarStiffness: 20
+        tireFrictionCoef: 3.1
+        visualSuspensionCompressionLength: 0.01
+        visualSuspensionDroop: 0.01
+        wheelsVerticalOffset: 0.05
+    wheelTurnMaxAddPerSecond: 90
+    wheelTurnMaxSubPerSecond: 130
+    center_of_mass_offset: {x: -0, y: -0.2, z: -0.19999995}
+  # in case something goes wrong, and/or we need to reference it to fix the rear suspension height, this is the OLD CoM offset value:  {x: 0, y: 0, z: -0.19999995}
+  vehEngineData:
+    engineMaxTorque: 1050
+    fastR1GearChange: True
+    finalGearTorqueDecimationScalor: 0.99000001
+    flyWheelMomentOfInertia: 0.300000012
+    forceReverseRPMToMin: False
+    gearChangeCooldown: 0.300000012
+    gearChangeTime: 0.059999999
+# Oh so *this* is why she only got 1200 horsepower out of it. ECU was changing gears out of line with the 'charger peaks.
+    gearCurvesPath: dwa\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
+    maxRPM: 9000
+    minRPM: 800
+    resistanceTorque: 150
+    reverseDirDelay: 0.300000012
+    wheelsResistanceRatio: 15
+    gears:
+      -  $type: gamedataVehicleGear_Record #first gear
+         maxEngineRPM: 5800
+         maxSpeed: 10
+         minEngineRPM: 800
+         minSpeed: 0
+         torqueMultiplier: 1.1
+      -  $type: gamedataVehicleGear_Record #second gear
+         maxEngineRPM: 7400
+         maxSpeed: 14
+         minEngineRPM: 800
+         minSpeed: 0
+         torqueMultiplier: 1
+      -  $type: gamedataVehicleGear_Record #third gear
+         maxEngineRPM: 8600
+         maxSpeed: 21
+         minEngineRPM: 4000
+         minSpeed: 13
+         torqueMultiplier: 0.8
+      -  $type: gamedataVehicleGear_Record #fourth gear
+         maxEngineRPM: 8650
+         maxSpeed: 27
+         minEngineRPM: 4000
+         minSpeed: 20
+         torqueMultiplier: 0.62
+      -  $type: gamedataVehicleGear_Record #fifth gear
+         maxEngineRPM: 8700
+         maxSpeed: 37
+         minEngineRPM: 4100
+         minSpeed: 25
+         torqueMultiplier: 0.48
+      -  $type: gamedataVehicleGear_Record #sixth gear
+         maxEngineRPM: 8750
+         maxSpeed: 43.5
+         minEngineRPM: 4100
+         minSpeed: 35
+         torqueMultiplier: 0.4
+      -  $type: gamedataVehicleGear_Record #seventh gear
+         maxEngineRPM: 8800
+         maxSpeed: 50
+         minEngineRPM: 4200
+         minSpeed: 41.5
+         torqueMultiplier: 0.35
+      -  $type: gamedataVehicleGear_Record #eighth gear
+         maxEngineRPM: 9200
+         maxSpeed: 55.5
+         minEngineRPM: 4600
+         minSpeed: 48
+         torqueMultiplier: 0.3
+# Erok's gear change breakpoints are spot on, though.
+  vehicleUIData:
+    driveLayout: LocKey#45372
+    horsepower: 1280
+    info: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
+    mass: 1700
+    productionYear: 2064
+# Technically correct, the best kind of correct. Even though it's been rebuilt 5 times since then.
+# Hehehe, I like to think the Arcadia proves that "new" and "improved" aren't always the same thing ....
+  vehWheelDimensionsSetup: 
+    backPreset: 
+      rimRadius: 0.29
+      tireRadius: 0.430000006
+      tireWidth: 0.419999987
+      wheelOffset: 0.159999996
+    frontPreset: 
+      rimRadius: 0.275
+      tireRadius: 0.39
+      tireWidth: 0.330000013
+      wheelOffset: 0.189999998
+  widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
+  displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
+# Anyone wanna guess where I got the fire control data from? No?
+  weapons:
+    - !remove Vehicle.Vehicle_Missile_Launcher_A
+    - !remove Vehicle.Vehicle_Missile_Launcher_B
+    - !remove Vehicle.Vehicle_Missile_Launcher_C
+    - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Left
+    - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Right
+# Virtual Car Dealer compatibility 
+# El Capitan won't return my calls ... asshole. Until we get that deal set up with him, VCD's our best option. Spreads the word about the recent attempts to make DWA a small-volume manufacturer, not merely a tuning house.
+  offer:
+    availabilityFact: docworks_arcadia_mkv_available
+    brandName: DocWorks
+    description: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
+    discountApplicable: False
+    # so in other words, fuck him, if he's gonna be stingy, he doesn't get to use his discount coupons on our rides ... CALL ME BACK *MUAMAR*
+    hasMachineGun: True
+    hasRocketLauncher: True
+    unlockType: Vehicle.StreetCred
+    name: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
+  previewImage: v_standard2_makigai_maimai_player_full
+  price: EconomicAssignment.v_sport2_mizutani_shion_nomad_player
+
+Vehicle.docworks_arcadia_mkv.dealerPrice: 156000
+Vehicle.docworks_arcadia_mkv.dealerCred: 40
+Vehicle.docworks_arcadia_mkv.dealerAtlasPath: "base\\gameplay\\gui\\common\\icons\\cardealer\\dealer_arcadia.inkatlas"
+Vehicle.docworks_arcadia_mkv.dealerPartName: "dealer_docworks_arcadia_mkv"
+Vehicle.vehicle_list.list:
+  - !append Vehicle.docworks_arcadia_mkv
+  
+# I copied it from a Baslisk, of course.
+# Kudos ... I BEGGED Palmer to let me get a look at the code running on theirs before she and that merc left NC ... should've bought her more drinks, maybe she'd have said yes .. (ugh why did that woman have to be straight, so unfair to my lesbian ass)
+Vehicle.Arcadia_Dual_Cluster_Launcher_Left:
+  $base: Vehicle.Vehicle_Missile_Launcher_A
+  item: Items.Arcadia_Dual_Cluster_Launcher
+  slot: AttachmentSlots.VehicleMissileLauncherB
+  wholeBurstProjectiles: 12
+  
+Vehicle.Arcadia_Dual_Cluster_Launcher_Right:
+  $base: Vehicle.Vehicle_Missile_Launcher_A
+  item: Items.Arcadia_Dual_Cluster_Launcher
+  slot: AttachmentSlots.VehicleMissileLauncherC
+  wholeBurstProjectiles: 12
+  
+Items.Arcadia_Dual_Cluster_Launcher:
+  $base: Items.Vehicle_Missile_Launcher_A
+  placementSlots:
+    - !remove AttachmentSlots.VehicleMissileLauncherA
+    - !append AttachmentSlots.VehicleMissileLauncherB
+    - !append AttachmentSlots.VehicleMissileLauncherC
