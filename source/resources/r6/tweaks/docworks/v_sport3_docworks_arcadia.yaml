@@ -34,16 +34,21 @@ Vehicle.docworks_arcadia_mkv:
     total_mass: 1700
     turningRollFactor: 0.6 
     wheelSetup:
-      $base: Vehicle.VehicleDriveModelData_Type66_Nomad_inline0
+      $base: Vehicle.VehicleWheelDrivingSetup_4_AWD
+      # NX: When me and the Na'vowae first built the OG Mark I, we had to gut a wrecked Coyote for its suspension, so the original shocks and springs were from a Coyote, and Reya Makure (the mechanic who designed the "Makure" 990R) was the one who put the data in the computer. To this day, I haven't been able to change the name without the entire system crashing ...
+      # SV: So why's the controller data referencing a Type 66 Javelina now?
+      # NX: I FIXED IT!
+      # NX: ... EXCEPT NOT QUITE!! I was TRYING to give it a more wide-spectrum AWD handling profile, but then the AugLEV kept dropping the rear to be level with the front. GRRRR.
+      # SV: Which didn't work because the whole thing's still physically designed around the tilt from a Shion. Right. Lemme take a look...
       backPreset:
-        $base: Vehicle.VehicleDriveModelData_Type66_Nomad_inline2
+        $base: Vehicle.VehicleWheelDrivingPreset_Default
         frictionMulLateral: 1.48
         frictionMulLongitudinal: 1.49
         mass: 40
         maxBrakingTorque: 6000
         springDamping: 2700
         springReboundDamping: 10000
-        springStiffness: 14
+        springStiffness: 15
         swaybarStiffness: 12
         tenderSpringLength: 0
         tireFrictionCoef: 3.1
@@ -53,7 +58,7 @@ Vehicle.docworks_arcadia_mkv:
         visualSuspensionDroop: 0.01
         wheelsVerticalOffset: 0.3
       frontPreset:
-        $base: Vehicle.VehicleDriveModelData_Type66_Nomad_inline1
+        $base: Vehicle.VehicleWheelDrivingPreset_Default
         extremeCompressionEventScalor: 0.8
         frictionMulLateral: 1.45
         frictionMulLongitudinal: 1.49
@@ -70,18 +75,7 @@ Vehicle.docworks_arcadia_mkv:
         visualSuspensionCompressionLength: 0.01
         visualSuspensionDroop: 0.01
         wheelsVerticalOffset: 0.05
-      LB:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline3
-        isHandBrake: False
-      LF:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline1
-        isHandBrake: True
-      RB:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline2
-        isHandBrake: False
-      RF:
-        $base: Vehicle.VehicleWheelDrivingSetup_4_Default_inline0
-        isHandBrake: True
+    # SV: Save the changes, factory reset the suspension controllers, enter in the diffs...voila.
     wheelTurnMaxAddPerSecond: 90
     wheelTurnMaxSubPerSecond: 130
     center_of_mass_offset: {x: 0, y: -0.2, z: -0.19999995}
@@ -178,14 +172,14 @@ Vehicle.docworks_arcadia_mkv:
     - !remove Vehicle.Vehicle_Missile_Launcher_C
     - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Left
     - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Right
-# NX:  Virtual Car Dealer compatibility 
+# SV: Virtual Car Dealer compatibility 
 # NX: El Capitan won't return my calls ... asshole. Until we get that deal set up with him, VCD's our best option. Spreads the word about the recent attempts to make DWA a small-volume manufacturer, not merely a tuning house.
   offer:
     availabilityFact: docworks_arcadia_mkv_available
     brandName: DocWorks
     description: LocKey#Gameplay-Vehicles-Information-DocworksArcadiaNaomie
     discountApplicable: False
-    # so in other words, fuck him, if he's gonna be stingy, he doesn't get to use his discount coupons on our rides ... CALL ME BACK *MUAMAR*
+    # NX: so in other words, fuck him, if he's gonna be stingy, he doesn't get to use his discount coupons on our rides ... CALL ME BACK *MUAMAR*
     hasMachineGun: True
     hasRocketLauncher: True
     unlockType: Vehicle.StreetCred
@@ -220,3 +214,4 @@ Items.Arcadia_Dual_Cluster_Launcher:
     - !remove AttachmentSlots.VehicleMissileLauncherA
     - !append AttachmentSlots.VehicleMissileLauncherB
     - !append AttachmentSlots.VehicleMissileLauncherC
+  wholeBurstProjectiles: 12
