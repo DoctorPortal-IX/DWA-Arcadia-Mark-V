@@ -1,7 +1,7 @@
 
 @wrapMethod(PlayerPuppet)
 protected cb func OnDriverCombatWeaponTypeChange(newWeaponType: Int32) -> Bool {
-  // LogChannel(n"DEBUG", s"!!!! in OnDriverCombatWeaponTypeChange!!!!!! \(newWeaponType)");
+   LogChannel(n"DEBUG", s"!!!! in OnDriverCombatWeaponTypeChange!!!!!! \(newWeaponType)");
   let vehicleObj: wref<VehicleObject>;
   let vehicleRecord: ref<Vehicle_Record>;
   VehicleComponent.GetVehicle(this.GetGame(), this, vehicleObj);
@@ -14,8 +14,8 @@ protected cb func OnDriverCombatWeaponTypeChange(newWeaponType: Int32) -> Bool {
     "\u{a0}",
     " "
   );
-  // LogChannel(n"DEBUG", s"!!!! DELAMAIN CHECK!!! model -> \(vehicleModelName)");
-  let customVehicleCheck_one: String = "Delamain Delamain No. 21";
+   LogChannel(n"DEBUG", s"!!!! ARCADIA CHECK!!! model -> \(vehicleModelName)");
+  let customVehicleCheck_one: String = "DocWorks Quadra Turbo-R “Arcadia” Mk. Vb";
   if Equals(customVehicleCheck_one, vehicleModelName) {
     if newWeaponType == 101 {
       let animFeature: ref<AnimFeature_PartData> = new AnimFeature_PartData();

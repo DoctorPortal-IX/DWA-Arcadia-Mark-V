@@ -96,54 +96,14 @@ Vehicle.docworks_arcadia_mkv:
     reverseDirDelay: 0.300000012
     wheelsResistanceRatio: 15
     gears:
-      -  $type: gamedataVehicleGear_Record #first gear
-         maxEngineRPM: 5800
-         maxSpeed: 10
-         minEngineRPM: 800
-         minSpeed: 0
-         torqueMultiplier: 1.1
-      -  $type: gamedataVehicleGear_Record #second gear
-         maxEngineRPM: 7400
-         maxSpeed: 14
-         minEngineRPM: 800
-         minSpeed: 0
-         torqueMultiplier: 1
-      -  $type: gamedataVehicleGear_Record #third gear
-         maxEngineRPM: 8600
-         maxSpeed: 21
-         minEngineRPM: 4000
-         minSpeed: 13
-         torqueMultiplier: 0.8
-      -  $type: gamedataVehicleGear_Record #fourth gear
-         maxEngineRPM: 8650
-         maxSpeed: 27
-         minEngineRPM: 4000
-         minSpeed: 20
-         torqueMultiplier: 0.62
-      -  $type: gamedataVehicleGear_Record #fifth gear
-         maxEngineRPM: 8700
-         maxSpeed: 37
-         minEngineRPM: 4100
-         minSpeed: 25
-         torqueMultiplier: 0.48
-      -  $type: gamedataVehicleGear_Record #sixth gear
-         maxEngineRPM: 8750
-         maxSpeed: 43.5
-         minEngineRPM: 4100
-         minSpeed: 35
-         torqueMultiplier: 0.4
-      -  $type: gamedataVehicleGear_Record #seventh gear
-         maxEngineRPM: 8800
-         maxSpeed: 50
-         minEngineRPM: 4200
-         minSpeed: 41.5
-         torqueMultiplier: 0.35
-      -  $type: gamedataVehicleGear_Record #eighth gear
-         maxEngineRPM: 9200
-         maxSpeed: 55.5
-         minEngineRPM: 4600
-         minSpeed: 48
-         torqueMultiplier: 0.3
+        - Vehicle.VehicleEngineDataArcadia_gear0
+        - Vehicle.VehicleEngineDataArcadia_gear1
+        - Vehicle.VehicleEngineDataArcadia_gear2
+        - Vehicle.VehicleEngineDataArcadia_gear3
+        - Vehicle.VehicleEngineDataArcadia_gear4
+        - Vehicle.VehicleEngineDataArcadia_gear5
+        - Vehicle.VehicleEngineDataArcadia_gear6
+        - Vehicle.VehicleEngineDataArcadia_gear7
 # SV: Erok's gear change breakpoints are spot on, though.
   vehicleUIData:
     driveLayout: LocKey#45372
@@ -216,3 +176,45 @@ Items.Arcadia_Dual_Cluster_Launcher:
     - !append AttachmentSlots.VehicleMissileLauncherB
     - !append AttachmentSlots.VehicleMissileLauncherC
   wholeBurstProjectiles: 12
+  
+# SV: Moved Erok's gearbox data to its own little partition of the CCU. Doesn't change much, just makes it a little easier to eyeball.
+Vehicle.VehicleEngineDataArcadia_gear0
+  $base: Vehicle.VehicleEngineDataSuperSport_inline0
+  maxEngineRPM: 1012
+  minEngineRPM: 800
+# SV: This is *technically* the reverse gear, but modern cars also idle at the minimum RPM here.
+Vehicle.VehicleEngineDataArcadia_gear1
+  $base: Vehicle.VehicleEngineDataSuperSport_inline1
+  maxEngineRPM: 3680
+  minEngineRPM: 2908
+
+Vehicle.VehicleEngineDataArcadia_gear2
+  $base: Vehicle.VehicleEngineDataSuperSport_inline2
+  maxEngineRPM: 4181
+  minEngineRPM: 3304
+
+Vehicle.VehicleEngineDataArcadia_gear3
+  $base: Vehicle.VehicleEngineDataSuperSport_inline3
+  maxEngineRPM: 4600
+  minEngineRPM: 3635
+
+Vehicle.VehicleEngineDataArcadia_gear4
+  $base: Vehicle.VehicleEngineDataSuperSport_inline4
+  maxEngineRPM: 7738
+  minEngineRPM: 6115
+
+Vehicle.VehicleEngineDataArcadia_gear5
+  $base: Vehicle.VehicleEngineDataSuperSport_inline5
+  maxEngineRPM: 7985
+  minEngineRPM: 6310
+
+Vehicle.VehicleEngineDataArcadia_gear6
+  $base: Vehicle.VehicleEngineDataSuperSport_inline6
+  maxEngineRPM: 8791
+  minEngineRPM: 6947
+
+Vehicle.VehicleEngineDataArcadia_gear7
+  $base: Vehicle.VehicleEngineDataSuperSport_inline7
+  maxEngineRPM: 9200
+  minEngineRPM: 7270
+# SV: These are all *close* to the setup Erok originally made, and no disrespect intended, but I think these are a little more in line with where the 'chargers peak out and you'd shift gears anyway.
