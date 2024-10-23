@@ -127,12 +127,12 @@ Vehicle.docworks_arcadia_mkv:
   widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
   displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
 # SV: Anyone wanna guess where I got the fire control data from? No?
-  weapons:
-    - !remove Vehicle.Vehicle_Missile_Launcher_A
-    - !remove Vehicle.Vehicle_Missile_Launcher_B
-    - !remove Vehicle.Vehicle_Missile_Launcher_C
-    - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Left
-    - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Right
+#  weapons:
+#    - !remove Vehicle.Vehicle_Missile_Launcher_A
+#    - !remove Vehicle.Vehicle_Missile_Launcher_B
+#    - !remove Vehicle.Vehicle_Missile_Launcher_C
+#    - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Left
+#    - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Right
 # SV: Virtual Car Dealer compatibility 
 # NX: El Capitan won't return my calls ... asshole. Until we get that deal set up with him, VCD's our best option. Spreads the word about the recent attempts to make DWA a small-volume manufacturer, not merely a tuning house.
   offer:
@@ -172,48 +172,47 @@ Vehicle.Arcadia_Dual_Cluster_Launcher_Right:
 Items.Arcadia_Dual_Cluster_Launcher:
   $base: Items.Vehicle_Missile_Launcher_A
   placementSlots:
-    - !remove AttachmentSlots.VehicleMissileLauncherA
-    - !append AttachmentSlots.VehicleMissileLauncherB
-    - !append AttachmentSlots.VehicleMissileLauncherC
+    - AttachmentSlots.VehicleMissileLauncherB
+    - AttachmentSlots.VehicleMissileLauncherC
   wholeBurstProjectiles: 12
   
 # SV: Moved Erok's gearbox data to its own little partition of the CCU. Doesn't change much, just makes it a little easier to eyeball.
-Vehicle.VehicleEngineDataArcadia_gear0
+Vehicle.VehicleEngineDataArcadia_gear0:
   $base: Vehicle.VehicleEngineDataSuperSport_inline0
   maxEngineRPM: 1012
   minEngineRPM: 800
 # SV: This is *technically* the reverse gear, but modern cars also idle at the minimum RPM here.
-Vehicle.VehicleEngineDataArcadia_gear1
+Vehicle.VehicleEngineDataArcadia_gear1:
   $base: Vehicle.VehicleEngineDataSuperSport_inline1
   maxEngineRPM: 3680
   minEngineRPM: 2908
 
-Vehicle.VehicleEngineDataArcadia_gear2
+Vehicle.VehicleEngineDataArcadia_gear2:
   $base: Vehicle.VehicleEngineDataSuperSport_inline2
   maxEngineRPM: 4181
   minEngineRPM: 3304
 
-Vehicle.VehicleEngineDataArcadia_gear3
+Vehicle.VehicleEngineDataArcadia_gear3:
   $base: Vehicle.VehicleEngineDataSuperSport_inline3
   maxEngineRPM: 4600
   minEngineRPM: 3635
 
-Vehicle.VehicleEngineDataArcadia_gear4
+Vehicle.VehicleEngineDataArcadia_gear4:
   $base: Vehicle.VehicleEngineDataSuperSport_inline4
   maxEngineRPM: 7738
   minEngineRPM: 6115
 
-Vehicle.VehicleEngineDataArcadia_gear5
+Vehicle.VehicleEngineDataArcadia_gear5:
   $base: Vehicle.VehicleEngineDataSuperSport_inline5
   maxEngineRPM: 7985
   minEngineRPM: 6310
 
-Vehicle.VehicleEngineDataArcadia_gear6
+Vehicle.VehicleEngineDataArcadia_gear6:
   $base: Vehicle.VehicleEngineDataSuperSport_inline6
   maxEngineRPM: 8791
   minEngineRPM: 6947
 
-Vehicle.VehicleEngineDataArcadia_gear7
+Vehicle.VehicleEngineDataArcadia_gear7:
   $base: Vehicle.VehicleEngineDataSuperSport_inline7
   maxEngineRPM: 9200
   minEngineRPM: 7270
