@@ -14,8 +14,8 @@ Vehicle.docworks_arcadia_mkv:
 # SV: Changing that string breaks the external camera rendering system you like to use for glamour shots.
 # NX: Wait, is THAT WHY??? I've been trying to fix that issue for like six months!! Wtffffffff ... but ... changing the manufacturer name *doesn't* break them?
 # SV: Nope. Quadra does rebrand in some countries overseas, after all.
-  player_audio_resource: v_car_archer_quartz_nomad
-  traffic_audio_resource: v_car_archer_quartz_nomad_traffic
+  player_audio_resource: v_car_quadra_sport_r7_rocket
+  traffic_audio_resource: v_car_quadra_sport_r7_traffic
   trafficSuspension: 
     latDampingRatio: 0.699999988
     latPeriod: 1.60000002
@@ -51,7 +51,7 @@ Vehicle.docworks_arcadia_mkv:
         springStiffness: 19
         swaybarStiffness: 15
         tenderSpringLength: 0
-        tireFrictionCoef: 3.2
+        tireFrictionCoef: 3.5
         tireLateralSlipEffectsMul: 1.07
         tireLongitudinalSlipEffectsMul: 0.899999976
         visualSuspensionCompressionLength: 0.025
@@ -72,7 +72,7 @@ Vehicle.docworks_arcadia_mkv:
         springReboundDamping: 6500
         springStiffness: 15
         swaybarStiffness: 18
-        tireFrictionCoef: 3.1
+        tireFrictionCoef: 3.5
         visualSuspensionCompressionLength: 0.01
         visualSuspensionDroop: 0.01
         wheelsVerticalOffset: 0.05
@@ -90,20 +90,54 @@ Vehicle.docworks_arcadia_mkv:
     gearChangeTime: 0.059999999
 # SV: Oh so *this* is why she only got 1200 horsepower out of it. ECU was changing gears out of line with the 'charger peaks.
     gearCurvesPath: dwa\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
-    maxRPM: 9000
+    maxRPM: 10000
     minRPM: 800
     resistanceTorque: 150
     reverseDirDelay: 0.300000012
     wheelsResistanceRatio: 15
     gears:
-        - Vehicle.VehicleEngineDataArcadia_gear0
-        - Vehicle.VehicleEngineDataArcadia_gear1
-        - Vehicle.VehicleEngineDataArcadia_gear2
-        - Vehicle.VehicleEngineDataArcadia_gear3
-        - Vehicle.VehicleEngineDataArcadia_gear4
-        - Vehicle.VehicleEngineDataArcadia_gear5
-        - Vehicle.VehicleEngineDataArcadia_gear6
-        - Vehicle.VehicleEngineDataArcadia_gear7
+      -  $type: gamedataVehicleGear_Record #reverse gear
+         maxEngineRPM: 6000
+         maxSpeed: 10
+         minEngineRPM: 800
+         minSpeed: 0
+         torqueMultiplier: 1.1
+      -  $type: gamedataVehicleGear_Record #first gear
+         maxEngineRPM: 3680
+         maxSpeed: 15
+         minEngineRPM: 2908
+         minSpeed: 0
+         torqueMultiplier: 1
+      -  $type: gamedataVehicleGear_Record #second gear
+         maxEngineRPM: 4181
+         maxSpeed: 27
+         minEngineRPM: 3304
+         minSpeed: 20
+         torqueMultiplier: 0.62
+      -  $type: gamedataVehicleGear_Record #third gear
+         maxEngineRPM: 4600
+         maxSpeed: 37
+         minEngineRPM: 3635
+         minSpeed: 25
+         torqueMultiplier: 0.48
+      -  $type: gamedataVehicleGear_Record #fourth gear
+         maxEngineRPM: 5600
+         maxSpeed: 43.5
+         minEngineRPM: 3635
+         minSpeed: 35
+         torqueMultiplier: 0.40
+      -  $type: gamedataVehicleGear_Record #fifth gear
+         maxEngineRPM: 7985
+         maxSpeed: 50
+         minEngineRPM: 6310
+         minSpeed: 41.5
+         torqueMultiplier: 0.3
+      -  $type: gamedataVehicleGear_Record #sixth gear
+         maxEngineRPM: 9200
+         maxSpeed: 55.5
+         minEngineRPM: 7270
+         minSpeed: 48
+         torqueMultiplier: 0.15
 # SV: Erok's gear change breakpoints are spot on, though.
   vehicleUIData:
     driveLayout: LocKey#45372
@@ -147,14 +181,6 @@ Vehicle.docworks_arcadia_mkv:
     name: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
   previewImage: v_standard2_makigai_maimai_player_full
   price: EconomicAssignment.v_sport2_mizutani_shion_nomad_player
-
-Vehicle.docworks_arcadia_mkv.dealerPrice: 156000
-Vehicle.docworks_arcadia_mkv.dealerCred: 40
-Vehicle.docworks_arcadia_mkv.dealerAtlasPath: "base\\gameplay\\gui\\common\\icons\\cardealer\\dealer_arcadia.inkatlas"
-Vehicle.docworks_arcadia_mkv.dealerPartName: "dealer_docworks_arcadia_mkv"
-Vehicle.vehicle_list.list:
-  - !append Vehicle.docworks_arcadia_mkv
-  
 # SV: I copied it from a Baslisk, of course.
 # NX: Kudos ... I BEGGED Palmer to let me get a look at the code running on theirs before she and that merc left NC ... should've bought her more drinks, maybe she'd have said yes .. (ugh why did that woman have to be straight, so unfair to my lesbian ass)
 Vehicle.Arcadia_Dual_Cluster_Launcher_Left:
@@ -162,13 +188,11 @@ Vehicle.Arcadia_Dual_Cluster_Launcher_Left:
   item: Items.Arcadia_Dual_Cluster_Launcher
   slot: AttachmentSlots.VehicleMissileLauncherB
   wholeBurstProjectiles: 12
-  
 Vehicle.Arcadia_Dual_Cluster_Launcher_Right:
   $base: Vehicle.Vehicle_Missile_Launcher_A
   item: Items.Arcadia_Dual_Cluster_Launcher
   slot: AttachmentSlots.VehicleMissileLauncherC
   wholeBurstProjectiles: 12
-  
 Items.Arcadia_Dual_Cluster_Launcher:
   $base: Items.Vehicle_Missile_Launcher_A
   placementSlots:
@@ -177,43 +201,14 @@ Items.Arcadia_Dual_Cluster_Launcher:
   wholeBurstProjectiles: 12
   
 # SV: Moved Erok's gearbox data to its own little partition of the CCU. Doesn't change much, just makes it a little easier to eyeball.
-Vehicle.VehicleEngineDataArcadia_gear0:
-  $base: Vehicle.VehicleEngineDataSuperSport_inline0
-  maxEngineRPM: 1012
-  minEngineRPM: 800
-# SV: This is *technically* the reverse gear, but modern cars also idle at the minimum RPM here.
-Vehicle.VehicleEngineDataArcadia_gear1:
-  $base: Vehicle.VehicleEngineDataSuperSport_inline1
-  maxEngineRPM: 3680
-  minEngineRPM: 2908
-
-Vehicle.VehicleEngineDataArcadia_gear2:
-  $base: Vehicle.VehicleEngineDataSuperSport_inline2
-  maxEngineRPM: 4181
-  minEngineRPM: 3304
-
-Vehicle.VehicleEngineDataArcadia_gear3:
-  $base: Vehicle.VehicleEngineDataSuperSport_inline3
-  maxEngineRPM: 4600
-  minEngineRPM: 3635
-
-Vehicle.VehicleEngineDataArcadia_gear4:
-  $base: Vehicle.VehicleEngineDataSuperSport_inline4
-  maxEngineRPM: 7738
-  minEngineRPM: 6115
-
-Vehicle.VehicleEngineDataArcadia_gear5:
-  $base: Vehicle.VehicleEngineDataSuperSport_inline5
-  maxEngineRPM: 7985
-  minEngineRPM: 6310
-
-Vehicle.VehicleEngineDataArcadia_gear6:
-  $base: Vehicle.VehicleEngineDataSuperSport_inline6
-  maxEngineRPM: 8791
-  minEngineRPM: 6947
-
-Vehicle.VehicleEngineDataArcadia_gear7:
-  $base: Vehicle.VehicleEngineDataSuperSport_inline7
-  maxEngineRPM: 9200
-  minEngineRPM: 7270
 # SV: These are all *close* to the setup Erok originally made, and no disrespect intended, but I think these are a little more in line with where the 'chargers peak out and you'd shift gears anyway.
+
+Vehicle.docworks_arcadia_mkv.dealerPrice: 156000
+Vehicle.docworks_arcadia_mkv.dealerCred: 40
+Vehicle.docworks_arcadia_mkv.dealerAtlasPath: "base\\gameplay\\gui\\common\\icons\\cardealer\\dealer_arcadia.inkatlas"
+Vehicle.docworks_arcadia_mkv.dealerPartName: "dealer_docworks_arcadia_mkv"
+Vehicle.vehicle_list.list:
+  - !append Vehicle.docworks_arcadia_mkv
+  
+# === CET ADD-TO-GARAGE CODES: === 
+# Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.docworks_arcadia_mkv', true, false)e
