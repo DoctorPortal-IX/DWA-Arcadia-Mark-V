@@ -23,6 +23,9 @@ Vehicle.docworks_arcadia_mkv:
     longPeriod: 1.39999998
   vehDataPackage:
     $base: Vehicle.ShionNomadDataPackage
+    openCloseDuration: 10
+    speedToClose: 15
+    entering: 0.5
     hasSpoiler: True
     hasTurboCharger: True
   vehDriveModelData:
