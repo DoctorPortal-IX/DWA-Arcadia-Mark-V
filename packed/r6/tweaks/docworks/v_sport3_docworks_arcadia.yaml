@@ -6,7 +6,7 @@ Vehicle.docworks_arcadia_mkv:
   icon:
     atlasPartName: docworks_arcadia
     atlasResourcePath: base\gameplay\gui\common\icons\docworks_arcadia_mkv.inkatlas
-  manufacturer: Vehicle.docworks_arcadia
+  manufacturer: Vehicle.DocWorks
   maxVehiclePassengersCount: 2
   minVehiclePassengersCount: 1
   model: Vehicle.Turbo
@@ -163,14 +163,7 @@ Vehicle.docworks_arcadia_mkv:
       wheelOffset: 0.189999998
   widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
   displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
-# SV: Anyone wanna guess where I got the fire control data from? No?
-#  weapons:
-#    - !remove Vehicle.Vehicle_Missile_Launcher_A
-#    - !remove Vehicle.Vehicle_Missile_Launcher_B
-#    - !remove Vehicle.Vehicle_Missile_Launcher_C
-#    - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Left
-#    - !append Vehicle.Arcadia_Dual_Cluster_Launcher_Right
-# SV: Virtual Car Dealer compatibility 
+# SV: Virtual Car Dealer compatibility
 # NX: El Capitan won't return my calls ... asshole. Until we get that deal set up with him, VCD's our best option. Spreads the word about the recent attempts to make DWA a small-volume manufacturer, not merely a tuning house.
   offer:
     availabilityFact: docworks_arcadia_mkv_available
@@ -184,27 +177,6 @@ Vehicle.docworks_arcadia_mkv:
     name: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
   previewImage: v_standard2_makigai_maimai_player_full
   price: EconomicAssignment.v_sport2_mizutani_shion_nomad_player
-# SV: I copied it from a Baslisk, of course.
-# NX: Kudos ... I BEGGED Palmer to let me get a look at the code running on theirs before she and that merc left NC ... should've bought her more drinks, maybe she'd have said yes .. (ugh why did that woman have to be straight, so unfair to my lesbian ass)
-Vehicle.Arcadia_Dual_Cluster_Launcher_Left:
-  $base: Vehicle.Vehicle_Missile_Launcher_A
-  item: Items.Arcadia_Dual_Cluster_Launcher
-  slot: AttachmentSlots.VehicleMissileLauncherB
-  wholeBurstProjectiles: 12
-Vehicle.Arcadia_Dual_Cluster_Launcher_Right:
-  $base: Vehicle.Vehicle_Missile_Launcher_A
-  item: Items.Arcadia_Dual_Cluster_Launcher
-  slot: AttachmentSlots.VehicleMissileLauncherC
-  wholeBurstProjectiles: 12
-Items.Arcadia_Dual_Cluster_Launcher:
-  $base: Items.Vehicle_Missile_Launcher_A
-  placementSlots:
-    - AttachmentSlots.VehicleMissileLauncherB
-    - AttachmentSlots.VehicleMissileLauncherC
-  wholeBurstProjectiles: 12
-  
-# SV: Moved Erok's gearbox data to its own little partition of the CCU. Doesn't change much, just makes it a little easier to eyeball.
-# SV: These are all *close* to the setup Erok originally made, and no disrespect intended, but I think these are a little more in line with where the 'chargers peak out and you'd shift gears anyway.
 
 Vehicle.docworks_arcadia_mkv.dealerPrice: 156000
 Vehicle.docworks_arcadia_mkv.dealerCred: 40

@@ -22,23 +22,23 @@ protected cb func OnDriverCombatWeaponTypeChange(newWeaponType: Int32) -> Bool {
       animFeature.state = 1;
       animFeature.duration = 1.3;
       AnimationControllerComponent
-        .ApplyFeatureToReplicate(vehicleObj, n"weapon_rear_missile_pods", animFeature);
+        .ApplyFeatureToReplicate(vehicleObj, n"seat_front_right_window", animFeature);
       // AnimationControllerComponent
-      //   .ApplyFeatureToReplicate(vehicleObj, n"weapon_front_machine_guns", animFeature);
+      //   .ApplyFeatureToReplicate(vehicleObj, n"seat_front_left_window", animFeature);
     } else if newWeaponType == 103 {
       let animFeature: ref<AnimFeature_PartData> = new AnimFeature_PartData();
       animFeature.state = 3;
       animFeature.duration = 1.5;
       AnimationControllerComponent
-        .ApplyFeatureToReplicate(vehicleObj, n"weapon_rear_missile_pods", animFeature);
-      AnimationControllerComponent
-        .ApplyFeatureToReplicate(vehicleObj, n"weapon_front_machine_guns", animFeature);
+        .ApplyFeatureToReplicate(vehicleObj, n"seat_front_right_window", animFeature);
+     // AnimationControllerComponent
+     //   .ApplyFeatureToReplicate(vehicleObj, n"seat_front_left_window", animFeature);
     } else if newWeaponType == 100 {
       let animFeature: ref<AnimFeature_PartData> = new AnimFeature_PartData();
       animFeature.state = 1;
       animFeature.duration = 2.4;
       AnimationControllerComponent
-        .ApplyFeatureToReplicate(vehicleObj, n"weapon_front_machine_guns", animFeature);
+        .ApplyFeatureToReplicate(vehicleObj, n"seat_front_right_window", animFeature);
     }
 
   }
@@ -46,4 +46,4 @@ protected cb func OnDriverCombatWeaponTypeChange(newWeaponType: Int32) -> Bool {
 }
 
 // 103 - no combat
-// 100, 101 - combat
+// 100, 101 - combat. 100 is rockets
