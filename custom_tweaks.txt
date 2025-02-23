@@ -1,0 +1,3 @@
+AttachmentSlots.VehicleMissileLauncherRightA
+AttachmentSlots.VehicleMissileLauncherRightB
+AttachmentSlots.VehicleMissileLauncherRightC

@@ -1,0 +1,124 @@
+genii_roadster_gear_inline0:
+ $base: Vehicle.v_sport1_quadra_turbo_r_inline10
+# $type: VehicleGear_Record
+ torqueMultiplier: 0.40
+ minSpeed: 0
+ maxSpeed: 10
+ minEngineRPM: 700
+ maxEngineRPM: 5000
+
+genii_roadster_gear_inline1:
+ $base: Vehicle.v_sport1_quadra_turbo_r_inline11
+# $type: VehicleGear_Record
+ torqueMultiplier: 0.35
+ minSpeed: 0
+ maxSpeed: 18
+ minEngineRPM: 700
+ maxEngineRPM: 7000
+
+genii_roadster_gear_inline2:
+ $base: Vehicle.v_sport1_quadra_turbo_r_inline12
+# $type: VehicleGear_Record
+ torqueMultiplier: 0.25
+ minSpeed: 15
+ maxSpeed: 25
+ minEngineRPM: 3300
+ maxEngineRPM: 7000
+
+genii_roadster_gear_inline3:
+ $base: Vehicle.v_sport1_quadra_turbo_r_inline13
+# $type: VehicleGear_Records
+ torqueMultiplier: 0.23
+ minSpeed: 20
+ maxSpeed: 30
+ minEngineRPM: 3400
+ maxEngineRPM: 7000
+
+genii_roadster_gear_inline4:
+ $base: Vehicle.v_sport1_quadra_turbo_r_inline14
+# $type: VehicleGear_Record
+ torqueMultiplier: 0.20
+ minSpeed: 28
+ maxSpeed: 34
+ minEngineRPM: 3700
+ maxEngineRPM: 7000
+
+genii_roadster_gear_inline5:
+ $base: Vehicle.v_sport1_quadra_turbo_r_inline15
+# $type: VehicleGear_Record
+ torqueMultiplier: 0.15
+ minSpeed: 32
+ maxSpeed: 38
+ minEngineRPM: 3900
+ maxEngineRPM: 7500
+
+genii_roadster_gear_inline6:
+ $base: Vehicle.v_sport1_quadra_turbo_r_inline16
+# $type: VehicleGear_Record
+ torqueMultiplier: 0.12
+ minSpeed: 36
+ maxSpeed: 45
+ minEngineRPM: 4100
+ maxEngineRPM: 8000
+
+# genii_roadster_gear_inline7:
+#  $base: Vehicle.v_sport1_quadra_turbo_r_inline17
+# # $type: VehicleGear_Record
+#  torqueMultiplier: 0.421
+#  minSpeed: 52
+#  maxSpeed: 71
+#  minEngineRPM: 4100
+#  maxEngineRPM: 9000
+# ==================================
+Vehicle.quadra_turbo_genii_roadster:
+  $base: Vehicle.v_sport2_porsche_911turbo
+  entityTemplatePath: base\vehicles\sport\v_sport3_quadra_turbo_genii__basic_01.ent
+  appearanceName: quadra_turbo_genii_roadster_01
+  affiliation: Factions.Unaffiliated
+  icon:
+    atlasPartName: quadra_turbo_s_spyder
+    atlasResourcePath: base\gameplay\gui\common\icons\quadra_turbo_s_spyder_icon.inkatlas
+  archetypeName: vehicle
+  destroyedAppearance: quadra_turbo_basic_burnt_01
+  manufacturer: Vehicle.manufacturer_quadra
+  vehicleUIData:
+    driveLayout: LocKey#45373
+    horsepower: 428
+    info: LocKey#Gameplay-Vehicles-Information-QuadraTurboS_Roadster
+    mass: 1481
+    productionYear: 2059
+  displayName: LocKey#Gameplay-Vehicles-DisplayNames-QuadraTurboS_Roadster
+  player_audio_resource: v_car_quadra_turbo_r_vtek
+  traffic_audio_resource: v_car_quadra_turbo_r_vtek_traffic
+  vehEngineData:
+      $base: Vehicle.VehicleEngineData_4_SuperSport
+      # maxRPM: 8000
+      # minRPM: 700   
+      # engineMaxTorque: 750
+      gears:
+      - !remove Vehicle.VehicleEngineData_4_SuperSport_inline0
+      - !remove Vehicle.VehicleEngineData_4_SuperSport_inline1
+      - !remove Vehicle.VehicleEngineData_4_SuperSport_inline2
+      - !remove Vehicle.VehicleEngineData_4_SuperSport_inline3
+      - !remove Vehicle.VehicleEngineData_4_SuperSport_inline4
+      - !remove Vehicle.VehicleEngineData_4_SuperSport_inline5
+      - !remove Vehicle.VehicleEngineData_4_SuperSport_inline6
+      - !remove Vehicle.VehicleEngineData_4_SuperSport_inline7
+      - !append genii_roadster_gear_inline0
+      - !append genii_roadster_gear_inline1
+      - !append genii_roadster_gear_inline2
+      - !append genii_roadster_gear_inline3
+      - !append genii_roadster_gear_inline4
+      - !append genii_roadster_gear_inline5
+      - !append genii_roadster_gear_inline6
+      # - !append genii_roadster_gear_inline7    
+
+# ==================================
+
+Vehicle.vehicle_list.list:
+  - !append Vehicle.quadra_turbo_genii_roadster
+Vehicle.quadra_turbo_genii_roadster.dealerPrice: 45000
+Vehicle.quadra_turbo_genii_roadster.dealerCred: 10
+
+# === CET ADD-TO-GARAGE CODES: === 
+# Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.quadra_turbo_genii_roadster', true, false)

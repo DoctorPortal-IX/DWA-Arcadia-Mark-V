@@ -1,9 +1,9 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.15.1-nightly.2025-01-07",
+    "WolvenKitVersion": "8.16.1-nightly.2025-02-02",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2200,
-    "ExportedDateTime": "2025-01-16T20:05:29.5229881Z",
+    "ExportedDateTime": "2025-02-07T20:30:03.6532303Z",
     "DataType": "CR2W",
     "ArchiveFileName": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\DWA-Arcadia-Mark-V\\source\\archive\\base\\vehicles\\docworks\\v_sport3_docworks_arcadia_mkv__naomie_01.ent"
   },
@@ -82,7 +82,7 @@
       "compiledData": {
         "BufferId": "0",
         "Flags": 4063232,
-        "Type": "WolvenKit.RED4.Archive.Buffer.RedPackage, WolvenKit.RED4, Version=8.15.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "WolvenKit.RED4.Archive.Buffer.RedPackage, WolvenKit.RED4, Version=8.16.1.0, Culture=neutral, PublicKeyToken=null",
         "Data": {
           "Version": 4,
           "Sections": 7,
@@ -10712,6 +10712,7 @@
               "carAlarmCallbackID": null,
               "coolerDestro": 0,
               "currentWantedLevelCallback": null,
+              "customizationComponent": null,
               "damageLevel": 0,
               "dragTime": 0,
               "effectBlackboard": null,
@@ -18894,6 +18895,7 @@
           "carAlarmCallbackID": null,
           "coolerDestro": 0,
           "currentWantedLevelCallback": null,
+          "customizationComponent": null,
           "damageLevel": 0,
           "dragTime": 0,
           "effectBlackboard": null,
