@@ -2,7 +2,7 @@
   "Header": {
     "MaterialJsonVersion": "1.0.0"
   },
-  "MaterialRepo": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\Wkit Depot - NEW Materials",
+  "MaterialRepo": "C:\\Users\\noah\\AppData\\Roaming\\REDModding\\WolvenKit\\Depot",
   "Materials": [
     {
       "Name": "decals",
@@ -126,6 +126,14 @@
         "CoatFresnelBias": 0.660000026,
         "CoatLayerMin": -1,
         "CoatLayerMax": 21,
+        "CustomColorATestValue": 0,
+        "CustomColorBTestValue": 0,
+        "CustomAlphaTestValue": 0,
+        "CustomColorMask": "base\\gameplay\\vehicles\\visual_customization\\car_masks\\vvc_debug.xbm",
+        "CustomColorMorphTiling": 80,
+        "CustomColorMorphShape": 3,
+        "GenericOrUnique": 0,
+        "IgnoreCrystalCoat": 0,
         "MaskAtlas": "",
         "MaskTiles": null,
         "Layers": null,
@@ -151,6 +159,27 @@
           "W": 0
         },
         "SetupLayerMask": 0,
+        "SecondOpacity": 0,
+        "SecondCoatTintFwd": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatTintSide": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatTintFresnelBias": 0,
+        "SecondCoatSpecularColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatFresnelBias": 0,
         "DamageInfluenceDebug": 0
       }
     },
@@ -204,6 +233,14 @@
         "CoatFresnelBias": 1,
         "CoatLayerMin": 0,
         "CoatLayerMax": 0,
+        "CustomColorATestValue": 0,
+        "CustomColorBTestValue": 0,
+        "CustomAlphaTestValue": 0,
+        "CustomColorMask": "base\\gameplay\\vehicles\\visual_customization\\car_masks\\vvc_debug.xbm",
+        "CustomColorMorphTiling": 80,
+        "CustomColorMorphShape": 3,
+        "GenericOrUnique": 0,
+        "IgnoreCrystalCoat": 0,
         "MaskAtlas": "",
         "MaskTiles": null,
         "Layers": null,
@@ -229,6 +266,27 @@
           "W": 0
         },
         "SetupLayerMask": 0,
+        "SecondOpacity": 0,
+        "SecondCoatTintFwd": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatTintSide": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatTintFresnelBias": 0,
+        "SecondCoatSpecularColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatFresnelBias": 0,
         "DamageInfluenceDebug": 1
       }
     },
@@ -270,6 +328,7 @@
     }
   ],
   "TexturesList": [
+    "base\\vehicles\\common\\textures\\vehicles_decals_exterior_n01.xbm",
     "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\textures\\ml_v_sport1_quadra_turbo_01_engine_01_masksset.mlmask",
     "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rough_01_300_d.xbm",
     "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rolled_01_300_n.xbm",
@@ -277,6 +336,10 @@
     "base\\surfaces\\materials\\plastic\\duct_tape\\duct_tape_clean_01_10_d.xbm",
     "base\\surfaces\\materials\\plastic\\duct_tape\\duct_tape_clean_01_10_n.xbm",
     "base\\surfaces\\materials\\plastic\\duct_tape\\duct_tape_clean_01_10_r.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_n.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_scraped\\plastic_scraped_textured_01_300_n.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_scraped\\plastic_scraped_01_300_r.xbm",
     "base\\surfaces\\materials\\grunge\\grime_film\\grime_film_01_300_d.xbm",
     "base\\surfaces\\materials\\grunge\\grime_film\\grime_film_01_300_n.xbm",
     "base\\surfaces\\materials\\grunge\\grime_film\\grime_film_01_300_r.xbm"
@@ -394,6 +457,14 @@
         "CoatFresnelBias": 1,
         "CoatLayerMin": 0,
         "CoatLayerMax": 0,
+        "CustomColorATestValue": 0,
+        "CustomColorBTestValue": 0,
+        "CustomAlphaTestValue": 0,
+        "CustomColorMask": "base\\gameplay\\vehicles\\visual_customization\\car_masks\\vvc_debug.xbm",
+        "CustomColorMorphTiling": 80,
+        "CustomColorMorphShape": 3,
+        "GenericOrUnique": 0,
+        "IgnoreCrystalCoat": 0,
         "MaskAtlas": "",
         "MaskTiles": null,
         "Layers": null,
@@ -418,7 +489,28 @@
           "Z": 0,
           "W": 0
         },
-        "SetupLayerMask": 0
+        "SetupLayerMask": 0,
+        "SecondOpacity": 0,
+        "SecondCoatTintFwd": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatTintSide": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatTintFresnelBias": 0,
+        "SecondCoatSpecularColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatFresnelBias": 0
       }
     },
     {
@@ -469,6 +561,14 @@
         "CoatFresnelBias": 1,
         "CoatLayerMin": 0,
         "CoatLayerMax": 0,
+        "CustomColorATestValue": 0,
+        "CustomColorBTestValue": 0,
+        "CustomAlphaTestValue": 0,
+        "CustomColorMask": "base\\gameplay\\vehicles\\visual_customization\\car_masks\\vvc_debug.xbm",
+        "CustomColorMorphTiling": 80,
+        "CustomColorMorphShape": 3,
+        "GenericOrUnique": 0,
+        "IgnoreCrystalCoat": 0,
         "MaskAtlas": "",
         "MaskTiles": null,
         "Layers": null,
@@ -493,7 +593,28 @@
           "Z": 0,
           "W": 0
         },
-        "SetupLayerMask": 0
+        "SetupLayerMask": 0,
+        "SecondOpacity": 0,
+        "SecondCoatTintFwd": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatTintSide": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatTintFresnelBias": 0,
+        "SecondCoatSpecularColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "SecondCoatFresnelBias": 0
       }
     },
     {

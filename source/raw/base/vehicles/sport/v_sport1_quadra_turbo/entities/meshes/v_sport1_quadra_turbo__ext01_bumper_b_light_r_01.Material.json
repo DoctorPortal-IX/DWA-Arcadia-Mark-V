@@ -1,0 +1,145 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "C:\\Users\\noah\\AppData\\Roaming\\REDModding\\WolvenKit\\Depot",
+  "Materials": [
+    {
+      "Name": "vehicle_lights",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\vehicle_lights.mi",
+      "MaterialTemplate": "base\\materials\\vehicle_lights.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\small_white.xbm",
+        "BaseColorScale": {
+          "X": 0.692071,
+          "Y": 0.692071,
+          "Z": 0.692071,
+          "W": 1
+        },
+        "AlphaThreshold": 0.333299994,
+        "Metalness": "engine\\textures\\small_white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\small_white.xbm",
+        "RoughnessScale": 0.300000012,
+        "RoughnessBias": 0,
+        "Normal": "base\\vehicles\\common\\textures\\common_light_n01.xbm",
+        "NormalStrength": 1,
+        "Emissive": "base\\vehicles\\common\\textures\\common_light_01.xbm",
+        "EmissionTiling": 1,
+        "EmissionParallax": 0.00100000005,
+        "Zone0EmissiveEV": 6,
+        "Zone1EmissiveEV": 6,
+        "Zone2EmissiveEV": 6,
+        "Zone3EmissiveEV": 9,
+        "DebugLightsIntensity": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "DebugLightsColor0": {
+          "Red": 255,
+          "Green": 220,
+          "Blue": 116,
+          "Alpha": 255
+        },
+        "DebugLightsColor1": {
+          "Red": 255,
+          "Green": 220,
+          "Blue": 116,
+          "Alpha": 255
+        },
+        "DebugLightsColor2": {
+          "Red": 255,
+          "Green": 220,
+          "Blue": 116,
+          "Alpha": 255
+        },
+        "DebugLightsColor3": {
+          "Red": 255,
+          "Green": 220,
+          "Blue": 116,
+          "Alpha": 255
+        },
+        "UvTilingX": 1,
+        "UvTilingY": 1,
+        "UvOffsetX": 0,
+        "UvOffsetY": 0,
+        "DamageInfluence": 1,
+        "DamageInfluenceDebug": 0
+      }
+    }
+  ],
+  "TexturesList": [
+    "engine\\textures\\small_white.xbm",
+    "base\\vehicles\\common\\textures\\common_light_01.xbm"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "base\\materials\\vehicle_lights.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\small_white.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 1
+        },
+        "AlphaThreshold": 0.333299994,
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\small_white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "NormalStrength": 1,
+        "Emissive": "engine\\textures\\small_white.xbm",
+        "EmissionTiling": 1,
+        "EmissionParallax": 0,
+        "Zone0EmissiveEV": 5,
+        "Zone1EmissiveEV": 5,
+        "Zone2EmissiveEV": 5,
+        "Zone3EmissiveEV": 5,
+        "DebugLightsIntensity": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "DebugLightsColor0": {
+          "Red": 255,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DebugLightsColor1": {
+          "Red": 0,
+          "Green": 255,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "DebugLightsColor2": {
+          "Red": 0,
+          "Green": 30,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DebugLightsColor3": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        }
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "vehicle_lights"
+    ]
+  }
+}

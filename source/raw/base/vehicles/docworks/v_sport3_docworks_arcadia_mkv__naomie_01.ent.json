@@ -1,9 +1,9 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.16.1-nightly.2025-02-02",
+    "WolvenKitVersion": "8.16.2-nightly.2025-02-23",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2200,
-    "ExportedDateTime": "2025-02-07T20:30:03.6532303Z",
+    "ExportedDateTime": "2025-03-31T18:39:54.7806938Z",
     "DataType": "CR2W",
     "ArchiveFileName": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\DWA-Arcadia-Mark-V\\source\\archive\\base\\vehicles\\docworks\\v_sport3_docworks_arcadia_mkv__naomie_01.ent"
   },
@@ -82,7 +82,7 @@
       "compiledData": {
         "BufferId": "0",
         "Flags": 4063232,
-        "Type": "WolvenKit.RED4.Archive.Buffer.RedPackage, WolvenKit.RED4, Version=8.16.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "WolvenKit.RED4.Archive.Buffer.RedPackage, WolvenKit.RED4, Version=8.16.2.0, Culture=neutral, PublicKeyToken=null",
         "Data": {
           "Version": 4,
           "Sections": 7,
