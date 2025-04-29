@@ -5,6 +5,7 @@
   <Author>DoctorPortal</Author>
   <Email />
   <Version>5.0.1</Version>
-  <OpenProjectFiles>base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_crystaldome_f_r_a_01.mesh</OpenProjectFiles>
-  <OpenProjectFiles>base\amm_vehicles\docworks_arcadia\texture\doc.mi</OpenProjectFiles>
+  <OpenProjectFiles>base\vehicles\docworks\v_sport3_docworks_arcadia_mkv_interaction_collider_01.phys</OpenProjectFiles>
+  <OpenProjectFiles>base\vehicles\docworks\v_sport3_docworks_arcadia_mkv__naomie_01.ent</OpenProjectFiles>
+  <OpenProjectFiles>base\vehicles\sport\v_sport2_mizutani_shion_nomad\entities\meshes\v_sport2_mizutani_shion_nomad__ext01_interaction_collider_01.phys</OpenProjectFiles>
 </CP77Mod>
