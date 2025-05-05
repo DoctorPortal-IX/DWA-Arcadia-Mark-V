@@ -5,7 +5,13 @@
   <Author>DoctorPortal</Author>
   <Email />
   <Version>5.0.1</Version>
-  <OpenProjectFiles>base\vehicles\appearances\docworks\v_sport3_docworks_arcadia_mkv_naomie.app</OpenProjectFiles>
   <OpenProjectFiles>base\vehicles\docworks\v_sport3_docworks_arcadia_mkv__naomie_01.ent</OpenProjectFiles>
-  <OpenProjectFiles>base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\entities\meshes\doc_arcadia__ext01_body_01_new.mesh</OpenProjectFiles>
+  <OpenProjectFiles>base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\v_sport3_docworks_arcadia_mkv__basic_01.rig</OpenProjectFiles>
+  <OpenProjectFiles>misterchedda\delamain_combat_mode\anims\v_standard2_villefort_cortes_01__basic_01.rig</OpenProjectFiles>
+  <OpenProjectFiles>misterchedda\delamain_combat_mode\anims\v_standard2_villefort_cortes.anims</OpenProjectFiles>
+  <OpenProjectFiles>base\vehicles\docworks\v_sport3_docworks_arcadia_mkv\rig_content\arcadia_car_anim_graph.animgraph</OpenProjectFiles>
+  <OpenProjectFiles>misterchedda\delamain_combat_mode\v_standard2_delamain_combat.ent</OpenProjectFiles>
+  <OpenProjectFiles>base\vehicles\common\gameplay\default_car_anim_graph.animgraph</OpenProjectFiles>
+  <OpenProjectFiles>base\animations\vehicle\docworks\v_sport3_docworks_arcadia.anims</OpenProjectFiles>
+  <OpenProjectFiles>base\animations\vehicle\docworks\v_sport3_docworks_arcadia_working.anims</OpenProjectFiles>
 </CP77Mod>

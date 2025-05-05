@@ -11,9 +11,10 @@ Vehicle.docworks_arcadia_mkv:
   leftFrontCamber: 3.0
   rightBackCamber: -0.0
   leftBackCamber: 0.0
-  FrontCaster: 0.0
-  FrontDownforce: 15
-  RearDownforce: 45
+# O3: Commenting out not valid here  
+  #FrontCaster: 0.0
+  #FrontDownforce: 15
+  #RearDownforce: 45
   maxVehiclePassengersCount: 2
   minVehiclePassengersCount: 1
   model: Vehicle.Turbo
@@ -30,7 +31,8 @@ Vehicle.docworks_arcadia_mkv:
     longPeriod: 1.39999998
   vehDataPackage:
     $base: Vehicle.ShionNomadDataPackage
-    openCloseDuration: 10
+# O3: fixed formatting and reduced time to 3 seconds at 10 V gets in the car before the door opens
+    open_close_duration: 3 #openCloseDuration: 10
     speedToClose: 15
     entering: 0.5
     hasSpoiler: True
