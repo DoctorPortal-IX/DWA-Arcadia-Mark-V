@@ -1,0 +1,525 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.16.1-nightly.2025-02-02",
+    "WKitJsonVersion": "0.0.9",
+    "GameVersion": 2200,
+    "ExportedDateTime": "2025-04-28T23:58:52.7973150Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "D:\\Projects\\DWA-Arcadia-Mark-V\\source\\archive\\base\\vehicles\\docworks\\v_sport3_docworks_arcadia_mkv_interaction_collider_01.phys"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "physicsSystemResource",
+      "bodies": [
+        {
+          "HandleId": "0",
+          "Data": {
+            "$type": "physicsSystemBody",
+            "collisionShapes": [
+              {
+                "HandleId": "1",
+                "Data": {
+                  "$type": "physicsColliderConvex",
+                  "compiledGeometryBuffer": null,
+                  "filterData": null,
+                  "indexBuffer": [],
+                  "isImported": 0,
+                  "isQueryShapeOnly": 0,
+                  "localToBody": {
+                    "$type": "Transform",
+                    "orientation": {
+                      "$type": "Quaternion",
+                      "i": 0,
+                      "j": 0,
+                      "k": 0,
+                      "r": 1
+                    },
+                    "position": {
+                      "$type": "Vector4",
+                      "W": 0,
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  },
+                  "material": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "materialApperanceOverrides": [],
+                  "polygonVertices": [],
+                  "tag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "body"
+                  },
+                  "vertices": [
+                    {
+                      "$type": "Vector3",
+                      "X": -0.799999952,
+                      "Y": 2.70000005,
+                      "Z": -0.150000006
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.25,
+                      "Y": -2.20000005,
+                      "Z": -0.699999988
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.10000002,
+                      "Y": 1.10000002,
+                      "Z": -0.699999988
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.799999952,
+                      "Y": 2.70000005,
+                      "Z": -0.150000006
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": 2.5999999,
+                      "Z": -0.5
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1,
+                      "Y": 2.27999997,
+                      "Z": 0.0700000003
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.701385736,
+                      "Y": -0.300000042,
+                      "Z": 0.649999976
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1,
+                      "Y": -2.9000001,
+                      "Z": -0.550000012
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1,
+                      "Y": 0.75,
+                      "Z": 0.25
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": 0.75,
+                      "Z": 0.25
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1.10000002,
+                      "Y": 2.4000001,
+                      "Z": -0.600000024
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": 2.27999997,
+                      "Z": 0.0700000003
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1,
+                      "Y": -2.93000007,
+                      "Z": 0.439999998
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1.25,
+                      "Y": -2.20000005,
+                      "Z": -0.699999988
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -0.899999976,
+                      "Y": -3.04999995,
+                      "Z": 0.400000006
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.04999995,
+                      "Y": 0.324536145,
+                      "Z": 0.231122166
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.701385736,
+                      "Y": -1.20000005,
+                      "Z": 0.540000021
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": 0.324536145,
+                      "Z": 0.231122166
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1,
+                      "Y": 2.5999999,
+                      "Z": -0.5
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.10000002,
+                      "Y": 2.4000001,
+                      "Z": -0.600000024
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": -2.9000001,
+                      "Z": -0.550000012
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.899999976,
+                      "Y": -3.04999995,
+                      "Z": 0.400000006
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": -2.93000007,
+                      "Z": 0.439999998
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0,
+                      "Y": 0.225000024,
+                      "Z": 0.449999988
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1.29999995,
+                      "Y": -1.70000005,
+                      "Z": -0.0799999833
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.29999995,
+                      "Y": -1.70000005,
+                      "Z": -0.0799999833
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.10000002,
+                      "Y": 1.10000002,
+                      "Z": -0.699999988
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.701385736,
+                      "Y": -0.300000042,
+                      "Z": 0.649999976
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1,
+                      "Y": 0.75,
+                      "Z": 0.25
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": 0.75,
+                      "Z": 0.25
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.701385736,
+                      "Y": -0.300000042,
+                      "Z": 0.649999976
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.75,
+                      "Y": 0.0800000131,
+                      "Z": 0.550000012
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.699999988,
+                      "Y": -1.20000005,
+                      "Z": 0.540000021
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1.10000002,
+                      "Y": 1.10000002,
+                      "Z": -0.699999988
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -0.75,
+                      "Y": 0.0799999982,
+                      "Z": 0.550000012
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -0.699999988,
+                      "Y": -1.20000005,
+                      "Z": 0.540000021
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -0.692459643,
+                      "Y": -0.300000042,
+                      "Z": 0.649999976
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1.29999995,
+                      "Y": -1.70000005,
+                      "Z": -0.0799999833
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.29999995,
+                      "Y": -1.70000005,
+                      "Z": -0.0799999833
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.709999979,
+                      "Y": -0.109999999,
+                      "Z": 0.600000024
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -0.839999974,
+                      "Y": 0.414999992,
+                      "Z": 0.400000006
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.839999974,
+                      "Y": 0.414999992,
+                      "Z": 0.400000006
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0,
+                      "Y": 0.0800000131,
+                      "Z": 0.550000012
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0,
+                      "Y": 0.75,
+                      "Z": 0.25
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -0.709999979,
+                      "Y": -0.109999985,
+                      "Z": 0.600000024
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0,
+                      "Y": -0.300000042,
+                      "Z": 0.649999976
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0,
+                      "Y": -1.20000005,
+                      "Z": 0.540000021
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0.699999988,
+                      "Y": -0.75,
+                      "Z": 0.595000029
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -0.699999988,
+                      "Y": -0.75,
+                      "Z": 0.595000029
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": -0.0104638338,
+                      "Z": 0.231625155
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": -0.200463831,
+                      "Z": 0.231792822
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": -0.65046382,
+                      "Z": 0.231608391
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1.14999998,
+                      "Y": -1.45000005,
+                      "Z": 0.232647926
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.04999995,
+                      "Y": -0.0104638338,
+                      "Z": 0.231625155
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.04999995,
+                      "Y": -0.200463831,
+                      "Z": 0.231792822
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.04999995,
+                      "Y": -0.65046382,
+                      "Z": 0.231608391
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.14999998,
+                      "Y": -1.45000005,
+                      "Z": 0.232647926
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 1.20000005,
+                      "Y": -0.300000012,
+                      "Z": -0.389999986
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": -1.20000005,
+                      "Y": -0.300000072,
+                      "Z": -0.389999986
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0,
+                      "Y": -0.75,
+                      "Z": 0.595000029
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0,
+                      "Y": -0.109999985,
+                      "Z": 0.600000024
+                    },
+                    {
+                      "$type": "Vector3",
+                      "X": 0,
+                      "Y": 0.415000021,
+                      "Z": 0.400000006
+                    }
+                  ],
+                  "volumeModifier": 1
+                }
+              }
+            ],
+            "isQueryBodyOnly": 0,
+            "localToModel": {
+              "$type": "Transform",
+              "orientation": {
+                "$type": "Quaternion",
+                "i": 0,
+                "j": 0,
+                "k": 0,
+                "r": 1
+              },
+              "position": {
+                "$type": "Vector4",
+                "W": 0,
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              }
+            },
+            "mappedBoneName": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "rootNotSkinned"
+            },
+            "mappedBoneToBody": {
+              "$type": "Transform",
+              "orientation": {
+                "$type": "Quaternion",
+                "i": 0,
+                "j": 0,
+                "k": 0,
+                "r": 1
+              },
+              "position": {
+                "$type": "Vector4",
+                "W": 0,
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              }
+            },
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "Actor (ID: 3, Mass: 1.053e\u002B04, bone: rootNotSkinned )"
+            },
+            "params": {
+              "$type": "physicsSystemBodyParams",
+              "angularDamping": 0,
+              "comOffset": {
+                "$type": "Transform",
+                "orientation": {
+                  "$type": "Quaternion",
+                  "i": 0,
+                  "j": 0,
+                  "k": 0,
+                  "r": 1
+                },
+                "position": {
+                  "$type": "Vector4",
+                  "W": 0,
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                }
+              },
+              "inertia": {
+                "$type": "Vector3",
+                "X": 16077.5166,
+                "Y": 4804.38672,
+                "Z": 18919.5957
+              },
+              "linearDamping": 0,
+              "mass": 10528.4014,
+              "maxAngularVelocity": -1,
+              "maxContactImpulse": -1,
+              "maxDepenetrationVelocity": -1,
+              "simulationType": "Static",
+              "solverIterationsCountPosition": 4,
+              "solverIterationsCountVelocity": 1
+            }
+          }
+        }
+      ],
+      "cookingPlatform": "PLATFORM_PC",
+      "joints": []
+    },
+    "EmbeddedFiles": []
+  }
+}

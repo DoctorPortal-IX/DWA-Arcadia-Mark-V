@@ -22,23 +22,23 @@ protected cb func OnDriverCombatWeaponTypeChange(newWeaponType: Int32) -> Bool {
       animFeature.state = 1;
       animFeature.duration = 1.3;
       AnimationControllerComponent
-        .ApplyFeatureToReplicate(vehicleObj, n"seat_front_right_window", animFeature);
+        .ApplyFeatureToReplicate(vehicleObj, n"window_front_left_a", animFeature);
       // AnimationControllerComponent
-      //   .ApplyFeatureToReplicate(vehicleObj, n"seat_front_left_window", animFeature);
+      //   .ApplyFeatureToReplicate(vehicleObj, n"window_front_right_a", animFeature);
     } else if newWeaponType == 103 {
       let animFeature: ref<AnimFeature_PartData> = new AnimFeature_PartData();
       animFeature.state = 3;
       animFeature.duration = 1.5;
       AnimationControllerComponent
-        .ApplyFeatureToReplicate(vehicleObj, n"seat_front_right_window", animFeature);
+        .ApplyFeatureToReplicate(vehicleObj, n"window_front_left_a", animFeature);
      // AnimationControllerComponent
-     //   .ApplyFeatureToReplicate(vehicleObj, n"seat_front_left_window", animFeature);
+     //   .ApplyFeatureToReplicate(vehicleObj, n"window_front_right_a", animFeature);
     } else if newWeaponType == 100 {
       let animFeature: ref<AnimFeature_PartData> = new AnimFeature_PartData();
       animFeature.state = 1;
       animFeature.duration = 2.4;
       AnimationControllerComponent
-        .ApplyFeatureToReplicate(vehicleObj, n"seat_front_right_window", animFeature);
+        .ApplyFeatureToReplicate(vehicleObj, n"window_front_right_a", animFeature);
     }
 
   }
