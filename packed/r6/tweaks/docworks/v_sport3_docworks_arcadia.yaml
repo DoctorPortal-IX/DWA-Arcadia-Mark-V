@@ -194,4 +194,4 @@ Vehicle.vehicle_list.list:
   - !append Vehicle.docworks_arcadia_mkv
   
 # === CET ADD-TO-GARAGE CODES: === 
-# Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.docworks_arcadia_mkv', true, false)e
+# Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.docworks_arcadia_mkv', true, false)

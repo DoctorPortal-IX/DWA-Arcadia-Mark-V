@@ -1,11 +1,11 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.16.2-nightly.2025-02-23",
-    "WKitJsonVersion": "0.0.9",
-    "GameVersion": 2200,
-    "ExportedDateTime": "2025-03-31T18:25:28.3889021Z",
+    "WolvenKitVersion": "8.11.0",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2000,
+    "ExportedDateTime": "2025-04-28T02:12:07.574Z",
     "DataType": "CR2W",
-    "ArchiveFileName": "D:\\DocWorks Automotive (MODS)\\Wkit Project Files\\DWA-Arcadia-Mark-V\\source\\archive\\base\\amm_vehicles\\docworks_arcadia\\color1_og-xaris\\doc_arcadia_01_exterior.mlsetup"
+    "ArchiveFileName": ""
   },
   "Data": {
     "Version": 195,
@@ -14,6 +14,68 @@
       "$type": "Multilayer_Setup",
       "cookingPlatform": "PLATFORM_PC",
       "layers": [
+        {
+          "$type": "Multilayer_Layer",
+          "colorScale": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "2970b5_4a1ed1"
+          },
+          "material": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\materials\\metal\\aluminium\\aluminium_annodised.mltemplate"
+            },
+            "Flags": "Default"
+          },
+          "matTile": 10.00,
+          "mbTile": 11.6999998,
+          "metalLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "metalLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "155c34"
+          },
+          "microblend": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\microblends\\dirt_stains.xbm"
+            },
+            "Flags": "Default"
+          },
+          "microblendContrast": 0.03,
+          "microblendNormalStrength": 2.40,
+          "microblendOffsetU": 0,
+          "microblendOffsetV": 0,
+          "normalStrength":{
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "f3d6fb"
+          },
+          "offsetU": 0,
+          "offsetV": 0,
+          "overrides": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "roughLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "roughLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "249c98"
+          }
+        },
         {
           "$type": "Multilayer_Layer",
           "colorScale": {
@@ -29,7 +91,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 10,
+          "matTile": 10.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -49,18 +111,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 1,
-          "microblendNormalStrength": 0,
+          "microblendContrast": 1.00,
+          "microblendNormalStrength": 0.00,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "f3d6fb"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -92,7 +153,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 10,
+          "matTile": 10.00,
           "mbTile": 11.6999998,
           "metalLevelsIn": {
             "$type": "CName",
@@ -112,18 +173,18 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.0299999993,
-          "microblendNormalStrength": 2.4000001,
+          "microblendContrast": 0.03,
+          "microblendNormalStrength": 2.40,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "f3d6fb"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
+          "opacity": 0,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -145,69 +206,6 @@
           "colorScale": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "437145_a1b637"
-          },
-          "material": {
-            "DepotPath": {
-              "$type": "ResourcePath",
-              "$storage": "string",
-              "$value": "base\\surfaces\\materials\\plastic\\plastic_hq\\plastic_tech_hq_01_30.mltemplate"
-            },
-            "Flags": "Default"
-          },
-          "matTile": 10,
-          "mbTile": 5,
-          "metalLevelsIn": {
-            "$type": "CName",
-            "$storage": "string",
-            "$value": "null"
-          },
-          "metalLevelsOut": {
-            "$type": "CName",
-            "$storage": "string",
-            "$value": "280c47"
-          },
-          "microblend": {
-            "DepotPath": {
-              "$type": "ResourcePath",
-              "$storage": "string",
-              "$value": "base\\surfaces\\microblends\\bent_metal.xbm"
-            },
-            "Flags": "Default"
-          },
-          "microblendContrast": 1,
-          "microblendNormalStrength": 0.800000012,
-          "microblendOffsetU": 0,
-          "microblendOffsetV": 0,
-          "normalStrength": {
-            "$type": "CName",
-            "$storage": "string",
-            "$value": "e6296e"
-          },
-          "offsetU": 0,
-          "offsetV": 0,
-          "opacity": 0,
-          "overrides": {
-            "$type": "CName",
-            "$storage": "string",
-            "$value": "None"
-          },
-          "roughLevelsIn": {
-            "$type": "CName",
-            "$storage": "string",
-            "$value": "null"
-          },
-          "roughLevelsOut": {
-            "$type": "CName",
-            "$storage": "string",
-            "$value": "6d8438"
-          }
-        },
-        {
-          "$type": "Multilayer_Layer",
-          "colorScale": {
-            "$type": "CName",
-            "$storage": "string",
             "$value": "ccaeea_b0f317"
           },
           "material": {
@@ -218,7 +216,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 50,
+          "matTile": 50.00,
           "mbTile": 120,
           "metalLevelsIn": {
             "$type": "CName",
@@ -238,11 +236,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.300000012,
-          "microblendNormalStrength": 0,
+          "microblendContrast": 0.30,
+          "microblendNormalStrength": 0.00,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "c8ed35"
@@ -281,7 +279,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 15,
+          "matTile": 15.00,
           "mbTile": 23.3899994,
           "metalLevelsIn": {
             "$type": "CName",
@@ -301,11 +299,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.0799999982,
-          "microblendNormalStrength": -0.709999979,
+          "microblendContrast": 0.08,
+          "microblendNormalStrength": -0.71,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "b778f4"
@@ -344,7 +342,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 20,
+          "matTile": 20.00,
           "mbTile": 35.0699997,
           "metalLevelsIn": {
             "$type": "CName",
@@ -364,11 +362,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.529999971,
-          "microblendNormalStrength": 0,
+          "microblendContrast": 0.53,
+          "microblendNormalStrength": 0.00,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "4f16f1"
@@ -407,7 +405,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 12,
+          "matTile": 12.00,
           "mbTile": 40,
           "metalLevelsIn": {
             "$type": "CName",
@@ -427,11 +425,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.800000012,
-          "microblendNormalStrength": 0,
+          "microblendContrast": 0.80,
+          "microblendNormalStrength": 0.00,
           "microblendOffsetU": 0.379999995,
           "microblendOffsetV": 0.610000014,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "54f7df"
@@ -470,7 +468,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 10,
+          "matTile": 10.00,
           "mbTile": 80,
           "metalLevelsIn": {
             "$type": "CName",
@@ -490,18 +488,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.109999999,
-          "microblendNormalStrength": 0,
+          "microblendContrast": 0.11,
+          "microblendNormalStrength": 0.00,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "4a550e"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -533,7 +530,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 10,
+          "matTile": 10.00,
           "mbTile": 80,
           "metalLevelsIn": {
             "$type": "CName",
@@ -553,18 +550,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.109999999,
-          "microblendNormalStrength": 0,
+          "microblendContrast": 0.11,
+          "microblendNormalStrength": 0.00,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "f3d6fb"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -596,7 +592,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 30,
+          "matTile": 30.00,
           "mbTile": 19,
           "metalLevelsIn": {
             "$type": "CName",
@@ -616,18 +612,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.100000001,
-          "microblendNormalStrength": 0,
+          "microblendContrast": 0.10,
+          "microblendNormalStrength": 0.00,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "54f7df"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -659,7 +654,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 40,
+          "matTile": 40.00,
           "mbTile": 11.6999998,
           "metalLevelsIn": {
             "$type": "CName",
@@ -679,18 +674,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.0299999993,
-          "microblendNormalStrength": 2.4000001,
+          "microblendContrast": 0.03,
+          "microblendNormalStrength": 2.40,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "6d8251"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -722,7 +716,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 60,
+          "matTile": 60.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -742,18 +736,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 1,
-          "microblendNormalStrength": 0,
+          "microblendContrast": 1.00,
+          "microblendNormalStrength": 0.00,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "4a550e"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -785,7 +778,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 15,
+          "matTile": 15.00,
           "mbTile": 30,
           "metalLevelsIn": {
             "$type": "CName",
@@ -805,11 +798,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 1,
-          "microblendNormalStrength": -1,
+          "microblendContrast": 1.00,
+          "microblendNormalStrength": -1.00,
           "microblendOffsetU": 0.419999987,
           "microblendOffsetV": 0.610000014,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
@@ -848,7 +841,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 19.3899994,
+          "matTile": 19.39,
           "mbTile": 5.55999994,
           "metalLevelsIn": {
             "$type": "CName",
@@ -868,18 +861,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.800000012,
-          "microblendNormalStrength": 0.200000003,
+          "microblendContrast": 0.80,
+          "microblendNormalStrength": 0.20,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -911,7 +903,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 15,
+          "matTile": 15.00,
           "mbTile": 4.07999992,
           "metalLevelsIn": {
             "$type": "CName",
@@ -931,18 +923,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.0599999987,
-          "microblendNormalStrength": -0.839999974,
+          "microblendContrast": 0.06,
+          "microblendNormalStrength": -0.84,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -974,7 +965,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 20,
+          "matTile": 20.00,
           "mbTile": 70,
           "metalLevelsIn": {
             "$type": "CName",
@@ -994,11 +985,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.129999995,
-          "microblendNormalStrength": -0.330000013,
+          "microblendContrast": 0.13,
+          "microblendNormalStrength": -0.33,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "e6296e"
@@ -1037,7 +1028,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 50,
+          "matTile": 50.00,
           "mbTile": 50,
           "metalLevelsIn": {
             "$type": "CName",
@@ -1057,11 +1048,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.0500000007,
-          "microblendNormalStrength": -2.55999994,
+          "microblendContrast": 0.05,
+          "microblendNormalStrength": -2.56,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "6d8251"
@@ -1100,7 +1091,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 0.00999999978,
+          "matTile": 0.01,
           "mbTile": 20,
           "metalLevelsIn": {
             "$type": "CName",
@@ -1120,11 +1111,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.850000024,
-          "microblendNormalStrength": 0,
+          "microblendContrast": 0.85,
+          "microblendNormalStrength": 0.00,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "7cfe85"
@@ -1163,7 +1154,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 0.00999999978,
+          "matTile": 0.01,
           "mbTile": 20,
           "metalLevelsIn": {
             "$type": "CName",
@@ -1183,11 +1174,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.310000002,
-          "microblendNormalStrength": 0,
+          "microblendContrast": 0.31,
+          "microblendNormalStrength": 0.00,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "f3d6fb"
@@ -1226,7 +1217,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 0.00999999978,
+          "matTile": 0.01,
           "mbTile": 32.2299995,
           "metalLevelsIn": {
             "$type": "CName",
@@ -1246,18 +1237,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 1,
-          "microblendNormalStrength": 0.330000013,
+          "microblendContrast": 1.00,
+          "microblendNormalStrength": 0.33,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "b778f4"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
