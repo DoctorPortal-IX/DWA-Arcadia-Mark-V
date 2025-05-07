@@ -11,10 +11,11 @@ Vehicle.docworks_arcadia_mkv:
   leftFrontCamber: 3.0
   rightBackCamber: -0.0
   leftBackCamber: 0.0
-# O3: Commenting out not valid here  
-  #FrontCaster: 0.0
-  #FrontDownforce: 15
-  #RearDownforce: 45
+# O3: Commenting out not valid here
+# SV: Seems to actually do something so Imma turn 'em back on.
+  FrontCaster: 0.0
+  FrontDownforce: 15
+  RearDownforce: 45
   maxVehiclePassengersCount: 2
   minVehiclePassengersCount: 1
   model: Vehicle.Turbo
@@ -32,8 +33,8 @@ Vehicle.docworks_arcadia_mkv:
   vehDataPackage:
     $base: Vehicle.ShionNomadDataPackage
 # O3: fixed formatting and reduced time to 3 seconds at 10 V gets in the car before the door opens
-    open_close_duration: 3 #openCloseDuration: 10
-    speedToClose: 15
+    open_close_duration: 4 #openCloseDuration: 10
+    speedToClose: 10
     entering: 0.5
     hasSpoiler: True
     hasTurboCharger: True
@@ -171,6 +172,14 @@ Vehicle.docworks_arcadia_mkv:
       tireRadius: 0.42
       tireWidth: 0.330000013
       wheelOffset: 0.189999998
+# SV: Swear to god, Panam's Basilisk has a FCS more guesswork than anything. Why's it take getting O3's stash of Militech stuff to work properly?
+  weapons:
+    - !remove Vehicle.Vehicle_Power_Weapon_Left_C
+    - !remove Vehicle.Vehicle_Power_Weapon_Right_C
+    - !remove Vehicle.Vehicle_Missile_Launcher_C
+    - !append dwa_arcadia_mmg_left
+    - !append dwa_arcadia_mmg_right
+    - !append dwa_arcadia_missile_roof
   widgetStyleSheetPath: base\amm_vehicles\docworks_arcadia\widgets\doc_arcadia_doc.inkstyle
   displayName: LocKey#Gameplay-Vehicles-DisplayNames-DocworksArcadiaNaomie
 # SV: Virtual Car Dealer compatibility
@@ -197,3 +206,109 @@ Vehicle.vehicle_list.list:
   
 # === CET ADD-TO-GARAGE CODES: === 
 # Game.GetVehicleSystem():EnablePlayerVehicle('Vehicle.docworks_arcadia_mkv', true, false)
+
+# SV: O3, don't fail me now...
+dwa_arcadia_mmg_left:
+  $base: Vehicle.Vehicle_Power_Weapon_Left_C
+  item: dwa_arcadia_mmg_left_item
+
+dwa_arcadia_mmg_left_item:
+  $base: Items.Vehicle_Power_Weapon_Left_C
+  attacks:
+    - !remove Attacks.VehicleTurretProjectile
+    - !append dwa_arcadia_bullet
+  statModifierGroups:
+    - !remove Items.Base_Weapon_Damage_Type_Physical
+    - !remove Items.Base_Vehicle_Power_Weapon_Damage_Stats
+    - !remove Items.Base_Vehicle_Power_Weapon_Technical_Stats
+    - !append dwa_arcadia_mmg_physical_damage
+    - !append dwa_arcadia_mmg_damage_stats
+    - !append dwa_arcadia_mmg_technical_stats
+
+dwa_arcadia_mmg_right:
+  $base: Vehicle.Vehicle_Power_Weapon_Right_C
+  item: dwa_arcadia_mmg_right_item
+
+dwa_arcadia_mmg_right_item:
+  $base: Items.Vehicle_Power_Weapon_Right_C
+  attacks:
+    - !remove Attacks.VehicleTurretProjectile
+    - !append dwa_arcadia_bullet
+  statModifierGroups:
+    - !remove Items.Base_Weapon_Damage_Type_Physical
+    - !remove Items.Base_Vehicle_Power_Weapon_Damage_Stats
+    - !remove Items.Base_Vehicle_Power_Weapon_Technical_Stats
+    - !append dwa_arcadia_mmg_physical_damage
+    - !append dwa_arcadia_mmg_damage_stats
+    - !append dwa_arcadia_mmg_technical_stats
+
+dwa_arcadia_bullet:
+  $base: Attacks.ExplodingBulletProjectile
+  range: 400
+  velocity: 120
+  projectileAccelOverride: 150
+
+dwa_arcadia_mmg_physical_damage:
+  $base: Items.Base_Weapon_Damage_Type_Physical
+  statModifiers:
+    - !remove Items.Base_Weapon_Damage_Type_Physical_inline0
+    - !append dwa_arcadia_mmg_physical_damage_inline0
+
+dwa_arcadia_mmg_physical_damage_inline0:
+  $base: Items.Base_Weapon_Damage_Type_Physical_inline0
+  value: 16
+
+dwa_arcadia_mmg_damage_stats:
+  $base: Items.Base_Vehicle_Power_Weapon_Damage_Stats  
+  statModifiers:
+    - !remove Items.Base_Vehicle_Power_Weapon_Damage_Stats_inline2
+    - !append dwa_arcadia_mmg_damage_stats_inline2
+
+dwa_arcadia_mmg_damage_stats_inline2:
+  $base: Items.Base_Vehicle_Power_Weapon_Damage_Stats_inline2
+  value: 6
+
+dwa_arcadia_mmg_technical_stats:
+  $base: Items.Base_Vehicle_Power_Weapon_Technical_Stats
+  statModifiers:
+    - !remove Items.Base_Vehicle_Power_Weapon_Technical_Stats_inline1
+    - !remove Items.Base_Vehicle_Power_Weapon_Technical_Stats_inline2
+    - !append dwa_arcadia_mmg_technical_stats_inline1
+    - !append dwa_arcadia_mmg_technical_stats_inline2
+
+dwa_arcadia_mmg_technical_stats_inline1:
+  $base: Items.Base_Vehicle_Power_Weapon_Technical_Stats_inline1
+  value: 0.010000001
+
+dwa_arcadia_mmg_technical_stats_inline2:
+  $base: Items.Base_Vehicle_Power_Weapon_Technical_Stats_inline2
+  value: 500
+
+dwa_arcadia_missile_roof:
+  $base: Vehicle.Vehicle_Missile_Launcher_C
+  item: dwa_arcadia_missile_roof_item
+
+dwa_arcadia_missile_roof_item:
+  $base: Items.Vehicle_Missile_Launcher_C
+  attacks:
+    - !remove Attacks.VehicleMissileLauncherRainMissile
+    - !append dwa_arcadia_missile
+  statModifierGroups:
+    - !remove Items.Base_Weapon_Damage_Type_Physical
+    - !append dwa_arcadia_missile_physical_damage
+  triggerModes:
+    - !remove TriggerMode.FullAuto
+    - !append TriggerMode.SemiAuto
+
+dwa_arcadia_missile:
+  $base: Attacks.TwoStageMissile
+
+dwa_arcadia_missile_physical_damage:
+  $base: Items.Base_Weapon_Damage_Type_Physical
+  statModifiers:
+    - !remove Items.Base_Weapon_Damage_Type_Physical_inline0
+    - !append dwa_arcadia_missile_physical_damage_inline0
+
+dwa_arcadia_missile_physical_damage_inline0:
+  $base: Items.Base_Weapon_Damage_Type_Physical_inline0
+  value: 16

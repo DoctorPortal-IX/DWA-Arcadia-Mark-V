@@ -143,6 +143,7 @@ base\animations\vehicle\docworks\prv_v_sport3_docworks_arcadia.anims
 base\animations\vehicle\docworks\v_sport2_mizutani_shion_nomad.anims
 base\animations\vehicle\docworks\v_sport3_docworks_arcadia - BKP.anims
 base\animations\vehicle\docworks\v_sport3_docworks_arcadia - W O R K I N G.anims
+base\animations\vehicle\docworks\v_sport3_docworks_arcadia_working.anims
 base\animations\vehicle\docworks\v_sport3_docworks_arcadia.anims
 base\animations\vehicle\docworks\v_standard3_fiat_500_mocha.anims
 base\animations\vehicle\sport\vehicle\v_sport1_quadra_turbo90.anims
