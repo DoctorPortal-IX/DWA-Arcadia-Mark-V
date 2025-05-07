@@ -103,7 +103,7 @@ Vehicle.docworks_arcadia_mkv:
     gearChangeCooldown: 0.300000012
     gearChangeTime: 0.059999999
 # SV: Oh so *this* is why she only got 1200 horsepower out of it. ECU was changing gears out of line with the 'charger peaks.
-    gearCurvesPath: dwa\gameplay\vehicles\curves\engine_torque\quadra_vulcan_tr2-59qc-arc.curveset
+    gearCurvesPath: base\gameplay\vehicles\curves\engine_torque\large_balanced_sc.curveset
     maxRPM: 10000
     minRPM: 800
     resistanceTorque: 150
