@@ -1,0 +1,252 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "C:\\Users\\noah\\AppData\\Roaming\\REDModding\\WolvenKit\\Depot",
+  "Materials": [
+    {
+      "Name": "vehicle_branding",
+      "BaseMaterial": "base\\vehicles\\common\\materials\\vehicle_branding.mi",
+      "MaterialTemplate": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\vehicles\\common\\textures\\common_vehicle_branding_d01.xbm",
+        "BaseColorScale": {
+          "X": 0.48125,
+          "Y": 0.466549,
+          "Z": 0.430117,
+          "W": 1
+        },
+        "Metalness": "engine\\textures\\editor\\white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "base\\surfaces\\materials\\concrete\\concrete_new\\concrete_new_dirty_01_300_d.xbm",
+        "RoughnessScale": 0.656409979,
+        "RoughnessBias": 0.210255995,
+        "Normal": "base\\vehicles\\common\\textures\\common_vehicle_branding_n01.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.200000003,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "v_standard2_thorton_galena__int01_01_masksset",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\small_flat_normal.xbm",
+        "MultilayerMask": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\textures\\galena_poor_int.mlmask",
+        "MultilayerSetup": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\textures\\galena_q000_int01.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    }
+  ],
+  "TexturesList": [
+    "engine\\textures\\editor\\grey.xbm",
+    "engine\\textures\\editor\\black.xbm",
+    "engine\\textures\\editor\\white.xbm",
+    "engine\\textures\\editor\\normal.xbm",
+    "base\\vehicles\\common\\textures\\common_vehicle_branding_n01.xbm",
+    "base\\vehicles\\common\\textures\\common_vehicle_branding_d01.xbm",
+    "base\\surfaces\\materials\\concrete\\concrete_new\\concrete_new_dirty_01_300_d.xbm",
+    "engine\\materials\\defaults\\multilayer_default.mlmask",
+    "engine\\materials\\defaults\\ml_default_microblend.xbm",
+    "engine\\materials\\defaults\\ml_default_d.xbm",
+    "engine\\materials\\defaults\\ml_default_n.xbm",
+    "engine\\materials\\defaults\\ml_default_rm.xbm",
+    "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\textures\\galena_poor_int.mlmask",
+    "base\\surfaces\\microblends\\default.xbm",
+    "base\\surfaces\\materials\\concrete\\factory_floor\\factory_floor_old_01_300_d.xbm",
+    "base\\surfaces\\materials\\concrete\\factory_floor\\factory_floor_painted_01_300_n.xbm",
+    "base\\surfaces\\materials\\concrete\\factory_floor\\factory_floor_old_01_300_r.xbm",
+    "base\\surfaces\\materials\\default\\black.xbm",
+    "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_hq\\plastic_tech_hq_01_30_n.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_tech\\plastic_tech_01_300_r.xbm",
+    "base\\surfaces\\materials\\default\\white.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_d.xbm",
+    "base\\surfaces\\materials\\metal\\iron_cast\\iron_cast_01_300_n.xbm",
+    "base\\surfaces\\materials\\metal\\iron_cast\\iron_cast_01_300_r.xbm",
+    "base\\surfaces\\microblends\\concrete_wear.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_n.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_r.xbm",
+    "base\\surfaces\\microblends\\fine_filth.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_scraped\\plastic_scraped_01_300_n.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_scraped\\plastic_scraped_01_300_r.xbm",
+    "base\\surfaces\\materials\\default\\default_d.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_pattern\\plastic_pattern_bubble_01_30_n.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_pattern\\plastic_pattern_bubble_01_30_r.xbm",
+    "base\\surfaces\\materials\\fabric\\leather\\leather_bull_01_30_d.xbm",
+    "base\\surfaces\\materials\\fabric\\leather\\leather_bull_01_30_n.xbm",
+    "base\\surfaces\\materials\\fabric\\leather\\leather_bull_01_30_r.xbm",
+    "base\\surfaces\\materials\\fabric\\elastic\\elastic_clean_01_30_d.xbm",
+    "base\\surfaces\\materials\\fabric\\elastic\\elastic_clean_01_30_n.xbm",
+    "base\\surfaces\\materials\\fabric\\elastic\\elastic_clean_01_30_r.xbm",
+    "base\\surfaces\\microblends\\pattern_chinese2.xbm",
+    "base\\surfaces\\materials\\fabric\\elastic\\elastic_ribbed_clean_01_30_d.xbm",
+    "base\\surfaces\\materials\\fabric\\elastic\\elastic_ribbed_clean_01_30_n.xbm",
+    "base\\surfaces\\materials\\fabric\\elastic\\elastic_ribbed_clean_01_30_r.xbm",
+    "base\\surfaces\\materials\\fabric\\leather\\leather_standard_clean_01_30_d.xbm",
+    "base\\surfaces\\materials\\fabric\\leather\\leather_holes_01_30_n.xbm",
+    "base\\surfaces\\materials\\fabric\\leather\\leather_standard_clean_01_30_r.xbm",
+    "base\\surfaces\\materials\\default\\default_n.xbm",
+    "base\\surfaces\\microblends\\fabric_tear_a.xbm",
+    "base\\surfaces\\materials\\fabric\\felt\\felt_clean_01_30_d.xbm",
+    "base\\surfaces\\materials\\fabric\\felt\\felt_clean_01_30_n.xbm",
+    "base\\surfaces\\materials\\fabric\\felt\\felt_clean_01_30_r.xbm",
+    "base\\surfaces\\microblends\\stone_veins_03.xbm",
+    "base\\surfaces\\materials\\grunge\\dust_light\\dust_light_01_50_d.xbm",
+    "base\\surfaces\\materials\\grunge\\dust_light\\dust_light_01_50_n.xbm",
+    "base\\surfaces\\materials\\grunge\\dust_light\\dust_light_01_50_r.xbm",
+    "base\\surfaces\\microblends\\stone_quartz_01.xbm",
+    "base\\surfaces\\microblends\\wrinkles_horizontal.xbm",
+    "base\\surfaces\\materials\\fabric\\velvet\\velvet_clean_01_30_d.xbm",
+    "base\\surfaces\\materials\\fabric\\velvet\\velvet_clean_01_30_n.xbm",
+    "base\\surfaces\\materials\\fabric\\velvet\\velvet_clean_01_30_r.xbm",
+    "engine\\textures\\small_flat_normal.xbm"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "vehicle_branding",
+      "v_standard2_thorton_galena__int01_01_masksset"
+    ]
+  }
+}
